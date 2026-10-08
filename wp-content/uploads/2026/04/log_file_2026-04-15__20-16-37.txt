@@ -1,0 +1,536 @@
+
+---Subir archivos---
+El archivo Redux no se subió. Error: No se proporcionó ningún archivo.
+
+---Subir archivos---
+¡Los archivos de importación se subieron correctamente!
+Tiempo de ejecución máximo inicial = 300
+Información de archivos:
+URL del sitio = http://172.21.11.20/wp_indsro
+Archivo de datos = C:\xampp\htdocs\wp_indsro/wp-content/uploads/2026/04/content.xml
+Archivo de widget = C:\xampp\htdocs\wp_indsro/wp-content/uploads/2026/04/codestar.json
+Archivo del personalizador = C:\xampp\htdocs\wp_indsro/wp-content/uploads/2026/04/customizer.dat
+Archivos de Redux:
+ ¡no definido!
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "woocommerce-placeholder" (Medios)
+[ERROR] Failed to import "b-list-3" (Medios)
+[ERROR] Failed to import "p-page-2-img-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p-page-2-img-3" (Medios)
+[ERROR] Failed to import "p-page-2-img-4" (Medios)
+[ERROR] Failed to import "p03.png" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p3.jpg" (Medios)
+[ERROR] Failed to import "p4.jpg" (Medios)
+[ERROR] Failed to import "s_02-258x232-1.jpg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p1.jpg" (Medios)
+[ERROR] Failed to import "p9.jpg" (Medios)
+[ERROR] Failed to import "p07.png" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p06.png" (Medios)
+[ERROR] Failed to import "p6.jpg" (Medios)
+[ERROR] Failed to import "p05.png" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "product-img-2.webp" (Medios)
+[ERROR] Failed to import "p5.jpg" (Medios)
+[ERROR] Failed to import "p_07.jpg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "product1.jpg" (Medios)
+[ERROR] Failed to import "product-single2-258x232-1.jpg" (Medios)
+[ERROR] Failed to import "p10.jpg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "h3-bg-1" (Medios)
+[ERROR] Failed to import "h3-overlay" (Medios)
+[ERROR] Failed to import "f3-icon-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "s3-signature" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "c3-logo-6" (Medios)
+[ERROR] Failed to import "c3-logo-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "b3-bg" (Medios)
+[ERROR] Failed to import "h4-bg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p4-img-1" (Medios)
+[ERROR] Failed to import "c4-img-1" (Medios)
+[ERROR] Failed to import "c4-img-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "f4-bg-2" (Medios)
+[ERROR] Failed to import "w4-img-3" (Medios)
+[ERROR] Failed to import "w4-img-4" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "s4-bg (3)" (Medios)
+[ERROR] Failed to import "s4-img-1" (Medios)
+[ERROR] Failed to import "s4-img-4" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "a4-img-1" (Medios)
+[ERROR] Failed to import "a4-img-3" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "t4-quote" (Medios)
+[ERROR] Failed to import "b4-img-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "f5-img-3" (Medios)
+[ERROR] Failed to import "c5-logo-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "c5-logo-2" (Medios)
+[ERROR] Failed to import "w5-img-1" (Medios)
+[ERROR] Failed to import "w5-img-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "a5-img-2" (Medios)
+[ERROR] Failed to import "c5-bg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "g5-img-3" (Medios)
+[ERROR] Failed to import "g5-img-4" (Medios)
+[ERROR] Failed to import "g5-img-5" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "c5-img" (Medios)
+[ERROR] Failed to import "h1-angle-1" (Medios)
+[ERROR] Failed to import "h1-arrow-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "h1-bg-3" (Medios)
+[ERROR] Failed to import "h1-img-3" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "a1-shape-1" (Medios)
+[ERROR] Failed to import "a1-img-2" (Medios)
+[ERROR] Failed to import "a1-img-3" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "s1-img-2" (Medios)
+[ERROR] Failed to import "s1-img-4" (Medios)
+[ERROR] Failed to import "s1-img-5" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p1-bg-1" (Medios)
+[ERROR] Failed to import "p1-item-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p1-item-3" (Medios)
+[ERROR] Failed to import "q1-shape-1" (Medios)
+[ERROR] Failed to import "q1-img-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "c1-logo-3" (Medios)
+[ERROR] Failed to import "c1-logo-4" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "t1-img-3" (Medios)
+[ERROR] Failed to import "h2-img-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "c2-img-4" (Medios)
+[ERROR] Failed to import "t1-team-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "t1-team-4" (Medios)
+[ERROR] Failed to import "t1-team-5" (Medios)
+[ERROR] Failed to import "c2-project-icon" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "preloader" (Medios)
+[ERROR] Failed to import "s2-item-bg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p2-img-1" (Medios)
+[ERROR] Failed to import "p2-img-2" (Medios)
+[ERROR] Failed to import "p2-icon" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "c2-check-icon" (Medios)
+[ERROR] Failed to import "b2-img-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "f4-bg" (Medios)
+[ERROR] Failed to import "f2-img-2" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p2-circle-1" (Medios)
+[ERROR] Failed to import "b-bg" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "p3-img-8" (Medios)
+[ERROR] Failed to import "p4-img-4" (Medios)
+[ERROR] Failed to import "p4-img-5" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "t3-img-3" (Medios)
+[ERROR] Failed to import "t3-img-4" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "t3-img-6" (Medios)
+[ERROR] Failed to import "ti-img-1" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "ti-img-2" (Medios)
+[ERROR] Failed to import "s2-img-6" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "cd-img-1" (Medios)
+[ERROR] Failed to import "sd-img" (Medios)
+[ERROR] Failed to import "pdf-icon" (Medios)
+
+
+------
+¡Nueva llamada AJAX!
+[ERROR] Failed to import "pd-img-1" (Medios)
+
+
+---Importando los widgets---
+enable_scroll_up : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__blta_pr_1 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__blta_pr_2 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__blta_pr_3 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__buil_pri : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_enable : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_image : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+preloader_gif : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+preloader_canvas_bg_color : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_image_width : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_icon_size : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_rtl : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+body-typography : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+font-family - Sin título - El sitio no es compatible con widgets
+font-weight - Sin título - El sitio no es compatible con widgets
+font-style - Sin título - El sitio no es compatible con widgets
+subset - Sin título - El sitio no es compatible con widgets
+text-align - Sin título - El sitio no es compatible con widgets
+text-transform - Sin título - El sitio no es compatible con widgets
+font-size - Sin título - El sitio no es compatible con widgets
+line-height - Sin título - El sitio no es compatible con widgets
+letter-spacing - Sin título - El sitio no es compatible con widgets
+color - Sin título - El sitio no es compatible con widgets
+type - Sin título - El sitio no es compatible con widgets
+unit - Sin título - El sitio no es compatible con widgets
+
+heading-gl-typo : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+font-family - Sin título - El sitio no es compatible con widgets
+font-weight - Sin título - El sitio no es compatible con widgets
+font-style - Sin título - El sitio no es compatible con widgets
+subset - Sin título - El sitio no es compatible con widgets
+text-align - Sin título - El sitio no es compatible con widgets
+text-transform - Sin título - El sitio no es compatible con widgets
+font-size - Sin título - El sitio no es compatible con widgets
+line-height - Sin título - El sitio no es compatible con widgets
+letter-spacing - Sin título - El sitio no es compatible con widgets
+color - Sin título - El sitio no es compatible con widgets
+type - Sin título - El sitio no es compatible con widgets
+unit - Sin título - El sitio no es compatible con widgets
+
+tx_logo : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_sideInfo_logo : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_logo_width : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_favicon : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_error_image : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_error_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_error_link_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+breadcrumb_bg_img : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+enable_breadcrumb_list : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_breadcrumb_shape : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+breadcrumb_shape_1 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+breadcrumb_shape_2 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+breadcrumb_padding : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+top - Sin título - El sitio no es compatible con widgets
+right - Sin título - El sitio no es compatible con widgets
+bottom - Sin título - El sitio no es compatible con widgets
+left - Sin título - El sitio no es compatible con widgets
+unit - Sin título - El sitio no es compatible con widgets
+
+footer_style : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+header_style : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_blog_button : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+blog_button_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_enable_social_share : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_social_share_heading : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_enable_blog_navigation : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+excerpt_length : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_author_meta : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_default_date : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_comment_meta : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_custom_add_to_cart_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+custom_add_to_cart_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_copyright : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_service_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_service_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_project_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_project_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_team_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_team_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_career_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_career_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+
+
+---Importación de los ajustes del personalizador---
+Error: el archivo de importación del personalizador no es adecuado para el tema actual. Solo puedes importar los ajustes del personalizador para el mismo tema o un tema hijo.
+
+---ocdi/after_import---
+

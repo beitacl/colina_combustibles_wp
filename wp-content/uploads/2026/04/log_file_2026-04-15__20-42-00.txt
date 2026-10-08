@@ -1,0 +1,274 @@
+
+---Subir archivos---
+El archivo de contenido no se subió. Error: No se proporcionó ningún archivo.
+
+---Subir archivos---
+No se subió el archivo del personalizador.  Error: No se proporcionó ningún archivo.
+
+---Subir archivos---
+El archivo Redux no se subió. Error: No se proporcionó ningún archivo.
+
+---Subir archivos---
+¡Los archivos de importación se subieron correctamente!
+Tiempo de ejecución máximo inicial = 300
+Información de archivos:
+URL del sitio = http://172.21.11.20/wp_indsro
+Archivo de datos = ¡no definido!
+Archivo de widget = C:\xampp\htdocs\wp_indsro/wp-content/uploads/2026/04/codestar-1.json
+Archivo del personalizador = ¡no definido!
+Archivos de Redux:
+ ¡no definido!
+
+---Importando los widgets---
+enable_scroll_up : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__blta_pr_1 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__blta_pr_2 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__blta_pr_3 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+__buil_pri : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_enable : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_image : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+preloader_gif : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+preloader_canvas_bg_color : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_image_width : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+preloader_icon_size : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_rtl : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+body-typography : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+font-family - Sin título - El sitio no es compatible con widgets
+font-weight - Sin título - El sitio no es compatible con widgets
+font-style - Sin título - El sitio no es compatible con widgets
+subset - Sin título - El sitio no es compatible con widgets
+text-align - Sin título - El sitio no es compatible con widgets
+text-transform - Sin título - El sitio no es compatible con widgets
+font-size - Sin título - El sitio no es compatible con widgets
+line-height - Sin título - El sitio no es compatible con widgets
+letter-spacing - Sin título - El sitio no es compatible con widgets
+color - Sin título - El sitio no es compatible con widgets
+type - Sin título - El sitio no es compatible con widgets
+unit - Sin título - El sitio no es compatible con widgets
+
+heading-gl-typo : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+font-family - Sin título - El sitio no es compatible con widgets
+font-weight - Sin título - El sitio no es compatible con widgets
+font-style - Sin título - El sitio no es compatible con widgets
+subset - Sin título - El sitio no es compatible con widgets
+text-align - Sin título - El sitio no es compatible con widgets
+text-transform - Sin título - El sitio no es compatible con widgets
+font-size - Sin título - El sitio no es compatible con widgets
+line-height - Sin título - El sitio no es compatible con widgets
+letter-spacing - Sin título - El sitio no es compatible con widgets
+color - Sin título - El sitio no es compatible con widgets
+type - Sin título - El sitio no es compatible con widgets
+unit - Sin título - El sitio no es compatible con widgets
+
+tx_logo : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_sideInfo_logo : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_logo_width : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_favicon : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_error_image : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+tx_error_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_error_link_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+breadcrumb_bg_img : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+enable_breadcrumb_list : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_breadcrumb_shape : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+breadcrumb_shape_1 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+breadcrumb_shape_2 : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+url - Sin título - El sitio no es compatible con widgets
+id - Sin título - El sitio no es compatible con widgets
+width - Sin título - El sitio no es compatible con widgets
+height - Sin título - El sitio no es compatible con widgets
+thumbnail - Sin título - El sitio no es compatible con widgets
+alt - Sin título - El sitio no es compatible con widgets
+title - Sin título - El sitio no es compatible con widgets
+description - Sin título - El sitio no es compatible con widgets
+
+breadcrumb_padding : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+top - Sin título - El sitio no es compatible con widgets
+right - Sin título - El sitio no es compatible con widgets
+bottom - Sin título - El sitio no es compatible con widgets
+left - Sin título - El sitio no es compatible con widgets
+unit - Sin título - El sitio no es compatible con widgets
+
+footer_style : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+header_style : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_blog_button : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+blog_button_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_enable_social_share : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_social_share_heading : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_enable_blog_navigation : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+excerpt_length : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_author_meta : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_default_date : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_comment_meta : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+enable_custom_add_to_cart_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+custom_add_to_cart_text : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_copyright : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_service_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_service_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_project_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_project_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_team_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_team_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_career_title : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+tx_career_slug : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+
+
+
+---ocdi/after_import---
+

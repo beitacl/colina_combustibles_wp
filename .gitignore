@@ -25,9 +25,6 @@
 /wp-content/ai1wm-backups/
 /wp-content/updraft/
 
-# Archivos multimedia
-/wp-content/uploads/
-
 # Configuración local
 /.idea/
 /.vscode/
