@@ -1,0 +1,367 @@
+body.cc-modal-open,
+html.cc-modal-open {
+	overflow: hidden !important;
+	height: 100vh !important;
+}
+
+.elementor-message.elementor-message-success {
+	display: none !important;
+}
+
+.cc-swal-popup,
+.swal2-container {
+	z-index: 999999 !important;
+}
+
+.cc-modal-cotizacion .modal-estaciones-container {
+	max-width: 650px !important;
+	max-height: 90vh !important;
+	height: auto !important;
+	display: flex !important;
+	flex-direction: column !important;
+	background: #032A3B !important;
+}
+
+.cc-modal-cotizacion .modal-estaciones-header {
+	background: #032A3B !important;
+	border-bottom: 1px solid #04896A !important;
+	flex-shrink: 0;
+}
+
+.cc-modal-cotizacion .modal-estaciones-title {
+	color: #E6ECEF !important;
+}
+
+.cc-modal-cotizacion .modal-estaciones-close-btn {
+	color: #E6ECEF !important;
+}
+
+.cc-modal-cotizacion .modal-estaciones-body {
+	background: #032A3B !important;
+	overflow-y: auto !important;
+	flex: 1 1 auto !important;
+	max-height: calc(90vh - 75px) !important;
+	overscroll-behavior: contain !important;
+}
+
+.cc-modal-cotizacion .modal-estaciones-body::-webkit-scrollbar {
+	width: 8px;
+}
+
+.cc-modal-cotizacion .modal-estaciones-body::-webkit-scrollbar-thumb {
+	background-color: #04896A;
+	border-radius: 4px;
+}
+
+.cc-modal-cotizacion .elementor-form label,
+.cc-modal-cotizacion .elementor-form .elementor-field-label,
+.cc-modal-cotizacion .elementor-form .elementor-field-option label {
+	color: #E6ECEF !important;
+	font-weight: 500;
+}
+
+.cc-modal-cotizacion .elementor-form .elementor-heading-title,
+.cc-modal-cotizacion .elementor-form h1,
+.cc-modal-cotizacion .elementor-form h2,
+.cc-modal-cotizacion .elementor-form h3 {
+	color: #04896A !important;
+	font-weight: 700;
+}
+
+.cc-modal-cotizacion .elementor-form input,
+.cc-modal-cotizacion .elementor-form textarea,
+.cc-modal-cotizacion .elementor-form select {
+	background: #E6ECEF !important;
+	color: #032A3B !important;
+	border: none !important;
+}
+
+.cc-modal-cotizacion .g-recaptcha,
+.cc-modal-cotizacion .elementor-field-type-recaptcha,
+.cc-modal-cotizacion .elementor-g-recaptcha,
+.cc-modal-cotizacion div[class*="recaptcha"] {
+	background: transparent !important;
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.modal-estaciones-overlay {
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(163 163 163 / 85%);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	z-index: 99999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-estaciones-overlay.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+.modal-estaciones-container {
+	background: #E6ECEF;
+	border: 1px solid #032A3B;
+	box-shadow: 0 25px 50px -12px rgba(3, 42, 59, 0.5);
+	width: 95%;
+	max-width: 1000px;
+	height: 90vh;
+	max-height: 800px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	transform: scale(0.95) translateY(20px);
+	transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.modal-estaciones-overlay.active .modal-estaciones-container {
+	transform: scale(1);
+}
+
+.modal-estaciones-header {
+	padding: 20px 24px;
+	border-bottom: 1px solid #032A3B;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #E6ECEF;
+}
+
+.modal-estaciones-title {
+	font-size: 20px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #032A3B;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.modal-estaciones-close-btn {
+	background: transparent;
+	border: none;
+	color: #032A3B;
+	cursor: pointer;
+	font-size: 24px;
+	transition: color 0.2s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+.modal-estaciones-close-btn:hover {
+	color: #04896A;
+}
+
+.modal-estaciones-body {
+	flex: 1;
+	padding: 24px;
+	overflow-y: auto;
+	background: #ffffff;
+}
+
+.modal-estaciones-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	gap: 20px;
+}
+
+.estacion-card {
+	background: #E6ECEF;
+	border: 1px solid #04896A;
+	border-radius: 12px;
+	padding: 20px;
+	color: #032A3B;
+	position: relative;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.estacion-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 10px 15px -3px rgba(3, 42, 59, 0.15);
+}
+
+.estacion-card-location {
+	color: #04896A;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.estacion-card-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.estacion-card-badge {
+	padding: 8px;
+	border-radius: 6px;
+	text-align: center;
+	min-width: 70px;
+}
+
+.estacion-card-badge-val {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.estacion-card-badge-lbl {
+	font-size: 8px;
+	font-weight: bold;
+	margin-top: 1px;
+}
+
+.estacion-card-info {
+	font-size: 11px;
+	color: #555;
+	line-height: 1.4;
+}
+
+.estacion-card-info strong {
+	color: #032A3B;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 2px;
+}
+
+.estacion-card-data-row {
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0;
+	border-bottom: 1px solid rgba(3, 42, 59, 0.1);
+}
+
+.estacion-card-data-lbl {
+	color: #032A3B;
+	font-weight: 600;
+}
+
+.estacion-card-data-val {
+	font-weight: 700;
+}
+
+.cc-precio-color {
+	color: #04896A;
+}
+
+.estacion-card-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 10px;
+	color: #555;
+	padding-top: 12px;
+	margin-top: 4px;
+}
+
+.estacion-card-link {
+	background: transparent;
+	border: 1px solid #04896A;
+	color: #04896A;
+	padding: 6px 12px;
+	border-radius: 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10px;
+	transition: all 0.2s;
+}
+
+.estacion-card-link:hover {
+	background: #04896A;
+	color: #E6ECEF;
+}
+
+.modal-estaciones-footer {
+	padding: 16px 24px;
+	border-top: 1px solid #032A3B;
+	background: #E6ECEF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #032A3B;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.modal-btn-close {
+	background: #032A3B;
+	color: #E6ECEF;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 8px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.modal-btn-close:hover {
+	background: #04896A;
+}
+
+@media (max-width: 640px) {
+	.modal-estaciones-container {
+		width: 98%;
+		height: 95vh;
+		border-radius: 12px;
+	}
+
+	.modal-estaciones-grid {
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	}
+
+	.modal-estaciones-footer {
+		flex-direction: column;
+		gap: 12px;
+	}
+}
+
+/* ── Fuerza layout del formulario dentro del modal de cotización ────────────
+   Evita que los campos se desconfiguren (queden en 1-2 líneas horizontales)
+   cuando el CSS global de Elementor carga tarde o no llega a aplicarse.
+   modales.css se carga en el <head>, por lo que estas reglas son deterministas. */
+.cc-modal-cotizacion .elementor-form-fields-wrapper {
+	display: flex !important;
+	flex-wrap: wrap !important;
+}
+
+.cc-modal-cotizacion .elementor-field-group.elementor-col-50,
+.cc-modal-cotizacion .elementor-field-group[data-col="50"] {
+	width: 50% !important;
+}
+
+.cc-modal-cotizacion .elementor-field-group.elementor-col-100,
+.cc-modal-cotizacion .elementor-field-group[data-col="100"] {
+	width: 100% !important;
+}
+
+@media (max-width: 767px) {
+	.cc-modal-cotizacion .elementor-field-group.elementor-col-50,
+	.cc-modal-cotizacion .elementor-field-group[data-col="50"] {
+		width: 100% !important;
+	}
+}

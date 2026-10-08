@@ -1,0 +1,69 @@
+<?php
+/**
+ * WordPress Configuration para Docker — Colina Combustibles
+ *
+ * Este archivo NO contiene credenciales hardcodeadas.
+ * Todas las credenciales vienen de variables de entorno definidas en docker-compose.yml
+ */
+
+// Helper: leer variable de entorno con fallback
+function getenv_docker($env, $default) {
+    if ($fileEnv = getenv($env . '_FILE')) {
+        return rtrim(file_get_contents($fileEnv), "\r\n");
+    } elseif (($val = getenv($env)) !== false) {
+        return $val;
+    }
+    return $default;
+}
+
+
+define('DB_NAME',     '');
+define('DB_USER',     '');
+define('DB_PASSWORD', '');
+define('DB_HOST',     '');
+define('DB_CHARSET',  'utf8mb4');
+define('DB_COLLATE',  '');
+
+
+define('AUTH_KEY',         'e1f4a2c3b5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2');
+define('SECURE_AUTH_KEY',  'c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5');
+define('LOGGED_IN_KEY',    'b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5e6f7g8');
+define('NONCE_KEY',        'h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9');
+define('AUTH_SALT',        'c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0');
+define('SECURE_AUTH_SALT', 'x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1');
+define('LOGGED_IN_SALT',   's2t3u4v5w6x7y8z9a0b1c2d3e4f5g6h7i8j9k0l1m2');
+define('NONCE_SALT',       'n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3');
+
+$table_prefix = 'wp_';
+
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set('display_errors', 0);
+
+
+$host = isset( $_SERVER['HTTP_HOST'] ) ? $_SERVER['HTTP_HOST'] : 'localhost';
+define( 'WP_HOME', 'http://' . $host . '/colina_webpage' );
+define( 'WP_SITEURL', 'http://' . $host . '/colina_webpage' );
+
+define( 'COLINA_BACKEND_URL', 'http://172.21.11.44:48080' ); //44 Luciano
+
+
+define( 'WP_MEMORY_LIMIT', '1024M' );
+define( 'WP_MAX_MEMORY_LIMIT', '1024M' );
+define('FS_METHOD',           'direct');
+define('ALLOW_UNFILTERED_UPLOADS', true);
+define( 'DISABLE_WP_CRON', true );
+define('WP_HTTP_TIMEOUT', 10);
+@ini_set('max_execution_time', 300);
+
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
+    $_SERVER['HTTPS'] = 'on';
+}
+
+if (!defined('ABSPATH')) {
+    define('ABSPATH', __DIR__ . '/');
+}
+
+define( 'DUPLICATOR_AUTH_KEY', 'KZD3EMgjH=}DM0!]9GR`akeYD]CS+XJ/p=it%{!B5koBYj 0nUS.)9A~i38wAOt ' );
+require_once ABSPATH . 'wp-settings.php';

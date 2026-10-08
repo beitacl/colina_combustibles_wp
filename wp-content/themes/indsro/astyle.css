@@ -1,0 +1,50 @@
+
+/* Elementor Inline SVG & Logo Fixes */
+.elementor-widget-icon-list .elementor-icon-list-icon svg,
+.elementor-icon-list-icon svg {
+    width: 1em;
+    height: 1em;
+}
+
+.elementor-icon svg, 
+.elementor-icon-box-icon svg,
+.txIcon-box .icon svg,
+.social-link svg,
+span.icon svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+.fti-footer-1-top .footer-top-item .item-link .icon-wrap .icon-1 svg {
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+}
+
+.fti-footer-1-top .footer-top-item .item-link .icon-wrap .icon-2 svg {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
+/* Fix social links SVG exact size to match i tag */
+.footer-social-wrap .social-link svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    z-index: 2;
+    position: relative;
+}
+
+/* Fix Huge Logo in footer */
+.elementor-widget img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific SVG fixes for work content */
+.fti-work-5-content .work-title-wrap .action .icon svg {
+    width: 1em;
+    height: 1em;
+}

@@ -1,0 +1,401 @@
+/* ======================================================================
+   Indsro Demo Importer — Modern Admin UI
+   ====================================================================== */
+
+/* Reset & Base */
+.indsro-demo-wrap {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ─── Header ──────────────────────────────────────────────────────── */
+.indsro-demo-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px 0 20px;
+}
+.indsro-demo-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1d2327;
+    margin: 0 0 8px;
+}
+.indsro-demo-header__sub {
+    color: #646970;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* ─── Notice ──────────────────────────────────────────────────────── */
+.indsro-demo-notice {
+    background: #fff3cd;
+    border-left: 4px solid #ffb900;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.indsro-demo-notice .dashicons {
+    color: #ffb900;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+.indsro-demo-notice--support {
+    background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+    border-left-color: #10b981;
+    border: 1px solid #a7f3d0;
+    border-left: 4px solid #10b981;
+    border-radius: 8px;
+    padding: 16px 20px;
+}
+.indsro-demo-notice--support .dashicons {
+    color: #10b981;
+}
+.indsro-demo-notice--support a {
+    color: #059669;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.indsro-demo-notice--support a:hover {
+    color: #047857;
+}
+.indsro-demo-notice--info {
+    background: #e8f4fd;
+    border-left-color: #2271b1;
+}
+.indsro-demo-notice--info .dashicons {
+    color: #2271b1;
+}
+
+/* ─── Demo Grid ───────────────────────────────────────────────────── */
+.indsro-demo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+/* ─── Demo Card ───────────────────────────────────────────────────── */
+.indsro-demo-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.indsro-demo-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+.indsro-demo-card.is-importing {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.indsro-demo-card.is-active {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.2);
+    opacity: 1;
+    pointer-events: none;
+}
+
+/* Card Image */
+.indsro-demo-card__image {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+    background: #f0f0f1;
+}
+.indsro-demo-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: top center;
+}
+.indsro-demo-card__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+.indsro-demo-card:hover .indsro-demo-card__overlay {
+    opacity: 1;
+}
+.indsro-demo-card__preview {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #1d2327;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.15s;
+}
+.indsro-demo-card__preview:hover {
+    background: #fff;
+    color: #1d2327;
+}
+
+/* Card Footer */
+.indsro-demo-card__footer {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.indsro-demo-card__title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d2327;
+    margin: 0;
+}
+.indsro-demo-card__import-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 16px;
+    background: linear-gradient(135deg, #2271b1, #135e96);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+.indsro-demo-card__import-btn:hover {
+    background: linear-gradient(135deg, #135e96, #0a4b78);
+    transform: translateY(-1px);
+}
+.indsro-demo-card__import-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* ─── Step Indicators ─────────────────────────────────────────────── */
+.indsro-demo-steps {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+.indsro-demo-steps__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+.indsro-demo-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #8c8f94;
+    transition: color 0.3s;
+    padding: 4px 0;
+}
+.indsro-demo-step__icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #dcdcde;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+.indsro-demo-step.is-active {
+    color: #2271b1;
+    font-weight: 600;
+}
+.indsro-demo-step.is-active .indsro-demo-step__icon {
+    border-color: #2271b1;
+    background: #2271b1;
+    color: #fff;
+    animation: indsro-pulse 1.5s infinite;
+}
+.indsro-demo-step.is-done {
+    color: #00a32a;
+}
+.indsro-demo-step.is-done .indsro-demo-step__icon {
+    border-color: #00a32a;
+    background: #00a32a;
+    color: #fff;
+}
+.indsro-demo-step__connector {
+    flex: 1;
+    height: 2px;
+    background: #dcdcde;
+    min-width: 12px;
+    transition: background 0.3s;
+}
+.indsro-demo-step__connector.is-done {
+    background: #00a32a;
+}
+
+@keyframes indsro-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(34, 113, 177, 0.3); }
+    50%      { box-shadow: 0 0 0 6px rgba(34, 113, 177, 0); }
+}
+
+/* ─── Progress Bar ────────────────────────────────────────────────── */
+.indsro-demo-progress-section {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+.indsro-demo-progress {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.indsro-demo-progress__bar {
+    flex: 1;
+    height: 12px;
+    background: #f0f0f1;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.indsro-demo-progress__fill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #2271b1, #00a32a);
+    border-radius: 6px;
+    transition: width 0.5s ease;
+    position: relative;
+}
+.indsro-demo-progress__fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    animation: indsro-shimmer 2s infinite;
+}
+@keyframes indsro-shimmer {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+.indsro-demo-progress__percent {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2271b1;
+    min-width: 45px;
+    text-align: right;
+}
+.indsro-demo-progress__label {
+    font-size: 13px;
+    color: #646970;
+    margin-top: 8px;
+}
+
+/* ─── Console ─────────────────────────────────────────────────────── */
+.indsro-demo-console {
+    background: #1d2327;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.indsro-demo-console__header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #c3c4c7;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.indsro-demo-console__header .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+.indsro-demo-console__body {
+    padding: 16px;
+    max-height: 240px;
+    overflow-y: auto;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #a7aaad;
+}
+.indsro-demo-console__body::-webkit-scrollbar {
+    width: 6px;
+}
+.indsro-demo-console__body::-webkit-scrollbar-track {
+    background: transparent;
+}
+.indsro-demo-console__body::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+}
+.indsro-demo-console__line {
+    margin: 0;
+    padding: 1px 0;
+}
+.indsro-demo-console__line--success {
+    color: #68de7c;
+}
+.indsro-demo-console__line--error {
+    color: #f86368;
+}
+
+/* ─── Result States ───────────────────────────────────────────────── */
+.indsro-demo-result {
+    text-align: center;
+    padding: 50px 30px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.indsro-demo-result__icon {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.indsro-demo-result h2 {
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+.indsro-demo-result p {
+    color: #646970;
+    margin: 0 0 24px;
+}
+.indsro-demo-result--success {
+    border-color: #00a32a;
+    background: linear-gradient(135deg, #f0fdf4, #fff);
+}
+.indsro-demo-result--error {
+    border-color: #d63638;
+    background: linear-gradient(135deg, #fef2f2, #fff);
+}

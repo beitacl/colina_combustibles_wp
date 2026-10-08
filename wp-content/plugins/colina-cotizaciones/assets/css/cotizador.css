@@ -1,0 +1,214 @@
+.indsro-cotizador-container {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.indsro-cotizador-container .tx-input-field {
+	margin-bottom: 20px;
+}
+
+.indsro-cotizador-container select.team-details-form-input {
+	width: 100%;
+	padding: 15px;
+	background: #f8f8f8;
+	border: 1px solid #eee;
+	color: #777;
+	border-radius: 5px;
+	height: 60px;
+}
+
+.indsro-cotizador-container input.team-details-form-input {
+	width: 100%;
+	height: 60px;
+	padding: 15px;
+	background: #f8f8f8;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+
+.section-title-cotizador {
+	color: #04896A;
+	margin: 30px 0 20px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.cotizador-msg {
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 4px;
+	display: none;
+	font-weight: 600;
+}
+
+.cotizador-msg.success {
+	background-color: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+.cotizador-msg.error {
+	background-color: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+}
+
+.cc-cotizador-submit-btn {
+	background: #04896A;
+	color: #fff;
+	border: none;
+	padding: 15px 40px;
+	font-weight: 700;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Ocultar el spinner nativo de Elementor (usa sintaxis Font Awesome 4 que no se renderiza) */
+.elementor-form-spinner {
+	display: none !important;
+}
+
+/* Ocultar mensajes nativos de éxito: los modales SweetAlert del plugin son el único feedback */
+.elementor-message-success {
+	display: none !important;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	display: none !important;
+}
+
+/* ── Selector de ubicación de entrega ─────────────────────────────── */
+.cc-location-picker {
+	margin-bottom: 15px;
+	padding: 12px 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.cc-lp-title {
+	margin: 0 0 10px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.cc-lp-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.cc-btn-map,
+.cc-btn-current {
+	flex: 1;
+	min-width: 160px;
+	padding: 10px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	border: 1px solid #04896A;
+	background: #E6ECEF;
+	color: #032A3B;
+	transition: all 0.3s;
+}
+
+.cc-btn-map.cc-btn-active,
+.cc-btn-current.cc-btn-active {
+	background: #04896A;
+	color: #fff;
+	border-color: #04896A;
+}
+
+.cc-status-msg {
+	font-size: 13px;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+
+.cc-map-area {
+	width: 100%;
+	display: none;
+	position: relative;
+}
+
+.cc-map-loading {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	background: rgba(3, 42, 59, 0.88);
+	color: #ffffff;
+	padding: 6px 16px;
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: 500;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.cc-map-container {
+	height: 320px;
+	width: 100%;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+}
+
+.cc-cascada {
+	display: none;
+	margin: 0 0 12px 0;
+}
+
+.cc-cascada-title {
+	margin: 0 0 8px 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.cc-cascada-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.cc-sel {
+	flex: 1;
+	min-width: 130px;
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #04896A;
+	background: #E6ECEF;
+	color: #032A3B;
+}
+
+.cc-delivery-hint {
+	display: none;
+	font-size: 12px;
+	color: #94a3b8;
+	margin-top: 4px;
+}
+
+.cc-delivery-injected {
+	margin-bottom: 12px;
+}
+
+.cc-delivery-label {
+	display: block;
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.cc-delivery-input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #04896A;
+	background: #E6ECEF;
+	color: #032A3B;
+	box-sizing: border-box;
+}

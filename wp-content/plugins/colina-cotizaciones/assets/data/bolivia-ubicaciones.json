@@ -1,0 +1,3475 @@
+{
+  "fuente": "nombres: dylan-calle/bolivia-geo-data (MIT); coordenadas y nombres municipales oficiales: geoBoundaries/GeoBolivia (Public Domain)",
+  "actualizado": "2026-08-16",
+  "departamentos": [
+    {
+      "nombre": "Beni",
+      "provincias": [
+        {
+          "nombre": "Cercado",
+          "centro": [
+            -14.628509,
+            -64.541493
+          ],
+          "municipios": [
+            {
+              "nombre": "San Javier",
+              "centro": [
+                -14.422055,
+                -64.425541
+              ]
+            },
+            {
+              "nombre": "Trinidad",
+              "centro": [
+                -14.834963,
+                -64.657446
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "General José Ballivián",
+          "centro": [
+            -14.103509,
+            -66.958427
+          ],
+          "municipios": [
+            {
+              "nombre": "Puerto Menor de Rurrenabaque",
+              "centro": [
+                -14.688658,
+                -67.30571
+              ]
+            },
+            {
+              "nombre": "Reyes",
+              "centro": [
+                -13.40281,
+                -67.058027
+              ]
+            },
+            {
+              "nombre": "San Borja",
+              "centro": [
+                -15.003724,
+                -66.808499
+              ]
+            },
+            {
+              "nombre": "Santa Rosa",
+              "centro": [
+                -13.318842,
+                -66.661473
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Iténez",
+          "centro": [
+            -13.481322,
+            -63.541893
+          ],
+          "municipios": [
+            {
+              "nombre": "Baures",
+              "centro": [
+                -13.625201,
+                -62.875428
+              ]
+            },
+            {
+              "nombre": "Huacaraje",
+              "centro": [
+                -13.823963,
+                -64.06273
+              ]
+            },
+            {
+              "nombre": "Magdalena",
+              "centro": [
+                -12.994801,
+                -63.687522
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Mamoré",
+          "centro": [
+            -12.964334,
+            -64.81399
+          ],
+          "municipios": [
+            {
+              "nombre": "Puerto Siles",
+              "centro": [
+                -12.424064,
+                -64.986387
+              ]
+            },
+            {
+              "nombre": "San Joaquín",
+              "centro": [
+                -12.960882,
+                -64.855758
+              ]
+            },
+            {
+              "nombre": "San Ramón",
+              "centro": [
+                -13.508056,
+                -64.599824
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Marbán",
+          "centro": [
+            -15.471042,
+            -64.531357
+          ],
+          "municipios": [
+            {
+              "nombre": "Loreto",
+              "centro": [
+                -15.56806,
+                -64.920391
+              ]
+            },
+            {
+              "nombre": "San Andrés",
+              "centro": [
+                -15.374024,
+                -64.142324
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Moxos",
+          "centro": [
+            -15.46872,
+            -65.686815
+          ],
+          "municipios": [
+            {
+              "nombre": "San Ignacio",
+              "centro": [
+                -15.46872,
+                -65.686815
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Vaca Diez",
+          "centro": [
+            -11.41844,
+            -65.767918
+          ],
+          "municipios": [
+            {
+              "nombre": "Guayaramerín",
+              "centro": [
+                -11.30899,
+                -65.434999
+              ]
+            },
+            {
+              "nombre": "Riberalta",
+              "centro": [
+                -11.52789,
+                -66.100837
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Yacuma",
+          "centro": [
+            -13.577023,
+            -65.889796
+          ],
+          "municipios": [
+            {
+              "nombre": "Exaltación",
+              "centro": [
+                -12.803913,
+                -65.783179
+              ]
+            },
+            {
+              "nombre": "Santa Ana",
+              "centro": [
+                -14.350133,
+                -65.996414
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -13.758408,
+        -65.265753
+      ]
+    },
+    {
+      "nombre": "Chuquisaca",
+      "provincias": [
+        {
+          "nombre": "Azurduy",
+          "centro": [
+            -19.97674,
+            -64.497338
+          ],
+          "municipios": [
+            {
+              "nombre": "Azurduy",
+              "centro": [
+                -20.181296,
+                -64.432895
+              ]
+            },
+            {
+              "nombre": "Tarvita",
+              "centro": [
+                -19.772184,
+                -64.561781
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Belisario Boeto",
+          "centro": [
+            -18.951898,
+            -64.30002
+          ],
+          "municipios": [
+            {
+              "nombre": "Villa Serrano",
+              "centro": [
+                -18.951898,
+                -64.30002
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Hernando Siles",
+          "centro": [
+            -20.304645,
+            -64.042451
+          ],
+          "municipios": [
+            {
+              "nombre": "Huacareta",
+              "centro": [
+                -20.594607,
+                -64.009868
+              ]
+            },
+            {
+              "nombre": "Monteagudo",
+              "centro": [
+                -20.014684,
+                -64.075034
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Luis Calvo",
+          "centro": [
+            -20.444969,
+            -63.425396
+          ],
+          "municipios": [
+            {
+              "nombre": "Huacaya",
+              "centro": [
+                -20.716583,
+                -63.594764
+              ]
+            },
+            {
+              "nombre": "Macharetí",
+              "centro": [
+                -20.725427,
+                -62.879044
+              ]
+            },
+            {
+              "nombre": "Villa Vaca Guzmán",
+              "centro": [
+                -19.892896,
+                -63.802379
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nor Cinti",
+          "centro": [
+            -20.481491,
+            -64.862036
+          ],
+          "municipios": [
+            {
+              "nombre": "Camargo",
+              "centro": [
+                -20.602502,
+                -65.156026
+              ]
+            },
+            {
+              "nombre": "Incahuasi",
+              "centro": [
+                -20.590655,
+                -64.572038
+              ]
+            },
+            {
+              "nombre": "San Lucas",
+              "centro": [
+                -20.160668,
+                -64.899379
+              ]
+            },
+            {
+              "nombre": "Villa Charcas",
+              "centro": [
+                -20.572139,
+                -64.820702
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Oropeza",
+          "centro": [
+            -18.92823,
+            -65.300131
+          ],
+          "municipios": [
+            {
+              "nombre": "Poroma",
+              "centro": [
+                -18.621868,
+                -65.385122
+              ]
+            },
+            {
+              "nombre": "Sucre",
+              "centro": [
+                -18.937794,
+                -65.250455
+              ]
+            },
+            {
+              "nombre": "Yotala",
+              "centro": [
+                -19.225029,
+                -65.264817
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sud Cinti",
+          "centro": [
+            -21.050546,
+            -65.059969
+          ],
+          "municipios": [
+            {
+              "nombre": "Culpina",
+              "centro": [
+                -20.869752,
+                -64.572018
+              ]
+            },
+            {
+              "nombre": "Las Carreras",
+              "centro": [
+                -21.29563,
+                -65.320215
+              ]
+            },
+            {
+              "nombre": "Villa Abecia",
+              "centro": [
+                -20.986257,
+                -65.287673
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Tomina",
+          "centro": [
+            -19.424263,
+            -64.368025
+          ],
+          "municipios": [
+            {
+              "nombre": "Alcalá",
+              "centro": [
+                -19.43219,
+                -64.373839
+              ]
+            },
+            {
+              "nombre": "El Villar",
+              "centro": [
+                -19.691224,
+                -64.275271
+              ]
+            },
+            {
+              "nombre": "Padilla",
+              "centro": [
+                -19.374809,
+                -64.160813
+              ]
+            },
+            {
+              "nombre": "Sopachui",
+              "centro": [
+                -19.462276,
+                -64.535219
+              ]
+            },
+            {
+              "nombre": "Tomina",
+              "centro": [
+                -19.160817,
+                -64.49498
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Yamparáez",
+          "centro": [
+            -19.18256,
+            -64.989906
+          ],
+          "municipios": [
+            {
+              "nombre": "Tarabuco",
+              "centro": [
+                -19.121524,
+                -64.909836
+              ]
+            },
+            {
+              "nombre": "Yamparáez",
+              "centro": [
+                -19.243597,
+                -65.069976
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Zudáñez",
+          "centro": [
+            -19.032278,
+            -64.742906
+          ],
+          "municipios": [
+            {
+              "nombre": "Mojocoya",
+              "centro": [
+                -18.780279,
+                -64.644156
+              ]
+            },
+            {
+              "nombre": "Presto",
+              "centro": [
+                -18.755547,
+                -64.893032
+              ]
+            },
+            {
+              "nombre": "Villa Ricardo Mugia - Icla",
+              "centro": [
+                -19.465352,
+                -64.74636
+              ]
+            },
+            {
+              "nombre": "Zudañez",
+              "centro": [
+                -19.127933,
+                -64.688076
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -19.804394,
+        -64.585372
+      ]
+    },
+    {
+      "nombre": "Cochabamba",
+      "provincias": [
+        {
+          "nombre": "Arani",
+          "centro": [
+            -17.59093,
+            -65.654594
+          ],
+          "municipios": [
+            {
+              "nombre": "Arani",
+              "centro": [
+                -17.592691,
+                -65.726568
+              ]
+            },
+            {
+              "nombre": "Vacas",
+              "centro": [
+                -17.58917,
+                -65.58262
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Arque",
+          "centro": [
+            -17.826111,
+            -66.521329
+          ],
+          "municipios": [
+            {
+              "nombre": "Arque",
+              "centro": [
+                -17.825697,
+                -66.41682
+              ]
+            },
+            {
+              "nombre": "Tacopaya",
+              "centro": [
+                -17.826525,
+                -66.625838
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ayopaya",
+          "centro": [
+            -16.94532,
+            -66.642686
+          ],
+          "municipios": [
+            {
+              "nombre": "Ayopaya",
+              "centro": [
+                -17.143947,
+                -66.805246
+              ]
+            },
+            {
+              "nombre": "Cocapata",
+              "centro": [
+                -16.489125,
+                -66.552224
+              ]
+            },
+            {
+              "nombre": "Morochata",
+              "centro": [
+                -17.202888,
+                -66.57059
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Bolivar",
+          "centro": [
+            -18.015598,
+            -66.644538
+          ],
+          "municipios": [
+            {
+              "nombre": "Bolivar",
+              "centro": [
+                -18.015598,
+                -66.644538
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Campero",
+          "centro": [
+            -18.262039,
+            -64.866013
+          ],
+          "municipios": [
+            {
+              "nombre": "Aiquile",
+              "centro": [
+                -18.323321,
+                -65.103804
+              ]
+            },
+            {
+              "nombre": "Omereque",
+              "centro": [
+                -18.070483,
+                -64.893322
+              ]
+            },
+            {
+              "nombre": "Pasorapa",
+              "centro": [
+                -18.392313,
+                -64.600913
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Capinota",
+          "centro": [
+            -17.71405,
+            -66.262225
+          ],
+          "municipios": [
+            {
+              "nombre": "Capinota",
+              "centro": [
+                -17.777558,
+                -66.226815
+              ]
+            },
+            {
+              "nombre": "Santivañez",
+              "centro": [
+                -17.573495,
+                -66.218123
+              ]
+            },
+            {
+              "nombre": "Sicaya",
+              "centro": [
+                -17.791097,
+                -66.341735
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Carrasco",
+          "centro": [
+            -17.295319,
+            -64.953683
+          ],
+          "municipios": [
+            {
+              "nombre": "Chimoré",
+              "centro": [
+                -16.558692,
+                -64.91142
+              ]
+            },
+            {
+              "nombre": "Entre Ríos",
+              "centro": [
+                -17.312176,
+                -64.546434
+              ]
+            },
+            {
+              "nombre": "Pocona",
+              "centro": [
+                -17.681729,
+                -65.371859
+              ]
+            },
+            {
+              "nombre": "Pojo",
+              "centro": [
+                -17.600466,
+                -64.863524
+              ]
+            },
+            {
+              "nombre": "Puerto Villarroel",
+              "centro": [
+                -17.032576,
+                -64.88453
+              ]
+            },
+            {
+              "nombre": "Totora",
+              "centro": [
+                -17.586277,
+                -65.144333
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Cercado",
+          "centro": [
+            -17.425156,
+            -66.168649
+          ],
+          "municipios": [
+            {
+              "nombre": "Cochabamba",
+              "centro": [
+                -17.425156,
+                -66.168649
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Chapare",
+          "centro": [
+            -17.066512,
+            -65.840953
+          ],
+          "municipios": [
+            {
+              "nombre": "Colomi",
+              "centro": [
+                -17.23329,
+                -65.920529
+              ]
+            },
+            {
+              "nombre": "Sacaba",
+              "centro": [
+                -17.331643,
+                -66.030455
+              ]
+            },
+            {
+              "nombre": "Villa Tunari",
+              "centro": [
+                -16.634604,
+                -65.571875
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Esteban Arze",
+          "centro": [
+            -17.717568,
+            -65.958323
+          ],
+          "municipios": [
+            {
+              "nombre": "Anzaldo",
+              "centro": [
+                -17.843684,
+                -65.916674
+              ]
+            },
+            {
+              "nombre": "Arbieto",
+              "centro": [
+                -17.558288,
+                -66.065014
+              ]
+            },
+            {
+              "nombre": "Sacabamba",
+              "centro": [
+                -17.776444,
+                -65.786224
+              ]
+            },
+            {
+              "nombre": "Tarata",
+              "centro": [
+                -17.691857,
+                -66.06538
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Germán Jordán",
+          "centro": [
+            -17.585398,
+            -65.953235
+          ],
+          "municipios": [
+            {
+              "nombre": "Cliza",
+              "centro": [
+                -17.581921,
+                -65.936537
+              ]
+            },
+            {
+              "nombre": "Toco",
+              "centro": [
+                -17.647607,
+                -65.920555
+              ]
+            },
+            {
+              "nombre": "Tolata",
+              "centro": [
+                -17.526666,
+                -66.002613
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Mizque",
+          "centro": [
+            -17.935806,
+            -65.573745
+          ],
+          "municipios": [
+            {
+              "nombre": "Alalay",
+              "centro": [
+                -17.773233,
+                -65.630069
+              ]
+            },
+            {
+              "nombre": "Mizque",
+              "centro": [
+                -18.05594,
+                -65.419759
+              ]
+            },
+            {
+              "nombre": "Vila Vila",
+              "centro": [
+                -17.978245,
+                -65.671407
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Punata",
+          "centro": [
+            -17.604743,
+            -65.824528
+          ],
+          "municipios": [
+            {
+              "nombre": "Punata",
+              "centro": [
+                -17.549321,
+                -65.831384
+              ]
+            },
+            {
+              "nombre": "San Benito",
+              "centro": [
+                -17.498247,
+                -65.878928
+              ]
+            },
+            {
+              "nombre": "Tacachi",
+              "centro": [
+                -17.637964,
+                -65.788402
+              ]
+            },
+            {
+              "nombre": "Villa Gualberto Villarroel",
+              "centro": [
+                -17.689927,
+                -65.771134
+              ]
+            },
+            {
+              "nombre": "Villa Rivero",
+              "centro": [
+                -17.648258,
+                -65.852792
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Quillacollo",
+          "centro": [
+            -17.327064,
+            -66.305933
+          ],
+          "municipios": [
+            {
+              "nombre": "Colcapirhua",
+              "centro": [
+                -17.390441,
+                -66.232538
+              ]
+            },
+            {
+              "nombre": "Quillacollo",
+              "centro": [
+                -17.211359,
+                -66.329137
+              ]
+            },
+            {
+              "nombre": "Sipesipe",
+              "centro": [
+                -17.502775,
+                -66.391697
+              ]
+            },
+            {
+              "nombre": "Tiquipaya",
+              "centro": [
+                -17.188584,
+                -66.202033
+              ]
+            },
+            {
+              "nombre": "Vinto",
+              "centro": [
+                -17.342164,
+                -66.37426
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Tapacarí",
+          "centro": [
+            -17.570832,
+            -66.651477
+          ],
+          "municipios": [
+            {
+              "nombre": "Tapacarí",
+              "centro": [
+                -17.570832,
+                -66.651477
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Tiraque",
+          "centro": [
+            -17.197983,
+            -65.417945
+          ],
+          "municipios": [
+            {
+              "nombre": "Shinahota",
+              "centro": [
+                -17.059303,
+                -65.318557
+              ]
+            },
+            {
+              "nombre": "Tiraque",
+              "centro": [
+                -17.336664,
+                -65.517334
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -17.533409,
+        -65.835674
+      ]
+    },
+    {
+      "nombre": "La Paz",
+      "provincias": [
+        {
+          "nombre": "Abel Iturralde",
+          "centro": [
+            -13.67462,
+            -67.881842
+          ],
+          "municipios": [
+            {
+              "nombre": "Ixiamas",
+              "centro": [
+                -13.090133,
+                -68.018731
+              ]
+            },
+            {
+              "nombre": "San Buenaventura",
+              "centro": [
+                -14.259106,
+                -67.744953
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Aroma",
+          "centro": [
+            -17.122528,
+            -68.031339
+          ],
+          "municipios": [
+            {
+              "nombre": "Ayo Ayo",
+              "centro": [
+                -17.076745,
+                -68.019623
+              ]
+            },
+            {
+              "nombre": "Calamarca",
+              "centro": [
+                -16.890453,
+                -68.112451
+              ]
+            },
+            {
+              "nombre": "Collana",
+              "centro": [
+                -16.903532,
+                -68.300945
+              ]
+            },
+            {
+              "nombre": "Colquencha",
+              "centro": [
+                -16.992021,
+                -68.256906
+              ]
+            },
+            {
+              "nombre": "Patacamaya",
+              "centro": [
+                -17.216468,
+                -67.913196
+              ]
+            },
+            {
+              "nombre": "Sicasica",
+              "centro": [
+                -17.374483,
+                -67.619092
+              ]
+            },
+            {
+              "nombre": "Umala",
+              "centro": [
+                -17.403991,
+                -67.997163
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Bautista Saavedra",
+          "centro": [
+            -15.040795,
+            -68.869577
+          ],
+          "municipios": [
+            {
+              "nombre": "Charazani",
+              "centro": [
+                -15.096526,
+                -68.773756
+              ]
+            },
+            {
+              "nombre": "Curva",
+              "centro": [
+                -14.985064,
+                -68.965397
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Camacho",
+          "centro": [
+            -15.553972,
+            -69.114564
+          ],
+          "municipios": [
+            {
+              "nombre": "Escoma",
+              "centro": [
+                -15.638118,
+                -69.149306
+              ]
+            },
+            {
+              "nombre": "Humanata",
+              "centro": [
+                -15.414502,
+                -69.170837
+              ]
+            },
+            {
+              "nombre": "Mocomoco",
+              "centro": [
+                -15.44998,
+                -69.035785
+              ]
+            },
+            {
+              "nombre": "Puerto Acosta",
+              "centro": [
+                -15.555128,
+                -69.215808
+              ]
+            },
+            {
+              "nombre": "Puerto Mayor de Carabuco",
+              "centro": [
+                -15.712131,
+                -69.001082
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Caranavi",
+          "centro": [
+            -15.725265,
+            -67.438688
+          ],
+          "municipios": [
+            {
+              "nombre": "Alto Beni",
+              "centro": [
+                -15.605633,
+                -67.389506
+              ]
+            },
+            {
+              "nombre": "Caranavi",
+              "centro": [
+                -15.844898,
+                -67.48787
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Franz Tamayo",
+          "centro": [
+            -14.729656,
+            -68.661702
+          ],
+          "municipios": [
+            {
+              "nombre": "Apolo",
+              "centro": [
+                -14.658589,
+                -68.232658
+              ]
+            },
+            {
+              "nombre": "Pelechuco",
+              "centro": [
+                -14.800724,
+                -69.090747
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "General José Manuel Pando",
+          "centro": [
+            -17.221027,
+            -69.375517
+          ],
+          "municipios": [
+            {
+              "nombre": "Catacora",
+              "centro": [
+                -17.252672,
+                -69.480522
+              ]
+            },
+            {
+              "nombre": "Santiago de Machaca",
+              "centro": [
+                -17.189381,
+                -69.270513
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Gualberto Villarroel",
+          "centro": [
+            -17.626424,
+            -67.948745
+          ],
+          "municipios": [
+            {
+              "nombre": "Chacarilla",
+              "centro": [
+                -17.548594,
+                -68.169975
+              ]
+            },
+            {
+              "nombre": "Papel Pampa",
+              "centro": [
+                -17.697221,
+                -67.709609
+              ]
+            },
+            {
+              "nombre": "San Pedro de Curahuara",
+              "centro": [
+                -17.633455,
+                -67.966651
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ingavi",
+          "centro": [
+            -16.662309,
+            -68.777524
+          ],
+          "municipios": [
+            {
+              "nombre": "Desaguadero",
+              "centro": [
+                -16.614162,
+                -68.978181
+              ]
+            },
+            {
+              "nombre": "Jesús de Machaka",
+              "centro": [
+                -16.760654,
+                -68.739957
+              ]
+            },
+            {
+              "nombre": "La (Marka) San Andrés de Machaca",
+              "centro": [
+                -16.899717,
+                -69.043485
+              ]
+            },
+            {
+              "nombre": "Puerto Mayor de Guaqui",
+              "centro": [
+                -16.606683,
+                -68.82102
+              ]
+            },
+            {
+              "nombre": "Taraco",
+              "centro": [
+                -16.462334,
+                -68.853588
+              ]
+            },
+            {
+              "nombre": "Tiahuanacu",
+              "centro": [
+                -16.558759,
+                -68.695779
+              ]
+            },
+            {
+              "nombre": "Viacha",
+              "centro": [
+                -16.733856,
+                -68.310657
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Inquisivi",
+          "centro": [
+            -16.931276,
+            -67.159548
+          ],
+          "municipios": [
+            {
+              "nombre": "Cajuata",
+              "centro": [
+                -16.637465,
+                -67.247462
+              ]
+            },
+            {
+              "nombre": "Colquiri",
+              "centro": [
+                -17.421259,
+                -66.994239
+              ]
+            },
+            {
+              "nombre": "Ichoca",
+              "centro": [
+                -17.184854,
+                -67.193482
+              ]
+            },
+            {
+              "nombre": "Inquisivi",
+              "centro": [
+                -16.68326,
+                -66.978007
+              ]
+            },
+            {
+              "nombre": "Quime",
+              "centro": [
+                -16.84891,
+                -67.34092
+              ]
+            },
+            {
+              "nombre": "Villa Libertad Licoma",
+              "centro": [
+                -16.811906,
+                -67.203177
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Larecaja",
+          "centro": [
+            -15.579772,
+            -68.315971
+          ],
+          "municipios": [
+            {
+              "nombre": "Combaya",
+              "centro": [
+                -15.815978,
+                -68.75321
+              ]
+            },
+            {
+              "nombre": "Guanay",
+              "centro": [
+                -15.736207,
+                -68.042262
+              ]
+            },
+            {
+              "nombre": "Mapiri",
+              "centro": [
+                -15.380016,
+                -68.257718
+              ]
+            },
+            {
+              "nombre": "Quiabaya",
+              "centro": [
+                -15.602374,
+                -68.714259
+              ]
+            },
+            {
+              "nombre": "Sorata",
+              "centro": [
+                -15.719276,
+                -68.494055
+              ]
+            },
+            {
+              "nombre": "Tacacoma",
+              "centro": [
+                -15.392448,
+                -68.523026
+              ]
+            },
+            {
+              "nombre": "Teoponte",
+              "centro": [
+                -15.407423,
+                -67.68724
+              ]
+            },
+            {
+              "nombre": "Tipuani",
+              "centro": [
+                -15.584458,
+                -68.056001
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Loayza",
+          "centro": [
+            -17.028903,
+            -67.57465
+          ],
+          "municipios": [
+            {
+              "nombre": "Cairoma",
+              "centro": [
+                -16.845749,
+                -67.576914
+              ]
+            },
+            {
+              "nombre": "Luribay",
+              "centro": [
+                -17.093724,
+                -67.634788
+              ]
+            },
+            {
+              "nombre": "Malla",
+              "centro": [
+                -17.011409,
+                -67.426805
+              ]
+            },
+            {
+              "nombre": "Sapahaqui",
+              "centro": [
+                -16.953487,
+                -67.836019
+              ]
+            },
+            {
+              "nombre": "Yaco",
+              "centro": [
+                -17.240146,
+                -67.398726
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Los Andes",
+          "centro": [
+            -16.360072,
+            -68.489589
+          ],
+          "municipios": [
+            {
+              "nombre": "Batallas",
+              "centro": [
+                -16.164294,
+                -68.43356
+              ]
+            },
+            {
+              "nombre": "Laja",
+              "centro": [
+                -16.588496,
+                -68.459568
+              ]
+            },
+            {
+              "nombre": "Pucarani",
+              "centro": [
+                -16.360494,
+                -68.416187
+              ]
+            },
+            {
+              "nombre": "Puerto Pérez",
+              "centro": [
+                -16.327005,
+                -68.649039
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Manco Kapac",
+          "centro": [
+            -16.182719,
+            -68.963231
+          ],
+          "municipios": [
+            {
+              "nombre": "Copacabana",
+              "centro": [
+                -16.136501,
+                -69.064281
+              ]
+            },
+            {
+              "nombre": "San Pedro de Tiquina",
+              "centro": [
+                -16.231761,
+                -68.865923
+              ]
+            },
+            {
+              "nombre": "Tito Yupanqui",
+              "centro": [
+                -16.179894,
+                -68.959487
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Muñecas",
+          "centro": [
+            -15.450438,
+            -68.758727
+          ],
+          "municipios": [
+            {
+              "nombre": "Aucapata",
+              "centro": [
+                -15.438146,
+                -68.699535
+              ]
+            },
+            {
+              "nombre": "Ayata",
+              "centro": [
+                -15.319932,
+                -68.71095
+              ]
+            },
+            {
+              "nombre": "Chuma",
+              "centro": [
+                -15.593236,
+                -68.865694
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Murillo",
+          "centro": [
+            -16.536712,
+            -68.021052
+          ],
+          "municipios": [
+            {
+              "nombre": "Achocalla",
+              "centro": [
+                -16.662276,
+                -68.125342
+              ]
+            },
+            {
+              "nombre": "El Alto",
+              "centro": [
+                -16.468781,
+                -68.203459
+              ]
+            },
+            {
+              "nombre": "Mecapaca",
+              "centro": [
+                -16.718619,
+                -67.978604
+              ]
+            },
+            {
+              "nombre": "Nuestra Señora de La Paz",
+              "centro": [
+                -16.167592,
+                -67.971662
+              ]
+            },
+            {
+              "nombre": "Palca",
+              "centro": [
+                -16.66629,
+                -67.826193
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nor Yungas",
+          "centro": [
+            -16.185744,
+            -67.669986
+          ],
+          "municipios": [
+            {
+              "nombre": "Coripata",
+              "centro": [
+                -16.209017,
+                -67.567369
+              ]
+            },
+            {
+              "nombre": "Coroico",
+              "centro": [
+                -16.162471,
+                -67.772603
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Omasuyos",
+          "centro": [
+            -16.079812,
+            -68.733812
+          ],
+          "municipios": [
+            {
+              "nombre": "Achacachi",
+              "centro": [
+                -16.016854,
+                -68.663448
+              ]
+            },
+            {
+              "nombre": "Chua Cocani",
+              "centro": [
+                -16.158343,
+                -68.751662
+              ]
+            },
+            {
+              "nombre": "Huarina",
+              "centro": [
+                -16.16519,
+                -68.593325
+              ]
+            },
+            {
+              "nombre": "Huatajata",
+              "centro": [
+                -16.197979,
+                -68.690703
+              ]
+            },
+            {
+              "nombre": "Santiago de Huata",
+              "centro": [
+                -16.086205,
+                -68.834982
+              ]
+            },
+            {
+              "nombre": "Villa Ancoraimes",
+              "centro": [
+                -15.854303,
+                -68.868753
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Pacajes",
+          "centro": [
+            -17.234108,
+            -68.619243
+          ],
+          "municipios": [
+            {
+              "nombre": "Calacoto",
+              "centro": [
+                -17.562356,
+                -68.772333
+              ]
+            },
+            {
+              "nombre": "Caquiaviri",
+              "centro": [
+                -17.085226,
+                -68.817993
+              ]
+            },
+            {
+              "nombre": "Charaña",
+              "centro": [
+                -17.659187,
+                -69.157044
+              ]
+            },
+            {
+              "nombre": "Comanche",
+              "centro": [
+                -16.950535,
+                -68.45013
+              ]
+            },
+            {
+              "nombre": "Corocoro",
+              "centro": [
+                -17.173154,
+                -68.432275
+              ]
+            },
+            {
+              "nombre": "Nazacara de Pacajes",
+              "centro": [
+                -16.926406,
+                -68.757704
+              ]
+            },
+            {
+              "nombre": "Santiago de Callapa",
+              "centro": [
+                -17.400881,
+                -68.347122
+              ]
+            },
+            {
+              "nombre": "Waldo Ballivian",
+              "centro": [
+                -17.115117,
+                -68.219344
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sud Yungas",
+          "centro": [
+            -16.170357,
+            -67.444955
+          ],
+          "municipios": [
+            {
+              "nombre": "Chulumani",
+              "centro": [
+                -16.389181,
+                -67.537682
+              ]
+            },
+            {
+              "nombre": "Irupana",
+              "centro": [
+                -16.51108,
+                -67.510166
+              ]
+            },
+            {
+              "nombre": "La Asunta",
+              "centro": [
+                -16.108065,
+                -67.15587
+              ]
+            },
+            {
+              "nombre": "Palos Blancos",
+              "centro": [
+                -15.417734,
+                -67.231598
+              ]
+            },
+            {
+              "nombre": "Yanacachi",
+              "centro": [
+                -16.425728,
+                -67.789458
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -16.343614,
+        -68.276381
+      ]
+    },
+    {
+      "nombre": "Oruro",
+      "provincias": [
+        {
+          "nombre": "Abaroa",
+          "centro": [
+            -19.104991,
+            -66.682986
+          ],
+          "municipios": [
+            {
+              "nombre": "Challapata",
+              "centro": [
+                -18.890612,
+                -66.552632
+              ]
+            },
+            {
+              "nombre": "Santuario de Quillacas",
+              "centro": [
+                -19.31937,
+                -66.81334
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Carangas",
+          "centro": [
+            -18.293169,
+            -67.87725
+          ],
+          "municipios": [
+            {
+              "nombre": "Choquecota",
+              "centro": [
+                -18.122166,
+                -67.955004
+              ]
+            },
+            {
+              "nombre": "Corque",
+              "centro": [
+                -18.464173,
+                -67.799495
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Cercado",
+          "centro": [
+            -17.943175,
+            -67.123586
+          ],
+          "municipios": [
+            {
+              "nombre": "Caracollo",
+              "centro": [
+                -17.691422,
+                -67.292259
+              ]
+            },
+            {
+              "nombre": "El Choro",
+              "centro": [
+                -18.26414,
+                -67.174682
+              ]
+            },
+            {
+              "nombre": "Oruro",
+              "centro": [
+                -17.959965,
+                -67.091465
+              ]
+            },
+            {
+              "nombre": "Paria",
+              "centro": [
+                -17.85717,
+                -66.935939
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ladislao Cabrera",
+          "centro": [
+            -19.334133,
+            -67.389622
+          ],
+          "municipios": [
+            {
+              "nombre": "Pampa Aullagas",
+              "centro": [
+                -19.231581,
+                -67.165119
+              ]
+            },
+            {
+              "nombre": "Salinas de Garcí Mendoza",
+              "centro": [
+                -19.436686,
+                -67.614125
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Litoral",
+          "centro": [
+            -18.805493,
+            -68.24975
+          ],
+          "municipios": [
+            {
+              "nombre": "Cruz de Machacamarca",
+              "centro": [
+                -18.716891,
+                -68.374351
+              ]
+            },
+            {
+              "nombre": "Escara",
+              "centro": [
+                -18.694405,
+                -68.159394
+              ]
+            },
+            {
+              "nombre": "Esmeralda",
+              "centro": [
+                -18.945707,
+                -68.088196
+              ]
+            },
+            {
+              "nombre": "Huachacalla",
+              "centro": [
+                -18.794564,
+                -68.275084
+              ]
+            },
+            {
+              "nombre": "Yunguyo del Litoral",
+              "centro": [
+                -18.875897,
+                -68.351723
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Mejillones",
+          "centro": [
+            -18.997269,
+            -68.694734
+          ],
+          "municipios": [
+            {
+              "nombre": "Carangas",
+              "centro": [
+                -18.901554,
+                -68.66542
+              ]
+            },
+            {
+              "nombre": "La Rivera",
+              "centro": [
+                -19.062037,
+                -68.660113
+              ]
+            },
+            {
+              "nombre": "Todos Santos",
+              "centro": [
+                -19.028217,
+                -68.758668
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nor Carangas",
+          "centro": [
+            -17.927521,
+            -67.820192
+          ],
+          "municipios": [
+            {
+              "nombre": "Huayllamarca",
+              "centro": [
+                -17.927521,
+                -67.820192
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Pantaleón Dalence",
+          "centro": [
+            -18.207985,
+            -66.869688
+          ],
+          "municipios": [
+            {
+              "nombre": "Huanuni",
+              "centro": [
+                -18.262794,
+                -66.76496
+              ]
+            },
+            {
+              "nombre": "Machacamarca",
+              "centro": [
+                -18.153176,
+                -66.974416
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Poopó",
+          "centro": [
+            -18.501748,
+            -66.876669
+          ],
+          "municipios": [
+            {
+              "nombre": "Antequera",
+              "centro": [
+                -18.52508,
+                -66.775435
+              ]
+            },
+            {
+              "nombre": "Pazña",
+              "centro": [
+                -18.613445,
+                -66.912976
+              ]
+            },
+            {
+              "nombre": "Poopó",
+              "centro": [
+                -18.36672,
+                -66.941596
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sabaya",
+          "centro": [
+            -19.099264,
+            -68.323443
+          ],
+          "municipios": [
+            {
+              "nombre": "Chipaya",
+              "centro": [
+                -19.062588,
+                -68.047655
+              ]
+            },
+            {
+              "nombre": "Coipasa",
+              "centro": [
+                -19.327566,
+                -68.312765
+              ]
+            },
+            {
+              "nombre": "Sabaya",
+              "centro": [
+                -18.907637,
+                -68.609911
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sajama",
+          "centro": [
+            -18.162828,
+            -68.59871
+          ],
+          "municipios": [
+            {
+              "nombre": "Curahuara de Carangas",
+              "centro": [
+                -17.988598,
+                -68.667144
+              ]
+            },
+            {
+              "nombre": "Turco",
+              "centro": [
+                -18.337059,
+                -68.530276
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "San Pedro de Totora",
+          "centro": [
+            -17.85486,
+            -68.17995
+          ],
+          "municipios": [
+            {
+              "nombre": "Totora",
+              "centro": [
+                -17.85486,
+                -68.17995
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Saucarí",
+          "centro": [
+            -18.275644,
+            -67.413224
+          ],
+          "municipios": [
+            {
+              "nombre": "Toledo",
+              "centro": [
+                -18.275644,
+                -67.413224
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sebastián Pagador",
+          "centro": [
+            -19.164305,
+            -66.563693
+          ],
+          "municipios": [
+            {
+              "nombre": "Santiago de Huari",
+              "centro": [
+                -19.164305,
+                -66.563693
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sur Carangas",
+          "centro": [
+            -18.892289,
+            -67.565483
+          ],
+          "municipios": [
+            {
+              "nombre": "Andamarca",
+              "centro": [
+                -18.892526,
+                -67.381139
+              ]
+            },
+            {
+              "nombre": "Belén de Andamarca",
+              "centro": [
+                -18.892053,
+                -67.749826
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Tomás Barrón",
+          "centro": [
+            -17.634557,
+            -67.440861
+          ],
+          "municipios": [
+            {
+              "nombre": "Eucaliptus",
+              "centro": [
+                -17.634557,
+                -67.440861
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -18.584077,
+        -67.680372
+      ]
+    },
+    {
+      "nombre": "Pando",
+      "provincias": [
+        {
+          "nombre": "Abuná",
+          "centro": [
+            -10.618118,
+            -67.013092
+          ],
+          "municipios": [
+            {
+              "nombre": "Ingavi",
+              "centro": [
+                -10.504591,
+                -66.747339
+              ]
+            },
+            {
+              "nombre": "Santa Rosa",
+              "centro": [
+                -10.731646,
+                -67.278844
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Federico Román",
+          "centro": [
+            -10.305225,
+            -65.926551
+          ],
+          "municipios": [
+            {
+              "nombre": "Nueva Esperanza",
+              "centro": [
+                -10.111315,
+                -65.537781
+              ]
+            },
+            {
+              "nombre": "Santos Mercado",
+              "centro": [
+                -10.153415,
+                -66.13643
+              ]
+            },
+            {
+              "nombre": "Villa Nueva",
+              "centro": [
+                -10.650945,
+                -66.105442
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Madre de Dios",
+          "centro": [
+            -11.53966,
+            -66.835149
+          ],
+          "municipios": [
+            {
+              "nombre": "Puerto Gonzalo Moreno",
+              "centro": [
+                -11.167284,
+                -66.325112
+              ]
+            },
+            {
+              "nombre": "San Lorenzo",
+              "centro": [
+                -11.596171,
+                -66.821145
+              ]
+            },
+            {
+              "nombre": "Sena",
+              "centro": [
+                -11.855525,
+                -67.359192
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Manuripi",
+          "centro": [
+            -11.369728,
+            -67.553613
+          ],
+          "municipios": [
+            {
+              "nombre": "Filadelfia",
+              "centro": [
+                -11.756009,
+                -68.532797
+              ]
+            },
+            {
+              "nombre": "Puerto Rico",
+              "centro": [
+                -11.327732,
+                -67.538014
+              ]
+            },
+            {
+              "nombre": "San Pedro",
+              "centro": [
+                -11.025444,
+                -66.590028
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nicolás Suárez",
+          "centro": [
+            -11.10494,
+            -68.705681
+          ],
+          "municipios": [
+            {
+              "nombre": "Bella Flor",
+              "centro": [
+                -10.932068,
+                -67.931428
+              ]
+            },
+            {
+              "nombre": "Bolpebra",
+              "centro": [
+                -11.170264,
+                -69.22599
+              ]
+            },
+            {
+              "nombre": "Cobija",
+              "centro": [
+                -11.079235,
+                -68.872006
+              ]
+            },
+            {
+              "nombre": "Porvenir",
+              "centro": [
+                -11.238195,
+                -68.793302
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -11.019989,
+        -67.319657
+      ]
+    },
+    {
+      "nombre": "Potosí",
+      "provincias": [
+        {
+          "nombre": "Alonso de Ibáñez",
+          "centro": [
+            -18.148884,
+            -66.468479
+          ],
+          "municipios": [
+            {
+              "nombre": "Caripuyo",
+              "centro": [
+                -18.180184,
+                -66.593311
+              ]
+            },
+            {
+              "nombre": "Sacaca",
+              "centro": [
+                -18.117584,
+                -66.343648
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Antonio Quijarro",
+          "centro": [
+            -19.991588,
+            -66.389298
+          ],
+          "municipios": [
+            {
+              "nombre": "Porco",
+              "centro": [
+                -19.807957,
+                -65.984186
+              ]
+            },
+            {
+              "nombre": "Tomave",
+              "centro": [
+                -20.101612,
+                -66.394274
+              ]
+            },
+            {
+              "nombre": "Uyuni",
+              "centro": [
+                -20.065194,
+                -66.789435
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Bustillo",
+          "centro": [
+            -18.499636,
+            -66.451985
+          ],
+          "municipios": [
+            {
+              "nombre": "Chayanta",
+              "centro": [
+                -18.414335,
+                -66.350911
+              ]
+            },
+            {
+              "nombre": "Chuquihuta Ayllu Jucumani",
+              "centro": [
+                -18.632317,
+                -66.353385
+              ]
+            },
+            {
+              "nombre": "Llallagua",
+              "centro": [
+                -18.36343,
+                -66.572236
+              ]
+            },
+            {
+              "nombre": "Uncía",
+              "centro": [
+                -18.588463,
+                -66.531406
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Chárcas",
+          "centro": [
+            -18.275076,
+            -65.83454
+          ],
+          "municipios": [
+            {
+              "nombre": "San Pedro",
+              "centro": [
+                -18.340555,
+                -65.968245
+              ]
+            },
+            {
+              "nombre": "Toro Toro",
+              "centro": [
+                -18.209596,
+                -65.700835
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Chayanta",
+          "centro": [
+            -18.78146,
+            -65.907675
+          ],
+          "municipios": [
+            {
+              "nombre": "Colquechaca",
+              "centro": [
+                -18.808117,
+                -66.01353
+              ]
+            },
+            {
+              "nombre": "Ocurí",
+              "centro": [
+                -18.88978,
+                -65.768407
+              ]
+            },
+            {
+              "nombre": "Pocoata",
+              "centro": [
+                -18.639286,
+                -66.155666
+              ]
+            },
+            {
+              "nombre": "Ravelo",
+              "centro": [
+                -18.752703,
+                -65.563403
+              ]
+            },
+            {
+              "nombre": "San Pedro de Macha",
+              "centro": [
+                -18.817416,
+                -66.03737
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Cornelio Saavedra",
+          "centro": [
+            -19.432135,
+            -65.442563
+          ],
+          "municipios": [
+            {
+              "nombre": "Betanzos",
+              "centro": [
+                -19.458183,
+                -65.227589
+              ]
+            },
+            {
+              "nombre": "Chaquí",
+              "centro": [
+                -19.625012,
+                -65.546087
+              ]
+            },
+            {
+              "nombre": "Tacobamba",
+              "centro": [
+                -19.213209,
+                -65.554013
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Daniel Campos",
+          "centro": [
+            -20.168771,
+            -68.17795
+          ],
+          "municipios": [
+            {
+              "nombre": "Llica",
+              "centro": [
+                -20.050284,
+                -68.412153
+              ]
+            },
+            {
+              "nombre": "Tahua",
+              "centro": [
+                -20.287259,
+                -67.943747
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Enrique Baldivieso",
+          "centro": [
+            -21.495309,
+            -67.413941
+          ],
+          "municipios": [
+            {
+              "nombre": "San Agustín",
+              "centro": [
+                -21.495309,
+                -67.413941
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "General Bernardino Bilbao",
+          "centro": [
+            -17.99759,
+            -66.070192
+          ],
+          "municipios": [
+            {
+              "nombre": "Acasio",
+              "centro": [
+                -18.049917,
+                -66.01451
+              ]
+            },
+            {
+              "nombre": "Arampampa",
+              "centro": [
+                -17.945263,
+                -66.125875
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "José María Linares",
+          "centro": [
+            -19.876687,
+            -65.358678
+          ],
+          "municipios": [
+            {
+              "nombre": "Caiza \"D\"",
+              "centro": [
+                -20.011307,
+                -65.653667
+              ]
+            },
+            {
+              "nombre": "Ckochas",
+              "centro": [
+                -19.742051,
+                -65.022216
+              ]
+            },
+            {
+              "nombre": "Puna",
+              "centro": [
+                -19.876704,
+                -65.400149
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Modesto Omiste",
+          "centro": [
+            -21.913103,
+            -65.641991
+          ],
+          "municipios": [
+            {
+              "nombre": "Villazón",
+              "centro": [
+                -21.913103,
+                -65.641991
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nor Chichas",
+          "centro": [
+            -20.511318,
+            -65.600928
+          ],
+          "municipios": [
+            {
+              "nombre": "Cotagaita",
+              "centro": [
+                -20.67295,
+                -65.769397
+              ]
+            },
+            {
+              "nombre": "Vitiche",
+              "centro": [
+                -20.349685,
+                -65.43246
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nor Lipez",
+          "centro": [
+            -21.102157,
+            -67.743988
+          ],
+          "municipios": [
+            {
+              "nombre": "Colcha \"K\"",
+              "centro": [
+                -21.204382,
+                -67.314209
+              ]
+            },
+            {
+              "nombre": "San Pedro de Quemes",
+              "centro": [
+                -20.999932,
+                -68.173768
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sud Chichas",
+          "centro": [
+            -21.280711,
+            -65.983413
+          ],
+          "municipios": [
+            {
+              "nombre": "Atocha",
+              "centro": [
+                -21.070327,
+                -66.169923
+              ]
+            },
+            {
+              "nombre": "Tupiza",
+              "centro": [
+                -21.491096,
+                -65.796904
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sud Lipez",
+          "centro": [
+            -22.0251,
+            -66.739957
+          ],
+          "municipios": [
+            {
+              "nombre": "Mojinete",
+              "centro": [
+                -21.814037,
+                -66.351243
+              ]
+            },
+            {
+              "nombre": "San Antonio de Esmoruco",
+              "centro": [
+                -22.084152,
+                -66.634486
+              ]
+            },
+            {
+              "nombre": "San Pablo",
+              "centro": [
+                -22.17711,
+                -67.234141
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Tomás Frías",
+          "centro": [
+            -19.418947,
+            -65.936953
+          ],
+          "municipios": [
+            {
+              "nombre": "Potosí",
+              "centro": [
+                -19.537401,
+                -65.722008
+              ]
+            },
+            {
+              "nombre": "Tinguipaya",
+              "centro": [
+                -19.169995,
+                -65.904054
+              ]
+            },
+            {
+              "nombre": "Urmiri",
+              "centro": [
+                -19.472786,
+                -66.180725
+              ]
+            },
+            {
+              "nombre": "Yocalla",
+              "centro": [
+                -19.495607,
+                -65.941026
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -19.705746,
+        -66.236598
+      ]
+    },
+    {
+      "nombre": "Santa Cruz",
+      "provincias": [
+        {
+          "nombre": "Andrés Ibáñez",
+          "centro": [
+            -17.882917,
+            -63.194806
+          ],
+          "municipios": [
+            {
+              "nombre": "Cotoca",
+              "centro": [
+                -17.754729,
+                -62.908302
+              ]
+            },
+            {
+              "nombre": "El Torno",
+              "centro": [
+                -18.048882,
+                -63.468827
+              ]
+            },
+            {
+              "nombre": "La Guardia",
+              "centro": [
+                -18.05364,
+                -63.233932
+              ]
+            },
+            {
+              "nombre": "Porongo",
+              "centro": [
+                -17.750277,
+                -63.36486
+              ]
+            },
+            {
+              "nombre": "Santa Cruz de la Sierra",
+              "centro": [
+                -17.807055,
+                -62.998109
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Angel Sandoval",
+          "centro": [
+            -17.255031,
+            -58.823279
+          ],
+          "municipios": [
+            {
+              "nombre": "San Matías",
+              "centro": [
+                -17.255031,
+                -58.823279
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Chiquitos",
+          "centro": [
+            -17.891557,
+            -60.652703
+          ],
+          "municipios": [
+            {
+              "nombre": "Pailón",
+              "centro": [
+                -17.756944,
+                -61.921486
+              ]
+            },
+            {
+              "nombre": "Roboré",
+              "centro": [
+                -18.215456,
+                -59.611829
+              ]
+            },
+            {
+              "nombre": "San José",
+              "centro": [
+                -17.70227,
+                -60.424793
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Cordillera",
+          "centro": [
+            -19.632225,
+            -63.159937
+          ],
+          "municipios": [
+            {
+              "nombre": "Boyuibe",
+              "centro": [
+                -20.338882,
+                -63.076306
+              ]
+            },
+            {
+              "nombre": "Cabezas",
+              "centro": [
+                -18.463885,
+                -63.268501
+              ]
+            },
+            {
+              "nombre": "Camiri",
+              "centro": [
+                -20.034739,
+                -63.487866
+              ]
+            },
+            {
+              "nombre": "Charagua",
+              "centro": [
+                -19.090409,
+                -61.600997
+              ]
+            },
+            {
+              "nombre": "Cuevo",
+              "centro": [
+                -20.330173,
+                -63.539244
+              ]
+            },
+            {
+              "nombre": "Gutiérrez",
+              "centro": [
+                -19.395954,
+                -63.50172
+              ]
+            },
+            {
+              "nombre": "Lagunillas",
+              "centro": [
+                -19.77153,
+                -63.644925
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Florida",
+          "centro": [
+            -18.143975,
+            -63.961953
+          ],
+          "municipios": [
+            {
+              "nombre": "Mairana",
+              "centro": [
+                -17.984657,
+                -64.006886
+              ]
+            },
+            {
+              "nombre": "Pampa Grande",
+              "centro": [
+                -18.045415,
+                -64.153425
+              ]
+            },
+            {
+              "nombre": "Quirusillas",
+              "centro": [
+                -18.370532,
+                -63.937461
+              ]
+            },
+            {
+              "nombre": "Samaipata",
+              "centro": [
+                -18.175295,
+                -63.750039
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Germán Busch",
+          "centro": [
+            -18.650843,
+            -58.175954
+          ],
+          "municipios": [
+            {
+              "nombre": "El Carmen Rivero Tórrez",
+              "centro": [
+                -18.455442,
+                -58.586374
+              ]
+            },
+            {
+              "nombre": "Puerto Quijarro",
+              "centro": [
+                -18.425798,
+                -57.684908
+              ]
+            },
+            {
+              "nombre": "Puerto Suarez",
+              "centro": [
+                -19.07129,
+                -58.256581
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Guarayos",
+          "centro": [
+            -15.48135,
+            -63.311436
+          ],
+          "municipios": [
+            {
+              "nombre": "Ascención de Guarayos",
+              "centro": [
+                -15.343818,
+                -63.430894
+              ]
+            },
+            {
+              "nombre": "El Puente",
+              "centro": [
+                -16.147486,
+                -63.484856
+              ]
+            },
+            {
+              "nombre": "Urubicha",
+              "centro": [
+                -14.952747,
+                -63.018558
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ichilo",
+          "centro": [
+            -17.1503,
+            -63.967626
+          ],
+          "municipios": [
+            {
+              "nombre": "Buena Vista",
+              "centro": [
+                -17.69775,
+                -63.755919
+              ]
+            },
+            {
+              "nombre": "San Carlos",
+              "centro": [
+                -17.290795,
+                -63.753601
+              ]
+            },
+            {
+              "nombre": "San Juan",
+              "centro": [
+                -16.861442,
+                -63.998607
+              ]
+            },
+            {
+              "nombre": "Yapacaní",
+              "centro": [
+                -16.751214,
+                -64.362374
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Manuel María Caballero",
+          "centro": [
+            -17.912982,
+            -64.535942
+          ],
+          "municipios": [
+            {
+              "nombre": "Comarapa",
+              "centro": [
+                -17.802336,
+                -64.431987
+              ]
+            },
+            {
+              "nombre": "Saipina",
+              "centro": [
+                -18.023629,
+                -64.639897
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ñuflo De Chávez",
+          "centro": [
+            -16.490972,
+            -62.32806
+          ],
+          "municipios": [
+            {
+              "nombre": "Concepción",
+              "centro": [
+                -15.298454,
+                -62.112125
+              ]
+            },
+            {
+              "nombre": "Cuatro Cañadas",
+              "centro": [
+                -17.237283,
+                -62.242647
+              ]
+            },
+            {
+              "nombre": "San Antonio de Lomerio",
+              "centro": [
+                -16.80644,
+                -61.87446
+              ]
+            },
+            {
+              "nombre": "San Javier",
+              "centro": [
+                -16.233783,
+                -62.490865
+              ]
+            },
+            {
+              "nombre": "San Julián",
+              "centro": [
+                -16.792933,
+                -62.813696
+              ]
+            },
+            {
+              "nombre": "San Ramón",
+              "centro": [
+                -16.576939,
+                -62.434569
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Obispo Santistéban",
+          "centro": [
+            -16.991966,
+            -63.304709
+          ],
+          "municipios": [
+            {
+              "nombre": "Fernández Alonso",
+              "centro": [
+                -16.888667,
+                -63.212368
+              ]
+            },
+            {
+              "nombre": "General Saavedra",
+              "centro": [
+                -17.168113,
+                -63.176202
+              ]
+            },
+            {
+              "nombre": "Mineros",
+              "centro": [
+                -17.05285,
+                -63.273171
+              ]
+            },
+            {
+              "nombre": "Montero",
+              "centro": [
+                -17.332886,
+                -63.249822
+              ]
+            },
+            {
+              "nombre": "San Pedro",
+              "centro": [
+                -16.517313,
+                -63.611984
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Sara",
+          "centro": [
+            -17.186516,
+            -63.526557
+          ],
+          "municipios": [
+            {
+              "nombre": "Colpa Bélgica",
+              "centro": [
+                -17.543536,
+                -63.292365
+              ]
+            },
+            {
+              "nombre": "Portachuelo",
+              "centro": [
+                -17.356863,
+                -63.448541
+              ]
+            },
+            {
+              "nombre": "Santa Rosa",
+              "centro": [
+                -16.659149,
+                -63.838764
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Vallegrande",
+          "centro": [
+            -18.555771,
+            -64.074274
+          ],
+          "municipios": [
+            {
+              "nombre": "Moromoro",
+              "centro": [
+                -18.320568,
+                -64.343996
+              ]
+            },
+            {
+              "nombre": "Postrervalle",
+              "centro": [
+                -18.625063,
+                -63.763231
+              ]
+            },
+            {
+              "nombre": "Pucará",
+              "centro": [
+                -18.762437,
+                -64.191078
+              ]
+            },
+            {
+              "nombre": "Trigal",
+              "centro": [
+                -18.287021,
+                -64.132732
+              ]
+            },
+            {
+              "nombre": "Vallegrande",
+              "centro": [
+                -18.783767,
+                -63.940334
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Velasco",
+          "centro": [
+            -16.229367,
+            -60.802588
+          ],
+          "municipios": [
+            {
+              "nombre": "San Ignacio",
+              "centro": [
+                -15.029639,
+                -60.994534
+              ]
+            },
+            {
+              "nombre": "San Miguel",
+              "centro": [
+                -16.842954,
+                -61.272464
+              ]
+            },
+            {
+              "nombre": "San Rafael",
+              "centro": [
+                -16.815509,
+                -60.140764
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Warnes",
+          "centro": [
+            -17.367269,
+            -62.967885
+          ],
+          "municipios": [
+            {
+              "nombre": "Okinawa Uno",
+              "centro": [
+                -17.322761,
+                -62.865583
+              ]
+            },
+            {
+              "nombre": "Warnes",
+              "centro": [
+                -17.411777,
+                -63.070186
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -17.657789,
+        -62.748461
+      ]
+    },
+    {
+      "nombre": "Tarija",
+      "provincias": [
+        {
+          "nombre": "Arce",
+          "centro": [
+            -22.403489,
+            -64.429477
+          ],
+          "municipios": [
+            {
+              "nombre": "Bermejo",
+              "centro": [
+                -22.67303,
+                -64.32944
+              ]
+            },
+            {
+              "nombre": "Padcaya",
+              "centro": [
+                -22.133947,
+                -64.529514
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Avilés",
+          "centro": [
+            -21.766603,
+            -64.935708
+          ],
+          "municipios": [
+            {
+              "nombre": "Uriondo",
+              "centro": [
+                -21.743002,
+                -64.708571
+              ]
+            },
+            {
+              "nombre": "Yunchará",
+              "centro": [
+                -21.790203,
+                -65.162844
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Cercado",
+          "centro": [
+            -21.559515,
+            -64.593984
+          ],
+          "municipios": [
+            {
+              "nombre": "Tarija",
+              "centro": [
+                -21.559515,
+                -64.593984
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Gran Chaco",
+          "centro": [
+            -21.670945,
+            -63.365086
+          ],
+          "municipios": [
+            {
+              "nombre": "Caraparí",
+              "centro": [
+                -21.815912,
+                -63.898919
+              ]
+            },
+            {
+              "nombre": "Villa Montes",
+              "centro": [
+                -21.400892,
+                -62.91182
+              ]
+            },
+            {
+              "nombre": "Yacuiba",
+              "centro": [
+                -21.79603,
+                -63.28452
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Méndez",
+          "centro": [
+            -21.256292,
+            -64.872327
+          ],
+          "municipios": [
+            {
+              "nombre": "El Puente",
+              "centro": [
+                -21.278442,
+                -65.049397
+              ]
+            },
+            {
+              "nombre": "San Lorenzo",
+              "centro": [
+                -21.234141,
+                -64.695257
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "O' Connor",
+          "centro": [
+            -21.397979,
+            -64.065909
+          ],
+          "municipios": [
+            {
+              "nombre": "Entre Ríos",
+              "centro": [
+                -21.397979,
+                -64.065909
+              ]
+            }
+          ]
+        }
+      ],
+      "centro": [
+        -21.71119,
+        -64.293652
+      ]
+    }
+  ]
+}

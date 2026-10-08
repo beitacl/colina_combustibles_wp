@@ -1,0 +1,242 @@
+/**
+ * Colina Cotizaciones — Admin Styles
+ *
+ * Styles for the Cotizaciones CPT list table and meta boxes.
+ *
+ * @package Colina_Cotizaciones
+ * @since   1.0.0
+ */
+
+/* ==========================================================================
+   Development Environment Banner (inside admin bar)
+   ========================================================================== */
+
+#wpadminbar #wp-admin-bar-cc-dev-banner .ab-item {
+	background: #fcf9e8 !important;
+	color: #856404 !important;
+	font-weight: 600;
+	padding: 0 12px;
+}
+
+#wpadminbar #wp-admin-bar-cc-dev-banner .ab-item:hover {
+	background: #f5ecc8 !important;
+	color: #856404 !important;
+}
+
+#wpadminbar #wp-admin-bar-cc-dev-banner .dashicons-warning {
+	font-family: dashicons;
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+	margin-right: 4px;
+	color: #856404;
+}
+
+/* ==========================================================================
+   CPT List Table
+   ========================================================================== */
+
+.column-ticket_number {
+	width: 120px;
+}
+
+.column-ticket_number strong {
+	font-size: 13px;
+	color: #1d2327;
+}
+
+.column-status {
+	width: 120px;
+}
+
+.cc-status {
+	display: inline-block;
+	padding: 3px 10px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	line-height: 1.6;
+}
+
+.cc-status--pending {
+	background: #fff8e5;
+	color: #856404;
+	border: 1px solid #ffc107;
+}
+
+.cc-status--approved {
+	background: #e8f5e9;
+	color: #2e7d32;
+	border: 1px solid #4caf50;
+}
+
+.cc-status--rejected {
+	background: #fbe9e7;
+	color: #c62828;
+	border: 1px solid #ef5350;
+}
+
+.cc-status--completed {
+	background: #e3f2fd;
+	color: #1565c0;
+	border: 1px solid #42a5f5;
+}
+
+.column-location {
+	width: 180px;
+}
+
+.column-location a {
+	color: #0073aa;
+	text-decoration: none;
+}
+
+.column-location a:hover {
+	color: #00a0d2;
+	text-decoration: underline;
+}
+
+
+.cc-metabox-wrap {
+	padding: 6px 0;
+}
+
+.cc-ticket-panel {
+	margin: 16px 0 24px;
+	padding: 16px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+
+.cc-ticket-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px 16px;
+	background: #f0f6fc;
+	border: 1px solid #c3d9e8;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.cc-ticket-number .cc-label {
+	font-size: 13px;
+	color: #555;
+}
+
+.cc-ticket-number .cc-value {
+	font-size: 18px;
+	color: #1d2327;
+	margin-left: 6px;
+}
+
+.cc-ticket-status label {
+	font-size: 13px;
+	color: #555;
+	margin-right: 8px;
+	font-weight: 600;
+}
+
+.cc-ticket-status select {
+	vertical-align: middle;
+}
+
+.cc-location-section {
+	padding: 12px 16px;
+	background: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.cc-location-section h3 {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font-size: 14px;
+	color: #1d2327;
+}
+
+.cc-coordinates {
+	font-size: 13px;
+	color: #555;
+	margin: 0 0 10px;
+}
+
+.cc-coordinates strong {
+	color: #1d2327;
+}
+
+.cc-location-section .button .dashicons {
+	margin-top: 3px;
+	margin-right: 4px;
+}
+
+.cc-form-fields-section h3 {
+	font-size: 14px;
+	color: #1d2327;
+	margin: 0 0 12px;
+	padding: 0;
+}
+
+.cc-form-table {
+	margin-top: 0;
+	border-collapse: collapse;
+}
+
+.cc-form-table th {
+	font-weight: 600;
+	background: #f6f7f7;
+	padding: 8px 12px;
+}
+
+.cc-form-table td {
+	padding: 8px 12px;
+	vertical-align: top;
+}
+
+.cc-form-table .cc-field-label {
+	width: 30%;
+	font-weight: 500;
+	color: #1d2327;
+}
+
+.cc-form-table .cc-field-value {
+	width: 70%;
+	color: #50575e;
+	word-break: break-word;
+}
+
+.cc-field-value--empty {
+	color: #b32d2e;
+	font-style: italic;
+}
+
+.cc-form-table--empty .cc-field-label {
+	width: 30%;
+}
+
+@media screen and (max-width: 782px) {
+	.cc-ticket-header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+
+	.cc-form-table .cc-field-label {
+		width: 40%;
+	}
+
+	.cc-form-table .cc-field-value {
+		width: 60%;
+	}
+}
+
+#cc-status-select {
+	min-width: 140px;
+}

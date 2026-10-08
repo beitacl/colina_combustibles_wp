@@ -1,0 +1,413 @@
+.fti-header-3-action {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.main-navigation .navbar-nav li .dropdown-menu {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+
+.fti-header-3-wrap .header-left .has-menu-3 .main-navigation .navbar-nav li .dropdown-menu li:hover > a {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.main-navigation .navbar-nav li .dropdown-menu li a::after {
+    left: auto;
+    right: 0;
+}
+
+.main-navigation .navbar-nav li:is(.dropdown) > a::before {
+    right: auto;
+    left: 0;
+}
+
+.fti-header-3-wrap .header-left .has-menu-3 .main-navigation .navbar-nav li:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.fti-header-3-wrap .header-left .has-menu-3 .main-navigation .navbar-nav li:is(.dropdown) > a {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.fti-header-3-wrap .header-left .has-menu-3 .main-navigation .navbar-nav li:is(.dropdown) > a {}
+
+.fti-hero-3-wrap {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+.fti-hero-3-action {
+    left: auto;
+    right: 0;
+}
+
+.fti-hero-3-navigation-btn {
+    right: auto;
+    left: 85px;
+}
+
+.fti-company-3-area::before {
+    left: auto;
+    right: 140px;
+}
+
+.fti-company-3-area::after {
+    left: auto;
+    right: 140px;
+}
+
+
+.fti-company-3-area .fti_company_3_active {
+    margin-left: 0;
+    margin-right: 90px;
+}
+
+.fti-company-3-pagination-btn {
+    left: auto;
+    right: -20px;
+}
+
+.fti-company-3-area:is(.active)::before {
+    clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%)
+}
+
+.fti-company-3-area:is(.active)::after {
+    clip-path: polygon(40% 0, 100% 0, 60% 100%, 0 100%);
+}
+
+.fti-services-3-item .services-3-btn:hover .btn-text {
+    transform: translateX(35px);
+}
+
+.fti-services-3-item .services-3-btn:hover .btn-icon-2 {
+    transform: translateX(35px);
+}
+
+.fti-team-3-item .team-item-right .team-set-percent .progress span {
+    right: auto;
+    left: 0;
+}
+.fti-contact-3-form select,
+.fti-contact-3-form textarea,
+.fti-contact-3-form input {
+    text-align: right;
+}
+
+.fti-contact-3-form form .option-selector {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.fti-contact-3-form form .nice-select::before {
+    right: auto;
+    left: 12px;
+}
+
+.fti-contact-3-form form .nice-select::after {
+    right: auto;
+    left: 24px;
+}
+
+.fti-question-3-left .circle-reel {
+    left: auto;
+    right: -55px;
+}
+
+.fti-blog-3-area:is(.active)::before {
+    clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%);
+    left: auto;
+    right: -111px;
+}
+
+.fti-blog-3-area:is(.active)::after {
+    clip-path: polygon(40% 0, 100% 0, 60% 100%, 0 100%);
+    left: auto;
+    right: -98px;
+}
+.fti-header-4-wrap .header-left .has-menu-4 .main-navigation .navbar-nav li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.fti-feature-4-bg-1 {
+    left: auto;
+    right: 0;
+}
+
+.fti-feature-4-bg-2 {
+    right: auto;
+    left: 0;
+}
+
+.fti-about-4-right.tx-listItems.m-0 {
+    text-align: right !important;
+}
+
+.fti-about-4-right .content ul li i {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.fti-about-4-left .img-3 {
+    right: auto;
+    left: 0;
+}
+
+.fti-testimonial-4-slider {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.fti-testimonial-4-navigation-wrap {
+    right: auto;
+    left: 0;
+}
+
+.fti-cta-4-wrap .main-img {
+    left: 0;
+    right: auto;
+}
+
+.fti-footer-4-action.tx-listItems {
+    text-align: right !important;
+}
+
+.fti-footer-4-item.tx-listItems {
+    text-align: right !important;
+}
+.main-navigation .navbar-nav li:is(.dropdown) > a {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.main-navigation .navbar-nav li .dropdown-menu li .dropdown-menu {
+    left: auto;
+    right: calc(100% + 20px);
+}
+.fti-header-4-wrap .header-left .has-menu-4 .main-navigation .navbar-nav li .dropdown-menu li {
+    margin-left: 0;
+}
+.fti-header-5-top .info .item .icon, .fti-header-5-top .info .action .icon {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.fti-header-5-top .info .item::after {
+    right: auto;
+    left: -25px;
+}
+
+.fti-header-5-wrap .header-left .has-menu-5 .main-navigation .navbar-nav li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.fti-header-5-action {
+    margin-right: 0;
+    margin-left: 68px;
+}
+
+.fti-footer-3-wrap .footer-item-wrap .footer-item:not(:first-child) {
+    margin-left: 0;
+    margin-right: 45px;
+}
+
+.fti-footer-3-wrap .footer-item-wrap .footer-item:not(:last-child)::after {
+    right: auto;
+    left: 0;
+}
+.fti-header-1-wrap {
+    margin-left: -50px;
+    margin-right: 50px;
+}
+
+.fti-header-1-navigation-bar .btn-wrap {
+    transform: translateX(-93px);
+}
+
+.main-navigation .navbar-nav li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.fti-hero-1-pagination-slider-btn {
+    left: 484px;
+    right: auto;
+}
+
+.fti-hero-1-content {
+    left: auto;
+    right: 0;
+}
+
+.fti-hero-1-work {
+    right: auto;
+    left: 80px;
+}
+
+.fti-pricing-1-card .card-top .card-title-wrap {
+    padding: 30px 35px 30px 0px;
+}
+
+.fti-pricing-1-card .card-top .img-wrap img {
+    border-radius: 18px 0px 0px 0px;
+}
+
+.fti-choose-1-right .choose-progress .choose-set-percent .progress span {
+    right: auto;
+    left: 0;
+}
+
+.fti-choose-1-right .img-wrap-2 {
+    right: auto;
+    left: -39px;
+}
+
+.fti-choose-1-right .choose-progress {
+    right: auto;
+    left: 0;
+}
+
+.fti-cta-1-wrap .cta-img-wrapper {
+    right: auto;
+    left: 71px;
+}
+
+.fti-cta-1-wrap {
+    padding: 52px 72px 53px 0px;
+}
+
+.fti-project-1-bg-wrap {
+    right: auto;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.fti-project-1-shape-wrap {
+    left: auto;
+    right: 0;
+}
+
+.fti-project-1-shape-wrap .shape-1 {
+    transform: translateX(40px);
+}
+
+.fti-project-1-shape-wrap .shape-2 {
+    transform: translate(63px, 17px);
+}
+
+.fti-project-1-slider-control {
+    left: auto;
+    right: 310px;
+}
+
+.fti-footer-1-top .footer-top-item:last-child {
+    padding-left: 0;
+    padding-right: 52px;
+}
+
+.fti-footer-1-top .footer-top-item:not(:last-child) {
+    padding-right: 0;
+    padding-left: 52px;
+}
+
+.fti-footer-1-menu-content .menu-wrap {
+    text-align: right;
+}
+.fti-hero-2-pagination-btn {
+    right: auto;
+    left: 110px;
+}
+
+.fti-header-2-wrap::before {
+    right: auto;
+    left: 0;
+}
+
+.fti-header-2-wrap::after {
+    left: auto;
+    right: 0;
+    clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 19% 100%);
+    border-radius: 0px 0px 30px 0px;
+}
+
+.fti-btn-pr-3 {
+    padding: 20px 35px 20px 0px;
+}
+
+.fti-btn-pr-3:is(.fti-header-2-btn)::before {
+    left: auto;
+    right: 0;
+}
+
+.fti-btn-pr-3::after {
+    left: auto;
+    right: 0;
+}
+
+
+.fti-about-2-wrap .about-2-right .choose-progress .choose-set-percent .progress span {
+    right: auto;
+    left: 0;
+}
+
+.fti-about-2-wrap .about-2-left .exper .list {
+    border-radius: 100px 10px 10px 100px;
+}
+
+.fti-services-2-navigation {
+    right: auto;
+    left: 345px;
+}
+
+.fti-services-2-area {
+    padding: 100px 345px 0px 0px;
+}
+
+.fti-services-2-area .highligt-text {
+    left: auto;
+    right: -170px;
+}
+
+.fti-services-2-area::after {
+    left: auto;
+    right: 0;
+    border-radius: 500px 0px 0px 500px;
+}
+
+.fti-process-2-wrap .process-bg {
+    transform: scaleX(-1);
+}
+
+.fti-blog-2-card .content .blog-meta .blog-card-btn {
+    right: auto;
+    left: -25px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.fti-hero-2-marquee {
+    direction: ltr;
+}
+.fti-hero-2-item .main-shape {
+    transform: translate(1000px, 800px) scale(-1, 1);
+}
+
+.fti-hero-2-slider .swiper-container .swiper-wrapper .swiper-slide:is(.swiper-slide-active) .fti-hero-2-item .main-shape {
+    transform: translateY(0) scale(-1, 1);
+}
+.tx-contactForm div, .tx-contactForm input {
+    text-align: right;
+}
+
+.tx-contactForm .textarea-form-wrap {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.textarea-form-wrap label.form-label {
+    margin-bottom: 0px;
+}

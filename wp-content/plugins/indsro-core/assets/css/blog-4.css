@@ -1,0 +1,130 @@
+
+.chy-blog-4-area .section-title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px 30px;
+    margin-bottom: 20px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-blog-4-area .section-title-wrap {
+      flex-wrap: wrap;
+      gap: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .chy-blog-4-area .section-title-wrap .chy-para-4 {
+    max-width: 540px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .chy-blog-4-area .section-title-wrap .chy-para-4 {
+      max-width: 350px;
+    }
+  }
+  .chy-blog-4-area .section-title-wrap .left {
+    max-width: 600px;
+  }
+  
+  .chy-blog-4-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .chy-blog-4-item .main-img {
+    width: 100%;
+    height: 490px;
+    overflow: hidden;
+    border-radius: 10px;
+    perspective: 70px;
+    perspective-origin: 50% 50%;
+  }
+  .chy-blog-4-item .main-img img {
+    transition: 500ms;
+  }
+  .chy-blog-4-item .content-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-blog-4-item .content-wrap {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .chy-blog-4-item .content-wrap .inner-div {
+    background: #fff;
+    border-radius: 0 10px 0 0;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .chy-blog-4-item .content-wrap .inner-div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #9255CE -2.17%, #BE60FF 100%);
+    z-index: -1;
+    transition: 400ms;
+    opacity: 0;
+  }
+  .chy-blog-4-item .subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    background: #5A1CCB;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 10px 10px 0 0;
+    transition: 400ms;
+  }
+  .chy-blog-4-item .title {
+    font-size: 24px;
+    line-height: 1.41;
+    margin-bottom: 18px;
+    transition: 300ms;
+  }
+  @media (max-width: 767px) {
+    .chy-blog-4-item .title {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .chy-blog-4-item .title {
+      font-size: 24px;
+    }
+  }
+  .chy-blog-4-item .author {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .chy-blog-4-item .author span {
+    color: #FF5266;
+  }
+  .chy-blog-4-item:hover .subtitle {
+    background: #FF7469;
+  }
+  .chy-blog-4-item:hover .main-img img {
+    transform: scaleX(1) scaleY(1) scaleZ(0.1) rotateX(8deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px) skewX(0deg) skewY(0deg);
+  }
+  .chy-blog-4-item:hover .content-wrap .inner-div::after {
+    opacity: 1;
+  }
+  .chy-blog-4-item:hover .title {
+    color: #fff;
+  }
+  .chy-blog-4-item:hover .author {
+    color: #fff;
+  }
+  .chy-blog-4-item:hover .author span {
+    color: #fff;
+  }

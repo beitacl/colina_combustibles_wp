@@ -1,0 +1,135 @@
+
+.chy-brand-logo-4-wrap {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 24.8% 1fr;
+  align-items: end;
+  gap: 19px;
+  margin-top: -194px;
+  position: relative;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .chy-brand-logo-4-wrap {
+    gap: 13px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-brand-logo-4-wrap {
+    gap: 9px;
+    margin-top: -174px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chy-brand-logo-4-wrap {
+    margin-top: 0px;
+    grid-template-columns: 0.8fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .chy-brand-logo-4-wrap {
+    margin-top: 0px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.chy-brand-logo-4-counter {
+  width: 100%;
+  background: linear-gradient(90deg, #9255CE -2.17%, #BE60FF 100%);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 30px 45px 30px 30px;
+  position: relative;
+  padding: 30px;
+  flex: 0 0 auto;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-brand-logo-4-counter {
+    padding: 20px;
+  }
+}
+.chy-brand-logo-4-counter .number {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+.chy-brand-logo-4-counter .disc {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 26px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-brand-logo-4-counter .disc {
+    font-size: 16px;
+  }
+}
+.chy-brand-logo-4-counter .il-img-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media only screen and (min-width: 1600px) and (max-width: 1799px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .chy-brand-logo-4-counter .il-img-1 {
+    display: none;
+  }
+}
+
+.chy-brand-logo-4-item {
+  background: linear-gradient(90deg, #70DBFF 0%, #DD98FF 100%);
+  border-radius: 0 0 35px 30px;
+  overflow: hidden;
+  padding: 40px 45px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-brand-logo-4-item {
+    border-radius: 0 0 5px 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .chy-brand-logo-4-item {
+    border-radius: 35px 35px 35px 35px;
+  }
+}
+.chy-brand-logo-4-item .item {
+  flex: 0 0 auto;
+}
+.chy-brand-logo-4-item .item img {
+  transition: 400ms ease-in-out;
+}
+.chy-brand-logo-4-item .item:hover img {
+  filter: brightness(0.1);
+}
+.chy-brand-logo-4-item .keyfram-slider {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  animation: keyfram-slider-1 30s infinite linear;
+}
+
+@keyframes keyfram-slider-1 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-105%);
+  }
+}
+@keyframes keyfram-slider-2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1900px) {
+  .chy-brand-logo-4-wrap {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

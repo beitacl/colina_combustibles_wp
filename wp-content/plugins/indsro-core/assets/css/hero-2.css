@@ -1,0 +1,290 @@
+
+.chy-hero-4-wrap {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .chy-hero-4-wrap .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    z-index: -1;
+  }
+  .chy-hero-4-wrap .bg-img img {
+    width: 100%;
+    height: 100%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-hero-4-wrap .bg-img img {
+      object-fit: cover;
+    }
+  }
+  .chy-hero-4-content-wrap {
+    padding-top: 170px;
+    padding-bottom: 150px;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .chy-hero-4-content-wrap {
+      padding-top: 225px;
+      padding-bottom: 110px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .chy-hero-4-content-wrap {
+      padding-top: 255px;
+      padding-bottom: 100px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-hero-4-content-wrap {
+      padding-top: 210px;
+      padding-bottom: 30px;
+    }
+  }
+  
+  .chy-hero-4-content {
+    margin-bottom: 175px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-hero-4-content {
+      margin-bottom: 50px;
+    }
+  }
+  .chy-hero-4-content .hero-title {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.21;
+    margin-bottom: 25px;
+  }
+  .chy-hero-4-content .hero-title span {
+    display: inline-block;
+    color: var(--chy-pr-5);
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .chy-hero-4-content .hero-title {
+      font-size: 60px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .chy-hero-4-content .hero-title {
+      font-size: 55px;
+    }
+  }
+  @media (max-width: 767px) {
+    .chy-hero-4-content .hero-title {
+      font-size: 35px;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .chy-hero-4-content .hero-title {
+      font-size: 50px;
+    }
+  }
+  .chy-hero-4-content .disc {
+    color: #515670;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  .chy-hero-4-content .btn-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 42px;
+  }
+  
+  .chy-hero-img {
+    position: relative;
+    text-align: right;
+  }
+  .chy-hero-img .il-img-1, .chy-hero-img .il-img-2, .chy-hero-img .il-img-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2000ms cubic-bezier(0.13, 0.37, 0.58, 1);
+    transition-delay: 1s;
+  }
+  .chy-hero-img .il-img-3 {
+    left: 70%;
+    top: 50%;
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-hero-img .il-img-3 {
+      display: none;
+    }
+  }
+  .chy-hero-img .il-img-2 {
+    top: 50%;
+    left: 70%;
+  }
+  .chy-hero-img .il-img-1 {
+    top: 50%;
+    left: 70%;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-hero-img .il-img-1 {
+      display: none;
+    }
+  }
+  .chy-hero-img .main-img {
+    overflow: hidden;
+  }
+  .chy-hero-img .main-img img {
+    transform: translateY(100%);
+    transition: 1000ms cubic-bezier(0.13, 0.37, 0.58, 1);
+    transition-delay: 1.5s;
+  }
+  .chy-hero-img:is(.active) .il-img-3 {
+    left: 100%;
+    top: 60%;
+    width: 200px;
+  }
+  .chy-hero-img:is(.active) .il-img-2 {
+    top: 86%;
+    left: 50%;
+  }
+  .chy-hero-img:is(.active) .il-img-1 {
+    top: 40%;
+    left: 23%;
+  }
+  .chy-hero-img:is(.active) .main-img img {
+    transform: translateY(0%);
+  }
+  
+  .chy-hero-4-social {
+    position: absolute;
+    top: 45%;
+    left: 4vw;
+    transform: translateY(-50%);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-hero-4-social {
+      display: none;
+    }
+  }
+  .chy-hero-4-social .text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 3.29px;
+    writing-mode: vertical-lr;
+    margin-left: 17px;
+    font-weight: 600;
+    padding-bottom: 76px;
+    margin-bottom: 30px;
+    position: relative;
+    background: var(--Linear, linear-gradient(90deg, #30067C -2.17%, #6441C1 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .chy-hero-4-social .text::after {
+    position: absolute;
+    width: 1px;
+    height: 45px;
+    background: linear-gradient(90deg, #5A1CCB -2.17%, #815EDC 100%);
+    content: "";
+    left: 7px;
+    bottom: 0;
+  }
+  .chy-hero-4-social li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .chy-hero-4-social li a {
+    display: inline-block;
+    background: linear-gradient(90deg, #70DBFF 0%, #DD98FF 100%);
+    clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    width: 52px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    transition: 400ms;
+  }
+  .chy-hero-4-social li a:hover {
+    color: #000;
+  }
+  
+  .chy-hero-4-scroll-btn-wrap {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 4vw;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  @media (max-width: 767px) {
+    .chy-hero-4-scroll-btn-wrap {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .chy-hero-4-scroll-btn-wrap {
+      display: block;
+    }
+  }
+  .chy-hero-4-scroll-btn-wrap .text {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #131835;
+    margin-left: 12px;
+    margin-bottom: 28px;
+  }
+  .chy-hero-4-scroll-btn-wrap .icon {
+    position: relative;
+    display: block;
+    width: 57px;
+    height: 57px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    background: linear-gradient(90deg, #5A1CCB -2.17%, #815EDC 100%);
+    border-radius: 50%;
+    color: #fff;
+    animation: colorChange 3s linear infinite;
+    filter: drop-shadow(0px 13px 69px rgba(84, 104, 133, 0.09));
+  }
+  .chy-hero-4-scroll-btn-wrap .icon::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #774ED8;
+    scale: 1.3;
+    animation: scroll-btn-4 5s infinite ease-in-out;
+  }
+  
+  @keyframes scroll-btn-4 {
+    0% {
+      scale: 0.8;
+      opacity: 0;
+    }
+    50% {
+      scale: 1.3;
+      opacity: 1;
+    }
+    100% {
+      scale: 0.8;
+      opacity: 0;
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 1900px) {
+    .chy-hero-4-wrap .bg-img {
+      padding: 30px 10px;
+    }
+  }

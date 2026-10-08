@@ -1,0 +1,25 @@
+[Oct 8 14:32:00] 
+[Oct 8 14:32:00] ==DUPLICATOR INSTALLER BOOTSTRAP v5.0.4==
+[Oct 8 14:32:00] ----------------------------------------------------
+[Oct 8 14:32:00] Installer bootstrap start
+[Oct 8 14:32:00] Target dir dup folder "/var/www/html/colina_combustibles/dup-installer"
+[Oct 8 14:32:00] Manual extract found so not going to extract /var/www/html/colina_combustibles/dup-installer dir
+[Oct 8 14:32:00] EXTRACT /var/www/html/colina_combustibles/dup-installer dir
+[Oct 8 14:32:00] NOTICE: Didn't need to extract the installer.
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/addons<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/api<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/assets<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/classes<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/ctrls<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/dup_descriptors_[HASH]<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/favicon<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/libs<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/src<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/templates<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/vendor<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/vendor-prefixed<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/dup-installer-log__[HASH].txt<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/index.php<br/>
+[Oct 8 14:32:00] Set permissions of /var/www/html/colina_combustibles/dup-installer/main.installer.php<br/>
+[Oct 8 14:32:00] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://172.21.11.67/colina_combustibles/dup-installer/main.installer.php

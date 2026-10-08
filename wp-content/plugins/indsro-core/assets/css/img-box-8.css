@@ -1,0 +1,82 @@
+
+.chy-about-4-img {
+    position: relative;
+    padding: 30px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .chy-about-4-img {
+      margin-bottom: 20px;
+    }
+  }
+  .chy-about-4-img .bg-color {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
+.chy-solution-4-img {
+  padding: 27px;
+  padding-left: 5px;
+  position: relative;
+}
+.chy-solution-4-img .bg-color {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 95%;
+  height: 90%;
+  z-index: -1;
+  border-radius: 0px 0px 0px 200px;
+}
+.chy-solution-4-img .il-img {
+  position: absolute;
+  bottom: 0;
+  left: -170px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .chy-solution-4-img .il-img {
+    left: -70px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-solution-4-img .il-img {
+    left: -30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chy-solution-4-img .il-img {
+    left: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .chy-solution-4-img .il-img {
+    left: 0px;
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-solution-4-img .il-img {
+    left: 0;
+    display: block;
+  }
+}
+.chy-solution-4-img .main-img {
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+  border-radius: 0px 0px 0px 200px;
+}
+@media (max-width: 767px) {
+  .chy-solution-4-img .main-img {
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-solution-4-img .main-img {
+    height: 470px;
+  }
+}

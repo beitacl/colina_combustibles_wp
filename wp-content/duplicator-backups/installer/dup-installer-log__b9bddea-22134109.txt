@@ -1,0 +1,912 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 02:32:00
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |Linux
+PHP VERSION_________: 8.2.12                                |8.2.34
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.34 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.52 (Ubuntu)
+DOC ROOT____________: "/var/www/html/colina_combustibles"
+REQUEST URL_________: "http://172.21.11.67/colina_combustibles"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+INSTALL MODES_______: CLASSIC
+ADDONS______________: LiteBase
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/var/www/html/colina_combustibles"
+URL_NEW_____________: "http://172.21.11.67/colina_combustibles"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/var/www/html/colina_combustibles/20260922_colinacombustibles_[HASH]_20260922134109_archive.daf"
+ARCHIVE SIZE________: 146.17MB
+CREATED_____________: 2026-09-22 13:41:09
+WP VERSION__________: 6.9
+DUP VERSION_________: 5.0.4
+LICENSE_____________: Free version
+PACKAGE COMPONENTS__: Database, Core, Plugins, Themes, Media, Other
+DB VERSION__________: 10.4.32
+DB FILE SIZE________: 13.17MB
+DB TABLES___________: 37
+DB ROWS_____________: 10779
+URL HOME____________: http://localhost/colina_webpage
+URL CORE____________: http://localhost/colina_webpage
+URL CONTENT_________: http://localhost/colina_webpage/wp-content
+URL UPLOAD__________: http://localhost/colina_webpage/wp-content/uploads
+URL PLUGINS_________: http://localhost/colina_webpage/wp-content/plugins
+URL MU PLUGINS______: http://localhost/colina_webpage/wp-content/mu-plugins
+URL THEMES__________: http://localhost/colina_webpage/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/colina_webpage
+PATH ABS____________: C:/xampp/htdocs/colina_webpage
+PATH WPCONFIG_______: C:/xampp/htdocs/colina_webpage
+PATH WPCONTENT______: C:/xampp/htdocs/colina_webpage/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/colina_webpage/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/colina_webpage/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/colina_webpage/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/colina_webpage/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/colina_webpage/"
+
+PLUGINS
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:true ]  Advanced Custom Fields
+PLUGIN [SLUG:all-in-one-wp-migration/all-in-one-wp-migration.php][ON:true ]  All-in-One WP Migration and Backup
+PLUGIN [SLUG:better-search-replace/better-search-replace.php   ][ON:true ]  Better Search Replace
+PLUGIN [SLUG:colina-cotizaciones/colina-cotizaciones.php       ][ON:true ]  Colina Cotizaciones
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:file-manager-advanced/file_manager_advanced.php   ][ON:true ]  File Manager Advanced
+PLUGIN [SLUG:font-awesome/index.php                            ][ON:true ]  Font Awesome
+PLUGIN [SLUG:indsro-core/indsro-core.php                       ][ON:true ]  Indsro Core
+PLUGIN [SLUG:creame-whatsapp-me/joinchat.php                   ][ON:true ]  Joinchat
+PLUGIN [SLUG:wpcf7-recaptcha/wpcf7-recaptcha.php               ][ON:true ]  ReCaptcha v2 for Contact Form 7
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:true ]  WP Mail SMTP
+
+********************************************************************************
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/ctrls/ctrl.base.php:189][DELTA:   0.05499]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/ctrls/ctrl.base.php:189][DELTA:   0.01652]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: good
+
+START TEST "Disaster Recovery" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Disaster Recovery" RESULT: skip
+
+START TEST "Partial Backup Check" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00077]  MESSAGE:TEST "Partial Backup Check" RESULT: passed
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Staging Sites" [CLASS: DUPX_Validation_test_staging_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/html/colina_combustibles"
+--------------------------------------
+LOG-TIME[DELTA:   0.01087]  MESSAGE:TEST "Staging Sites" RESULT: passed
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00049]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00086]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.02473]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Extract only files" [CLASS: DUPX_Validation_test_db_excluded]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Extract only files" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00349]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00285]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tables_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.15725]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00543]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00685]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00299]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [dbgunzip] START
+DB GUNZIP DONE: 20260922134109-dump.sql
+DB GUNZIP COMPLETE - RUNTIME: 0.0590 sec.
+AJAX ACTION [dbgunzip] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/var/www/html/colina_combustibles"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:43:40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Colina Combustibles"
+HOME URL NEW________: "http://172.21.11.67/colina_combustibles"
+SITE URL NEW________: "http://172.21.11.67/colina_combustibles"
+CONTENT URL NEW_____: "http://172.21.11.67/colina_combustibles/wp-content"
+UPLOAD URL NEW______: "http://172.21.11.67/colina_combustibles/wp-content/uploads"
+PLUGINS URL NEW_____: "http://172.21.11.67/colina_combustibles/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://172.21.11.67/colina_combustibles/wp-content/mu-plugins"
+HOME PATH NEW_______: "/var/www/html/colina_combustibles"
+SITE PATH NEW_______: "/var/www/html/colina_combustibles"
+CONTENT PATH NEW____: "/var/www/html/colina_combustibles/wp-content"
+UPLOAD PATH NEW_____: "/var/www/html/colina_combustibles/wp-content/uploads"
+PLUGINS PATH NEW____: "/var/www/html/colina_combustibles/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/var/www/html/colina_combustibles/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/var/www/html/colina_combustibles/dup-installer"
+	FILE: "/var/www/html/colina_combustibles/20260922_colinacombustibles_[HASH]_20260922134109_installer-backup.php"
+	FILE: "/var/www/html/colina_combustibles/20260922_colinacombustibles_[HASH]_20260922134109_archive.daf"
+	FILE: "/var/www/html/colina_combustibles/20260922_colinacombustibles_[HASH]_20260922134109_installer.php"
+	FILE: "/var/www/html/colina_combustibles/dup-installer-bootlog__b9bddea-22134109.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20260922_colinacombustibles_[HASH]_20260922134109_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+REMOVE DONOTHING FILES
+LOG-TIME RESET TIME
+REMOVE FILES
+LOG-TIME[DELTA:   0.00016]  MESSAGE:FOLDERS REMOVED
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 35
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 02:43:44 - RUNTIME: 3.9669 sec. - Files processed: 34,738 of 34,738
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR INSTALL-LOG
+* STEP-2 START @ 02:43:44
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+SQL FILES___________: 1 (4.18MB)
+	1)20260922134109-dump.sql (4.18MB)
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     440] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:    1313] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_commentmeta"__________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_activity_logs"_____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_activity_logs]
+TABLE "wp_duplicator_backups"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_backups]
+TABLE "wp_duplicator_entities"__________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_entities]
+TABLE "wp_e_events"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_notes"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_notes]
+TABLE "wp_e_notes_users_relations"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_notes_users_relations]
+TABLE "wp_e_submissions"________________________________[ROWS:     165] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:      79] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:    2892] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_litespeed_url"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url_file]
+TABLE "wp_options"______________________________________[ROWS:     733] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    3840] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     394] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:      40] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      28] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      35] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wpc_accesslocks"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpc_accesslocks]
+TABLE "wp_wpc_login_fails"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpc_login_fails]
+TABLE "wp_wpforms_analytics_forms"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_analytics_forms]
+TABLE "wp_wpforms_analytics_snapshots"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_analytics_snapshots]
+TABLE "wp_wpforms_logs"_________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_logs]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payments]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payment_meta]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_tasks_meta]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpmailsmtp_debug_events]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpmailsmtp_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.46 -- Build Server: 10.4.32
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`colina_user`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+PROCESSING SQL FILE 20260922134109-dump.sql (1 of 1)
+OFFSET 0 OF 4384124
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+ALL SQL FILES PROCESSED
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	85
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:   440]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     1]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     9]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:  1313]
+TABLE "wp_commentmeta"__________________________________[ROWS:     1]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_activity_logs"_____________________[ROWS:     4]
+TABLE "wp_duplicator_backups"___________________________[ROWS:     1]
+TABLE "wp_duplicator_entities"__________________________[ROWS:     9]
+TABLE "wp_e_events"_____________________________________[ROWS:     0]
+TABLE "wp_e_notes"______________________________________[ROWS:     0]
+TABLE "wp_e_notes_users_relations"______________________[ROWS:     0]
+TABLE "wp_e_submissions"________________________________[ROWS:   165]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:    79]
+TABLE "wp_e_submissions_values"_________________________[ROWS:  2892]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_litespeed_url"________________________________[ROWS:     0]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   733]
+TABLE "wp_postmeta"_____________________________________[ROWS:  3840]
+TABLE "wp_posts"________________________________________[ROWS:   394]
+TABLE "wp_term_relationships"___________________________[ROWS:    28]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     6]
+TABLE "wp_termmeta"_____________________________________[ROWS:    40]
+TABLE "wp_terms"________________________________________[ROWS:     6]
+TABLE "wp_usermeta"_____________________________________[ROWS:    35]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wpc_accesslocks"______________________________[ROWS:     0]
+TABLE "wp_wpc_login_fails"______________________________[ROWS:     0]
+TABLE "wp_wpforms_analytics_forms"______________________[ROWS:     0]
+TABLE "wp_wpforms_analytics_snapshots"__________________[ROWS:     0]
+TABLE "wp_wpforms_logs"_________________________________[ROWS:     3]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:     0]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:     0]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:     5]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:     0]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 2.8097 sec.
+STEP-2 COMPLETE @ 02:43:47 - RUNTIME: 2.8097 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/colina_webpage REPLACE: /var/www/html/colina_combustibles [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/colina_webpage REPLACE: http://172.21.11.67/colina_combustibles [SCOPE: ALL]
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP-3 START @ 02:43:47
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = 1], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = 1], [inWpConfig = 1]
+WP_DEBUG_DISPLAY______: [value = ], [inWpConfig = 1]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = 1], [inWpConfig = 1]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 1024M], [inWpConfig = 1]
+WP_MAX_MEMORY_LIMIT___: [value = 1024M], [inWpConfig = 1]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000000
+throttling____________: 2000
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "dupli_opt_plugin_data_stats"
+	`option_name` = "dupli_opt_unique_id"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("dupli_opt_ui_view_state","dupli_opt_settings")
+DATABASE OPTIONS DELETED [ROWS:   177]
+DATABASE ACTIVITY LOGS DELETED [ROWS:     4]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   440][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:  1313][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][1]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_commentmeta][0]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_activity_logs"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_backups"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_entities"__________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_entities][0]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_notes"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_notes_users_relations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:   165][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions][0]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:    79][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_actions_log][0]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:  2892][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][2]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url_file"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   556][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3840][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   394][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    28][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wpc_accesslocks"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpc_login_fails"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_analytics_forms"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_analytics_snapshots"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_logs"_________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_logs][0]
+
+EVALUATE TABLE: "wp_wpforms_payments"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_payment_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/colina_webpage" ==================> "/var/www/html/colina_combustibles"
+	SEARCH[urlnd]  2:"http://localhost/colina_webpage" =================> "http://172.21.11.67/colina_combustibles"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_wpmailsmtp_debug_events"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:37 	|	 Rows:9795 	|	 Cells:55909 
+UPDATED:	Tables:4 	|	 Rows:379 	|	 Cells:406 
+ERRORS:		0 
+RUNTIME:	3.354300 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/var/www/html/colina_combustibles/wp-config.php
+New .htaccess file created:/var/www/html/colina_combustibles/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "__DIR__ . '/'"
+	UPDATE WP_HOME "http://172.21.11.67/colina_combustibles"
+	UPDATE WP_SITEURL "http://172.21.11.67/colina_combustibles"
+	UPDATE DB_NAME ""colina_combustibles""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "true"
+	WP CONFIG UPDATE WP_DEBUG_LOG "true"
+	WP CONFIG UPDATE WP_DEBUG_DISPLAY "false"
+	WP CONFIG UPDATE DISABLE_WP_CRON "true"
+	WP CONFIG UPDATE WP_MEMORY_LIMIT "1024M"
+	WP CONFIG UPDATE WP_MAX_MEMORY_LIMIT "1024M"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "__DIR__ . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+UPDATE OPTION home ON TABLE wp_options
+UPDATE OPTION siteurl ON TABLE wp_options
+UPDATE OPTION dupli_opt_exe_safe_mode ON TABLE wp_options
+
+====================================
+MANAGE PLUGINS
+====================================
+Active plugins: Array
+(
+    [0] => advanced-custom-fields/acf.php
+    [1] => all-in-one-wp-migration/all-in-one-wp-migration.php
+    [2] => better-search-replace/better-search-replace.php
+    [3] => colina-cotizaciones/colina-cotizaciones.php
+    [4] => contact-form-7/wp-contact-form-7.php
+    [5] => elementor/elementor.php
+    [6] => elementor-pro/elementor-pro.php
+    [7] => file-manager-advanced/file_manager_advanced.php
+    [8] => font-awesome/index.php
+    [9] => indsro-core/indsro-core.php
+    [10] => creame-whatsapp-me/joinchat.php
+    [11] => wpcf7-recaptcha/wpcf7-recaptcha.php
+    [12] => wpforms-lite/wpforms.php
+    [13] => wp-mail-smtp/wp_mail_smtp.php
+    [14] => duplicator/duplicator.php
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 1 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/var/www/html/colina_combustibles"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:43:50 - RUNTIME: 3.5822 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/var/www/html/colina_combustibles/dup-installer/ctrls/ctrl.base.php:189][DELTA:   0.95768]  MESSAGE:END RENDER PAGE

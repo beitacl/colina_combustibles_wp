@@ -1,0 +1,266 @@
+
+.chy-services-5-area {
+  background: rgba(200, 174, 255, 0.12);
+}
+.chy-services-5-area .s5-all-btn {
+  font-size: 20px;
+  font-weight: 500;
+  color: #252A4E;
+  line-height: 30px;
+}
+.main-btn-5.s5-all-btn a {
+  color: var(--chy-pr-5);
+}
+
+.chy-services-5-item-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chy-services-5-item-wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .chy-services-5-item-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-services-5-item-wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.chy-services-5-item {
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  transition: 400ms ease-in-out;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .chy-services-5-item {
+    border: 1px solid rgba(200, 174, 255, 0.5);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-services-5-item {
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .chy-services-5-item {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-services-5-item {
+    padding: 30px 15px;
+  }
+}
+.chy-services-5-item:nth-child(1) {
+  border-right: 1px solid rgba(200, 174, 255, 0.5);
+  border-bottom: 1px solid rgba(200, 174, 255, 0.5);
+}
+.chy-services-5-item:nth-child(1) .icon::before {
+  background: rgba(210, 149, 255, 0.7);
+}
+.chy-services-5-item:nth-child(2) {
+  border-right: 1px solid rgba(200, 174, 255, 0.5);
+  border-bottom: 1px solid rgba(200, 174, 255, 0.5);
+}
+.chy-services-5-item:nth-child(2)::after {
+  background: linear-gradient(90deg, #FF7469 -2.17%, #FFB06D 100%);
+}
+.chy-services-5-item:nth-child(2) .icon {
+  color: #FF7469;
+}
+.chy-services-5-item:nth-child(2) .icon::after {
+  background: linear-gradient(90deg, #FF7469 -2.17%, #FFB06D 100%);
+}
+.chy-services-5-item:nth-child(2) .icon::before {
+  background: #FFCEC4;
+}
+.chy-services-5-item:nth-child(3) {
+  border-bottom: 1px solid rgba(200, 174, 255, 0.5);
+}
+.chy-services-5-item:nth-child(3)::after {
+  background: linear-gradient(90deg, #34AACF -2.17%, #30D8DF 100%);
+}
+.chy-services-5-item:nth-child(3) .icon {
+  color: #34AACF;
+}
+.chy-services-5-item:nth-child(3) .icon::after {
+  background: linear-gradient(90deg, #34AACF -2.17%, #30D8DF 100%);
+}
+.chy-services-5-item:nth-child(3) .icon::before {
+  background: #0b97a3;
+}
+.chy-services-5-item:nth-child(4) {
+  border-right: 1px solid rgba(200, 174, 255, 0.5);
+}
+.chy-services-5-item:nth-child(4)::after {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+}
+.chy-services-5-item:nth-child(4) .icon {
+  color: #FFA835;
+}
+.chy-services-5-item:nth-child(4) .icon::after {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+}
+.chy-services-5-item:nth-child(4) .icon::before {
+  background: #ce4b82;
+}
+.chy-services-5-item:nth-child(5) {
+  border-right: 1px solid rgba(200, 174, 255, 0.5);
+}
+.chy-services-5-item:nth-child(5)::after {
+  background: linear-gradient(85deg, #0050FF -0.78%, #00E9CC 97.77%);
+}
+.chy-services-5-item:nth-child(5) .icon {
+  color: #0050FF;
+}
+.chy-services-5-item:nth-child(5) .icon::after {
+  background: linear-gradient(85deg, #0050FF -0.78%, #00E9CC 97.77%);
+}
+.chy-services-5-item:nth-child(5) .icon::before {
+  background: #009FE5;
+}
+.chy-services-5-item:nth-child(6)::after {
+  background: linear-gradient(90deg, #5A1CCB -2.17%, #815EDC 100%);
+}
+.chy-services-5-item:nth-child(6) .icon {
+  color: #5A1CCB;
+}
+.chy-services-5-item:nth-child(6) .icon::after {
+  background: linear-gradient(90deg, #5A1CCB -2.17%, #815EDC 100%);
+}
+.chy-services-5-item:nth-child(6) .icon::before {
+  background: #805DDC;
+}
+.chy-services-5-item::after {
+  content: "";
+  width: 10%;
+  height: 10%;
+  background: var(--chy-gd-2);
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  border-radius: 50%;
+  transition: 400ms ease-in-out;
+  z-index: -1;
+}
+.chy-services-5-item .icon {
+  width: 82px;
+  height: 82px;
+  background: #F4F0FF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 45px;
+  line-height: 92px;
+  position: relative;
+  color: var(--chy-pr-5);
+  margin-bottom: 28px;
+  transition: 400ms ease-in-out;
+}
+.chy-services-5-item .icon i {
+  position: relative;
+  z-index: 2;
+}
+.chy-services-5-item .icon::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--chy-gd-2);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  z-index: -1;
+  transition: 400ms ease-in-out;
+}
+.chy-services-5-item .icon::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  z-index: 1;
+  transition: 400ms ease-in-out;
+  opacity: 0;
+}
+.chy-services-5-item .title {
+  font-size: 26px;
+  line-height: 1.38;
+  font-weight: 800;
+  margin-bottom: 15px;
+  transition: 400ms ease-in-out;
+}
+@media (max-width: 767px) {
+  .chy-services-5-item .title {
+    font-size: 22px;
+  }
+}
+.chy-services-5-item .disc-wrap {
+  overflow: hidden;
+  height: 120px;
+}
+.chy-services-5-item .disc {
+  margin-bottom: 16px;
+  height: 100%;
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+}
+.chy-services-5-item .s5-btn {
+  display: block;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 30px;
+  opacity: 0;
+  transition: 400ms ease-in-out;
+  margin-bottom: -40px;
+}
+.chy-services-5-item .s5-btn i {
+  margin-left: 5px;
+}
+.chy-services-5-item .s5-btn:hover {
+  color: #000;
+}
+.chy-services-5-item:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.1607843137);
+}
+.chy-services-5-item:hover::after {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+}
+.chy-services-5-item:hover .title {
+  color: #fff;
+}
+.chy-services-5-item:hover .disc {
+  height: 90px;
+  color: #fff;
+}
+.chy-services-5-item:hover .icon {
+  color: #fff;
+  background: transparent;
+}
+.chy-services-5-item:hover .icon::after {
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.chy-services-5-item:hover .icon::before {
+  opacity: 1;
+}
+.chy-services-5-item:hover .s5-btn {
+  opacity: 1;
+  transform: translateY(-20px);
+}

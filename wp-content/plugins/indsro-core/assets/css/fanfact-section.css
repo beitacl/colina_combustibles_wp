@@ -1,0 +1,182 @@
+
+.chy-project-4-area {
+  position: relative;
+}
+.chy-project-4-area .bg-img {
+  width: 46%;
+  height: 659px;
+  border-radius: 0 500px 500px 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .chy-project-4-area .bg-img {
+    width: 100%;
+    height: 350px;
+  }
+}
+.chy-project-4-area .bg-color {
+  display: block;
+  width: 60%;
+  height: 670px;
+  background: #FFF7F6;
+  top: 30px;
+  right: 0;
+  position: absolute;
+  border-radius: 500px 0px 0px 500px;
+  z-index: -1;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .chy-project-4-area .bg-color {
+    top: unset;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .chy-project-4-content {
+    margin-bottom: 100px;
+  }
+}
+.chy-project-4-content .chy-title-4 {
+  margin-bottom: 48px;
+  color: #fff;
+}
+
+.chy-project-4-feature-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chy-project-4-feature-wrap {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .chy-project-4-feature-wrap {
+    padding-left: 0px;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-project-4-feature-wrap {
+    padding-left: 0px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.chy-project-4-feature {
+  text-align: center;
+  position: relative;
+  padding: 40px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chy-project-4-feature {
+    padding: 40px 0;
+  }
+}
+.chy-project-4-feature .icon {
+  font-size: 75px;
+  color: #FF816A;
+  line-height: 1;
+}
+.chy-project-4-feature .number {
+  font-size: 52px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+.chy-project-4-feature .text {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--chy-h2-color);
+}
+.chy-project-4-feature:is(.has-affte-before)::after {
+  content: "";
+  width: 85%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  background: linear-gradient(90deg, #FF7469 -2.17%, #FFB06D 100%);
+  opacity: 0.4;
+}
+@media (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before)::after {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before)::after {
+    display: block;
+  }
+}
+.chy-project-4-feature:is(.has-affte-before)::before {
+  content: "";
+  width: 2px;
+  height: 80%;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  position: absolute;
+  background: linear-gradient(90deg, #FF7469 -2.17%, #FFB06D 100%);
+  opacity: 0.4;
+}
+@media (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before)::before {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before)::before {
+    display: block;
+  }
+}
+.chy-project-4-feature:is(.has-affte-before2)::after {
+  content: "";
+  width: 85%;
+  height: 2px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  background: linear-gradient(90deg, #FF7469 -2.17%, #FFB06D 100%);
+  opacity: 0.4;
+}
+@media (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before2)::after {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before2)::after {
+    display: block;
+  }
+}
+.chy-project-4-feature:is(.has-affte-before2)::before {
+  content: "";
+  width: 2px;
+  height: 80%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: absolute;
+  background: linear-gradient(90deg, #FF7469 -2.17%, #FFB06D 100%);
+  opacity: 0.4;
+}
+@media (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before2)::before {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .chy-project-4-feature:is(.has-affte-before2)::before {
+    display: block;
+  }
+}

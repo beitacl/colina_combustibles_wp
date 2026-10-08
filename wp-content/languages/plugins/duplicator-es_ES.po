@@ -1,0 +1,2669 @@
+# Translation of Plugins - Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-22 08:24:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More - Stable (latest release)\n"
+
+#: addons/litebase/template/litebase/mocks/staging.php:102
+msgid "Staging sites are not available in Duplicator Lite!"
+msgstr "¡Los entornos de prueba no están disponibles en Duplicator Lite!"
+
+#: addons/litebase/template/litebase/mocks/staging.php:101
+msgid "Create staging sites to safely test changes!"
+msgstr "¡Crea entornos de prueba para testear los cambios de forma segura!"
+
+#: addons/litebase/template/litebase/mocks/staging.php:109
+msgid ""
+"Duplicator Pro creates an isolated staging site from a backup so you can freely test changes \n"
+"            without any risk to your live site."
+msgstr "Duplicator Pro crea un sitio de prueba aislado a partir de una copia de seguridad para que puedas probar los cambios libremente sin ningún riesgo para tu sitio web en producción."
+
+#: addons/litebase/src/Controllers/Mocks/MockStagingPageController.php:27
+msgid "Staging"
+msgstr "Sitio de pruebas"
+
+#: addons/litebase/template/litebase/settings/connect.php:87
+msgid "This opens connect.duplicator.com where you'll securely connect to Duplicator Pro."
+msgstr "Esto abrirá connect.duplicator.com, donde puedes conectarte de forma segura a Duplicator Pro."
+
+#: addons/litebase/LiteBase.php:224
+msgid "Please try again or contact support if the issue persists."
+msgstr "Por favor, inténtalo de nuevo o ponte en contacto con el soporte si el problema persiste."
+
+#. translators: %s: error message
+#: addons/litebase/src/Settings/ConnectController.php:158
+msgid "Upgrade installation failed: %s. Please try again or install manually."
+msgstr "La instalación de la actualización ha fallado: %s. Por favor, inténtalo de nuevo o instala manualmente."
+
+#: addons/litebase/LiteBase.php:146
+msgid "Docs"
+msgstr "Documentación"
+
+#: template/parts/plugin-footer.php:24
+msgid "Made with ♥ by the Duplicator Team"
+msgstr "Creado con ♥ por el equipo de Duplicator"
+
+#: addons/litebase/LiteBase.php:154
+msgid "Free Plugins"
+msgstr "Plugins gratuitos"
+
+#: addons/litebase/LiteBase.php:150
+msgid "Migration Services"
+msgstr "Servicios de migración"
+
+#: addons/litebase/template/litebase/tools/db-reset.php:19
+msgid "Clean & Reset WordPress Database"
+msgstr "Limpiar y reiniciar la base de datos de WordPress"
+
+#: addons/litebase/template/litebase/settings/connect.php:83
+msgid "Connect to Duplicator Pro"
+msgstr "Conectar con Duplicator Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:608
+msgid "Database Reset Pro"
+msgstr "Database Reset Pro"
+
+#: src/Utils/DupliPhpVersionCheck.php:127
+msgid "Learn more about this change and how to upgrade"
+msgstr "Más información sobre este cambio y cómo actualizar"
+
+#: src/Utils/DupliPhpVersionCheck.php:99
+msgid "Starting from <b>Duplicator %1$s</b>, Duplicator will require <b>PHP %2$s or higher</b> to receive new updates."
+msgstr "A partir de <b>Duplicator %1$s</b>, Duplicator requerirá <b>PHP %2$s o superior</b> para recibir nuevas actualizaciones."
+
+#: addons/litebase/src/Notifications/MultisiteNotice.php:60
+msgid "Duplicator Lite does not officially support WordPress multisite functionality"
+msgstr "Duplicator Lite no es compatible oficialmente con WordPress multisitio."
+
+#: addons/litebase/src/Notifications/MultisiteNotice.php:66
+msgid "Upgrade Now!"
+msgstr "¡Actualizar ahora!"
+
+#: src/Utils/DupliPhpVersionCheck.php:119
+msgid "Please contact your hosting provider to upgrade your PHP version."
+msgstr "Por favor, contacta con tu proveedor de alojamiento para actualizar tu versión de PHP."
+
+#: src/Utils/DupliPhpVersionCheck.php:112
+msgid ""
+"While your current version of Duplicator will continue to work, \n"
+"                        you'll need to upgrade your PHP version to receive future features, improvements, and security updates."
+msgstr ""
+"Aunque tu versión actual de Duplicator seguirá funcionando, \n"
+"                        necesitarás actualizar tu versión de PHP para recibir futuras funciones, mejoras y actualizaciones de seguridad."
+
+#: src/Utils/DupliPhpVersionCheck.php:85
+msgid "DUPLICATOR: Action Required - <b>PHP Version Update Needed</b>, Your site is running PHP version %s."
+msgstr "DUPLICATOR: acción requerida - <b>actualización de PHP necesaria</b>. Tu sitio está ejecutando la versión de PHP %s."
+
+#: template/admin_pages/tools/duplicator_logs.php:278
+msgid "Backup Logs"
+msgstr "Registros de las copias de seguridad"
+
+#: template/admin_pages/packages/packages_scripts.php:77
+msgid "Delete Backups?"
+msgstr "¿Borrar copias de seguridad?"
+
+#: template/parts/packages/filters/section_filters_incons.php:41
+msgid "Backup Only the Database"
+msgstr "Copia de seguridad solo de la base de datos"
+
+#: template/admin_pages/packages/packages_table_head.php:34
+msgid "Select all Backups"
+msgstr "Seleccionar todas las copias de seguridad"
+
+#: template/admin_pages/packages/toolbar.php:46
+msgid "Backup Settings"
+msgstr "Ajustes de copia de seguridad"
+
+#: template/admin_pages/packages/no_elements_row.php:21
+msgid "No Backups Found"
+msgstr "No se han encontrado copias de seguridad"
+
+#: src/Models/ActivityLog/LogEventSettingsChange.php:258
+msgid "Backup"
+msgstr "Copia de seguridad"
+
+#: template/parts/DashboardWidget/package-create-section.php:21
+msgid "Backup creation"
+msgstr "Creación de copias de seguridad"
+
+#: template/admin_pages/tools/general.php:28
+msgid "Reset Backups ?"
+msgstr "¿Restablecer copias de seguridad?"
+
+#: addons/litebase/src/Controllers/Mocks/MockImportPageController.php:27
+#: addons/litebase/src/Controllers/Mocks/MockImportPageController.php:28
+msgid "Import Backups"
+msgstr "Importar copias de seguridad"
+
+#: addons/litebase/src/Controllers/Mocks/MockSchedulePageController.php:27
+#: addons/litebase/src/Controllers/Mocks/MockSchedulePageController.php:28
+msgid "Schedule Backups"
+msgstr "Programar copias de seguridad"
+
+#: addons/dupcloudaddon/src/Models/DupCloudStorage.php:261
+#: addons/dupcloudaddon/template/dupcloudaddon/connect/storage_auth.php:134
+msgid "Manage Backups"
+msgstr "Gestionar copias de seguridad"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:539
+msgid ""
+"Uncanny Automator is the easiest and most powerful way to automate your WordPress site with no code. Build automations\n"
+"                in minutes that connect your WordPress plugins, sites and apps together using billions of recipe combinations."
+msgstr "Uncanny Automator es la forma más sencilla y potente de automatizar tu sitio de WordPress sin código. Crea automatizaciones en minutos que conecten tus plugins, sitios y aplicaciones de WordPress entre sí mediante miles de millones de combinaciones de recetas."
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:536
+msgid "Uncanny Automator"
+msgstr "Uncanny Automator"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:524
+msgid ""
+"Efficiently manage your website's content directly from the WordPress admin with Search & Replace Everything by\n"
+"                WPCode.  This tool is essential for site migrations, content updates, or any situation where batch text and image\n"
+"                replacements are needed."
+msgstr "Gestiona eficazmente el contenido de tu sitio web directamente desde el administrador de WordPress con Search & Replace Everything de WPCode. Esta herramienta es esencial para migraciones de sitios, actualizaciones de contenido o cualquier situación en la que sea necesario reemplazar texto e imágenes por lotes."
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:521
+msgid "Search & Replace Everything"
+msgstr "Search & Replace Everything"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:510
+msgid ""
+"Future-proof your WordPress customizations with the most popular code snippet management plugin for WordPress. Trusted\n"
+"                by over 1,500,000+ websites for easily adding code to WordPress right from the admin area."
+msgstr "Prepara tus personalizaciones de WordPress para el futuro con el plugin de gestión de fragmentos de código más popular para WordPress. Con la confianza de más de 1.500.000 webs para añadir fácilmente código a WordPress directamente desde el escritorio."
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:507
+msgid "WPCode"
+msgstr "WPCode"
+
+#: template/admin_pages/tools/general.php:77
+msgid "Downloads a ZIP archive with all relevant diagnostic information."
+msgstr "Descarga un archivo ZIP con toda la información de diagnóstico relevante."
+
+#: template/admin_pages/tools/general.php:73
+msgid "Get Diagnostic Data"
+msgstr "Obtener datos de diagnóstico"
+
+#: src/Controllers/ActivityLogPageController.php:157
+#: src/Models/ActivityLog/LogUtils.php:83
+#: template/parts/tools/server_settings_table.php:70
+msgid "Info"
+msgstr "Información"
+
+#: addons/litebase/template/litebase/welcome/intro.php:82
+msgid "Names, slugs, versions, and if active or not"
+msgstr "Nombres, slugs, versiones, y si está activo o no"
+
+#: addons/litebase/template/litebase/welcome/intro.php:80
+msgid "View Plugins & Themes List"
+msgstr "Ver lista de plugins y temas"
+
+#: addons/litebase/template/litebase/welcome/intro.php:73
+msgid "Current plugin & SDK versions, and if active or uninstalled"
+msgstr "Versiones actuales del plugin y del SDK, y si están activas o desinstaladas"
+
+#: addons/litebase/template/litebase/welcome/intro.php:71
+msgid "View Basic Plugin Info"
+msgstr "Ver información básica del plugin"
+
+#: addons/litebase/template/litebase/welcome/intro.php:64
+msgid "Homepage URL & title, WP & PHP versions, and site language"
+msgstr "URL y título de la página de inicio, versiones de WP y PHP e idioma del sitio"
+
+#: addons/litebase/template/litebase/welcome/intro.php:62
+msgid "View Basic Website Info"
+msgstr "Ver información básica del sitio"
+
+#: addons/litebase/template/litebase/welcome/intro.php:55
+msgid "Your WordPress user's: first & last name, and email address"
+msgstr "Tu usuario de WordPress: nombre y apellidos, y dirección de correo electrónico"
+
+#: addons/litebase/template/litebase/welcome/intro.php:53
+msgid "View Basic Profile Info"
+msgstr "Ver información básica del perfil"
+
+#: addons/litebase/template/litebase/welcome/intro.php:46
+msgid "This will allow Duplicator to"
+msgstr "Esto permitirá a Duplicator"
+
+#: addons/litebase/template/litebase/welcome/intro.php:34
+msgid "Allow & Continue"
+msgstr "Permitir y continuar"
+
+#: addons/litebase/template/litebase/welcome/intro.php:20
+msgid "Never miss an important update"
+msgstr "No te pierdas nunca una actualización importante"
+
+#: src/Utils/Support/SupportToolkit.php:175
+msgid "Failed to create zip file"
+msgstr "Error al crear el archivo zip"
+
+#: src/Package/BuildRequirements.php:534
+msgid "Archive "
+msgstr "Archivo "
+
+#: src/Package/BuildRequirements.php:526
+msgid "Original "
+msgstr "Original "
+
+#: src/Package/BuildRequirements.php:518
+msgid "Target root path"
+msgstr "Ruta raíz de destino"
+
+#: src/Package/BuildRequirements.php:504
+msgid "Path Not Found"
+msgstr "Ruta no encontrada"
+
+#: src/Package/BuildRequirements.php:441
+msgid "Shell (exec)"
+msgstr "Shell (ejec)"
+
+#: src/Package/BuildRequirements.php:423
+msgid "open_basedir"
+msgstr "open_basedir"
+
+#: src/Package/BuildRequirements.php:412
+msgctxt "%1$s = \"is dynamic\" or \"value is fixed\" based on settings"
+msgid "(default) - %1$s"
+msgstr "(por defecto) - %1$s"
+
+#: src/Package/BuildRequirements.php:386
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: src/Package/BuildRequirements.php:278
+msgctxt "%1$s and %2$s are the opening and closing anchor tags"
+msgid "This is a %1$sWordPress Setting%2$s"
+msgstr "Esta es un ajuste de %1$sWordPress%2$s"
+
+#: src/Package/BuildRequirements.php:219
+msgid "%1$s%% -- %2$s from %3$s"
+msgstr "%1$s%% -- %2$s de %3$s"
+
+#: src/Package/BuildRequirements.php:206
+msgid "URLs Info"
+msgstr "Información sobre URLs"
+
+#: src/Package/BuildRequirements.php:199
+msgid "URL "
+msgstr "URL "
+
+#: src/Package/BuildRequirements.php:191
+msgid "Paths Info"
+msgstr "Información de rutas"
+
+#: src/Package/AbstractPackageDeployer.php:149
+#: src/Package/AbstractPackageDeployer.php:214
+#: src/Package/AbstractPackageDeployer.php:296
+#: src/Package/AbstractPackageDeployer.php:1204
+#: src/Utils/ZipArchiveExtended.php:382
+msgid "ZipArchive PHP module is not installed/enabled. The current Backup cannot be opened."
+msgstr "El módulo ZipArchive de PHP no está instalado/activado. No se puede abrir la copia de seguridad actual."
+
+#: src/Package/BuildRequirements.php:413
+msgid "value is fixed"
+msgstr "el valor es fijo"
+
+#: src/Package/BuildRequirements.php:413
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:50
+msgid "is dynamic"
+msgstr "es dinámico"
+
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:337
+#: template/admin_pages/packages/scan/scripts.php:764
+msgid "Size:"
+msgstr "Tamaño:"
+
+#: template/admin_pages/packages/scan/scripts.php:759
+msgid "Rows:"
+msgstr "Filas:"
+
+#: template/admin_pages/packages/scan/scripts.php:755
+msgid "Uppercase:"
+msgstr "Mayúscula:"
+
+#: template/parts/packages/filters/package_components.php:168
+#: template/parts/packages/filters/package_components.php:189
+msgid "clear"
+msgstr "vaciar"
+
+#: template/parts/packages/filters/package_components.php:129
+#: template/parts/packages/filters/tables_list_filter.php:69
+msgid "Enable"
+msgstr "Activar"
+
+#: src/Core/Bootstrap.php:442
+msgid "Unable to copy"
+msgstr "No ha sido posible copiar"
+
+#: src/Core/Bootstrap.php:440
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: src/Core/Bootstrap.php:449
+msgid "Failed to load help content!"
+msgstr "No se ha podido cargar el contenido de la ayuda!"
+
+#: addons/litebase/LiteBase.php:231 addons/litebase/LiteBase.php:242
+msgid "Failure"
+msgstr "Fallo"
+
+#: addons/litebase/LiteBase.php:230
+msgid "Loading..."
+msgstr "Cargando…"
+
+#: template/parts/help/main.php:48
+msgid "View All Documentation"
+msgstr "Ver toda la documentación"
+
+#: template/parts/help/main.php:41
+msgid "Browse documentation, reference material, and tutorials for Duplicator."
+msgstr "Busca documentación, material de referencia y tutoriales para Duplicator."
+
+#: template/parts/help/main.php:39
+msgid "View Documentation"
+msgstr "Ver la documentación"
+
+#: template/parts/help/main.php:29
+msgid "Related Articles"
+msgstr "Artículos relacionados"
+
+#: template/parts/help/main.php:25
+msgid "No results found"
+msgstr "No se encontraron resultados"
+
+#: template/parts/help/main.php:23
+msgid "Search"
+msgstr "Buscar"
+
+#: template/parts/help/category-list.php:21
+msgctxt "%1$s and %2$s are the opening and closing tags for the link to the online docs."
+msgid "Could not fetch help information. Please try again later or visit the %1$sonline docs%2$s."
+msgstr "No se ha podido obtener la información de ayuda. Por favor, inténtalo de nuevo más tarde o visita la página %1$sonline docs%2$s."
+
+#: assets/js/duplicator/dup.util.php:73
+msgid "RESPONSE SUCCESS"
+msgstr "ÉXITO DE LA RESPUESTA"
+
+#: template/page/ajax_loader.php:21
+msgid "wait ..."
+msgstr "espera..."
+
+#: addons/aireadyaddon/src/AbilitiesRegistrar.php:52
+#: src/Controllers/PackagesPageController.php:59
+#: src/Controllers/PackagesPageController.php:60
+#: src/Controllers/PackagesPageController.php:96
+#: src/Controllers/PackagesPageController.php:398
+#: src/Controllers/SettingsPageController.php:92
+#: template/admin_pages/packages/details/details_header.php:48
+#: template/admin_pages/packages/details/details_wpbody_header.php:29
+#: template/mail/email_summary.php:98
+msgid "Backups"
+msgstr "Copias de seguridad"
+
+#: template/mail/email_summary.php:207
+msgctxt "%s is an <a> tag with a link to the current website."
+msgid "This email was auto-generated and sent from %s."
+msgstr "Este correo electrónico se generó y envió automáticamente desde %s"
+
+#: template/admin_pages/settings/general/plugin_settings.php:109
+msgid "Enable usage tracking"
+msgstr "Activar el seguimiento del uso"
+
+#: template/admin_pages/settings/general/plugin_settings.php:120
+msgid "Hide Announcements"
+msgstr "Ocultar los anuncios"
+
+#: template/admin_pages/settings/general/plugin_settings.php:112
+msgid "Usage Tracking"
+msgstr "Seguimiento del uso"
+
+#: template/admin_pages/settings/general/plugin_settings.php:93
+msgid "Usage statistics"
+msgstr "Estadísticas de uso"
+
+#: template/admin_pages/settings/general/plugin_settings.php:131
+msgid "Check this option to hide plugin announcements and update details."
+msgstr "Marca esta opción para ocultar los anuncios del plugin y detalles de actualizaciones."
+
+#: src/Utils/Email/EmailSummary.php:420
+msgid "week"
+msgstr "semana"
+
+#: src/Utils/Email/EmailSummary.php:417
+msgid "month"
+msgstr "mes"
+
+#: src/Utils/Email/EmailSummary.php:415
+msgid "day"
+msgstr "día"
+
+#: src/Utils/Email/EmailSummary.php:402
+msgid "Monthly"
+msgstr "Mensual"
+
+#: src/Utils/Email/EmailSummary.php:401
+msgid "Weekly"
+msgstr "Semanal"
+
+#: src/Utils/Email/EmailSummary.php:400
+msgid "Daily"
+msgstr "Diaria"
+
+#: src/Controllers/SettingsPageController.php:547
+#: src/Utils/Email/EmailSummary.php:399
+msgid "Never"
+msgstr "Nunca"
+
+#: src/Package/Storage/UploadInfo.php:309 src/Utils/Email/EmailSummary.php:268
+#: src/Utils/Email/EmailSummary.php:299 src/Views/AutoTunePageData.php:557
+#: src/Views/AutoTunePageData.php:795
+msgid "Failed"
+msgstr "Fallido"
+
+#: src/Utils/CronUtils.php:76
+msgid "Once a Month"
+msgstr "Una vez al mes"
+
+#: src/Utils/CronUtils.php:71
+msgid "Once a Week"
+msgstr "Una vez a la semana"
+
+#: src/Utils/CronUtils.php:66
+msgid "Once a Day"
+msgstr "Una vez al día"
+
+#: template/admin_pages/settings/general/email_summary.php:26
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: template/admin_pages/settings/general/email_summary.php:21
+msgid "Email Summary"
+msgstr "Resumen por correo electrónico"
+
+#: template/admin_pages/packages/scan/items/database/mysqldump.php:20
+msgid "Mysqldump memory check"
+msgstr "Comprobación de memoria de Mysqldump"
+
+#: template/parts/Notifications/single-message.php:27
+msgid "Watch video"
+msgstr "Ver vídeo"
+
+#: template/parts/Notifications/main.php:33
+msgid "Next message"
+msgstr "Mensaje siguiente"
+
+#: template/admin_pages/packages/scan/items/database/mysqldump.php:60
+msgid "The database size exceeds the allowed mysqldump size limit."
+msgstr "El tamaño de la base de datos supera el límite de tamaño permitido por mysqldump."
+
+#: template/parts/Notifications/main.php:20
+msgid "Notifications"
+msgstr "Avisos"
+
+#: template/parts/Notifications/main.php:29
+msgid "Previous message"
+msgstr "Mensaje anterior"
+
+#: template/admin_pages/packages/scan/items/database/mysqldump.php:33
+msgid "The database size is within the allowed mysqldump size limit."
+msgstr "El tamaño de la base de datos está dentro del límite de tamaño permitido por mysqldump."
+
+#: src/Package/Create/BuildComponents.php:420
+msgid "Other"
+msgstr "Otro"
+
+#: src/Package/Create/BuildComponents.php:416
+msgid "Only Active Themes"
+msgstr "Sólo temas activos"
+
+#: src/Package/Create/BuildComponents.php:414
+msgid "Themes"
+msgstr "Temas"
+
+#: src/Package/Create/BuildComponents.php:412
+msgid "Only Active Plugins"
+msgstr "Sólo plugins activos"
+
+#: src/Package/Create/BuildComponents.php:410
+#: template/admin_pages/packages/details/parts/environment_card.php:66
+#: template/admin_pages/packages/packages_scripts.php:107
+msgid "Plugins"
+msgstr "Plugins"
+
+#: template/admin_pages/packages/details/parts/files_card.php:68
+msgid "Components"
+msgstr "Componentes"
+
+#: addons/litebase/LiteBase.php:223
+msgid "Message: "
+msgstr "Mensaje: "
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: duplicator.php
+msgid "https://duplicator.com/"
+msgstr "https://duplicator.com/"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:91
+#: addons/litebase/src/Controllers/AboutUsPageController.php:233
+#: addons/litebase/template/litebase/mocks/capabilities.php:327
+#: addons/litebase/template/litebase/scan/education-box.php:33
+msgid "Advanced Backup Permissions"
+msgstr "Permisos de copia de seguridad avanzados"
+
+#: addons/litebase/src/Controllers/Mocks/Settings/MockCapabilitiesSettingsController.php:32
+msgid "Access"
+msgstr "Acceso"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:235
+msgid "Enjoy granular access control to ensure only authorized users can perform these critical functions."
+msgstr "Disfruta de un control de acceso granular para garantizar que solo los usuarios autorizados puedan realizar estas funciones críticas."
+
+#: addons/litebase/template/litebase/mocks/capabilities.php:328
+msgid "Advanced Backup Permissions are not available in Duplicator Lite!"
+msgstr "¡Los permisos avanzados de copia de seguridad no están disponibles en Duplicator Lite!"
+
+#: addons/litebase/template/litebase/tools/support.php:52
+msgid "Premium Support"
+msgstr "Soporte premium"
+
+#: addons/litebase/template/litebase/packages/first-backup-banner.php:35
+#: addons/litebase/template/litebase/scan/education-box.php:72
+msgid "Subscribe"
+msgstr "Suscríbete"
+
+#: addons/litebase/template/litebase/packages/first-backup-banner.php:28
+#: addons/litebase/template/litebase/scan/education-box.php:65
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: addons/litebase/template/litebase/mocks/static-popup.php:40
+msgid "Upgrade to Duplicator Pro Now"
+msgstr "Actualiza a Duplicator Pro ahora"
+
+#: addons/litebase/template/litebase/settings/connect.php:25
+msgid "You're using Duplicator Lite - no license needed. Enjoy!"
+msgstr "Estás utilizando Duplicator Lite - no necesitas licencia. ¡Disfrútalo!"
+
+#: addons/litebase/template/litebase/scan/education-box.php:76
+msgid "Get tips and product updates straight to your inbox."
+msgstr "Recibe consejos y actualizaciones de productos directamente en tu bandeja de entrada."
+
+#: addons/litebase/template/litebase/packages/bottom-bar.php:27
+msgid "Upgrade Now & Save!"
+msgstr "¡Actualiza ahora y ahorra!"
+
+#: addons/litebase/template/litebase/packages/bottom-bar.php:21
+msgid "Upgrade to Pro to Unlock..."
+msgstr "Actualiza a Pro para desbloquear..."
+
+#: addons/litebase/template/litebase/scan/education-box.php:52
+msgid "Upgrade To Pro"
+msgstr "Actualizar a Pro"
+
+#. translators: %s: Pro feature name
+#: addons/litebase/template/litebase/scan/education-box.php:44
+msgid "Did you know Duplicator Pro has: %s?"
+msgstr "¿Sabías que Duplicator Pro tiene: %s?"
+
+#: addons/litebase/template/litebase/settings-feature-box.php:56
+msgid "Get Duplicator Pro Today and Unlock all the Powerful Features »"
+msgstr "Consigue Duplicator Pro hoy y desbloquea todas las potentes funciones »"
+
+#: addons/litebase/src/Controllers/WelcomePageController.php:156
+msgid "Back up to Dropbox, FTP, Google Drive, OneDrive, or Amazon S3 and more for safe storage."
+msgstr "Haz copias de seguridad a Dropbox, por FTP, Google Drive, OneDrive, Amazon S3 para respaldos externos seguros."
+
+#: addons/litebase/template/litebase/settings-feature-box.php:45
+msgid "Pro Features:"
+msgstr "Características Pro:"
+
+#. translators: %s - star icons.
+#: addons/litebase/template/litebase/settings-feature-box.php:37
+msgid "We know that you will truly love Duplicator. It has over 4000+ five star ratings (%s) and is active on over 1 million websites."
+msgstr "Sabemos que verdaderamente te va a gustar Duplicator. Tiene más de 4000 valoraciones de cinco estrellas (%s) y está activo en más de un millón de webs."
+
+#: template/admin_pages/activity_log/parts/sub_table_mini.php:71
+msgid "Total: %s"
+msgstr "Total: %s"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:206
+#: addons/litebase/src/Controllers/WelcomePageController.php:200
+msgid "Multisite Support"
+msgstr "Compatibilidad con multisitio"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:59
+msgid "Lite vs Pro"
+msgstr "Lite frente a Pro"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:58
+msgid "Getting Started"
+msgstr "Primeros pasos"
+
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:77
+msgid "Not Available"
+msgstr "No disponible"
+
+#: addons/litebase/template/litebase/settings-feature-box.php:22
+#: template/parts/Notifications/main.php:24
+msgid "Dismiss this message"
+msgstr "Descartar este mensaje"
+
+#: template/parts/DashboardWidget/sections-section.php:39
+msgid "%s Storage"
+msgid_plural "%s Storages"
+msgstr[0] "%s Almacenamiento"
+msgstr[1] "%s Almacenamientos"
+
+#: addons/litebase/template/litebase/dashboard/recommended-plugin.php:49
+msgid "Dismiss recommended plugin"
+msgstr "Descartar el plugin recomendado"
+
+#: addons/litebase/template/litebase/dashboard/recommended-plugin.php:38
+msgid "Install"
+msgstr "Instalar"
+
+#: addons/litebase/template/litebase/dashboard/recommended-plugin.php:31
+msgid "Recommended Plugin:"
+msgstr "Plugin recomendado:"
+
+#: template/parts/DashboardWidget/package-create-section.php:30
+msgid "Last backup:"
+msgstr "Última copia de seguridad:"
+
+#: addons/litebase/template/litebase/mocks/templates.php:89
+msgid "Easily customize your backups with templates!"
+msgstr "¡Personaliza fácilmente tus copias de seguridad con plantillas!"
+
+#: addons/litebase/template/litebase/mocks/templates.php:92
+msgid "If you install the same theme, plugins or content on all your WordPress sites then Duplicator can save you a lot of time."
+msgstr "Si instalas el mismo tema, plugins o contenido en todos tus sitios de WordPress, Duplicator puede ahorrarte mucho tiempo."
+
+#: addons/litebase/template/litebase/mocks/add_new_button.php:21
+#: template/admin_pages/packages/package_create_button.php:43
+#: template/admin_pages/storages/storage_create_button.php:44
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: addons/litebase/template/litebase/mocks/schedule.php:87
+msgid "Duplicator Lite does not support scheduled backups!"
+msgstr "¡Duplicator Lite no admite copias de seguridad programadas!"
+
+#: addons/litebase/template/litebase/mocks/schedule.php:86
+msgid "Automate your workflow with scheduled backups!"
+msgstr "¡Automatiza tu flujo de trabajo con copias de seguridad programadas!"
+
+#: addons/litebase/template/litebase/mocks/import.php:116
+msgid "Overwrite a WordPress site with Drag and Drop Import!"
+msgstr "¡Sobrescribe un sitio WordPress con la función importar arrastrando y soltando!"
+
+#: addons/litebase/template/litebase/tools/support.php:68
+#: addons/litebase/template/litebase/welcome/upgrade-box.php:31
+msgid "Upgrade Now"
+msgstr "Actualiza ahora"
+
+#: addons/litebase/template/litebase/mail/email-summary-footer.php:33
+#: addons/litebase/template/litebase/welcome/upgrade-box.php:17
+msgid "Upgrade to PRO"
+msgstr "Actualiza a PRO"
+
+#: addons/litebase/template/litebase/welcome/testimonials.php:16
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#: addons/litebase/template/litebase/welcome/intro.php:17
+msgid "Willie the Duplicator mascot"
+msgstr "Willie, la mascota de Duplicator"
+
+#: addons/litebase/template/litebase/about-us/getting-started/get-pro.php:17
+#: addons/litebase/template/litebase/welcome/footer.php:25
+msgid "Upgrade to Duplicator Pro"
+msgstr "Actualizar a Duplicator Pro"
+
+#: addons/litebase/template/litebase/welcome/features.php:43
+msgid "See All Features"
+msgstr "Ver todas las características"
+
+#: addons/litebase/src/Controllers/WelcomePageController.php:155
+msgid "Cloud Backups"
+msgstr "Copias de seguridad en la nube"
+
+#: addons/litebase/template/litebase/welcome/features.php:17
+msgid "Duplicator Features"
+msgstr "Características de Duplicator"
+
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:75
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:85
+msgid "Included"
+msgstr "Incluido"
+
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:20
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:52
+msgid "Pro"
+msgstr "Pro"
+
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:19
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:51
+msgid "Lite"
+msgstr "Lite"
+
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:42
+msgid "Get the most out of Duplicator by upgrading to Pro and unlocking all of the powerful features."
+msgstr "Saca el máximo partido a Duplicator actualizando a Pro y desbloqueando todas las potentes funciones."
+
+#: addons/litebase/template/litebase/about-us/getting-started/get-pro.php:65
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:98
+msgid "Get Duplicator Pro Today and Unlock all the Powerful Features"
+msgstr "Consigue Duplicator Pro hoy y desbloquea todas las potentes funciones"
+
+#: addons/litebase/template/litebase/about-us/getting-started/get-pro.php:29
+#: addons/litebase/template/litebase/settings-feature-box.php:25
+msgid "Get Duplicator Pro and Unlock all the Powerful Features"
+msgstr "Consigue Duplicator Pro y desbloquea todas las potentes funciones"
+
+#: addons/litebase/template/litebase/about-us/getting-started/first-package.php:53
+msgid "How to Migrate to a New Site"
+msgstr "Cómo migrar a un sitio nuevo"
+
+#: addons/litebase/template/litebase/about-us/about-info/info.php:71
+msgid "The Awesome Motive Team"
+msgstr "El equipo de Awesome Motive"
+
+#: addons/litebase/template/litebase/about-us/about-info/info.php:69
+msgid "The Awesome Motive Team photo"
+msgstr "Foto del Equipo de Awesome Motive"
+
+#: addons/litebase/template/litebase/about-us/about-info/info.php:63
+msgid "Yup, we know a thing or two about building awesome products that customers love."
+msgstr "Sí, sabemos un par de cosas sobre la construcción de productos increíbles que los clientes adoran."
+
+#: template/parts/DashboardWidget/recently-packages.php:45
+msgid "Backups: %1$d, Failures: %2$d"
+msgstr "Copias de seguridad: %1$d, Fallos: %2$d"
+
+#: addons/litebase/template/litebase/welcome/footer.php:19
+msgid "Create Your First Backup"
+msgstr "Crea tu primera copia de seguridad"
+
+#: addons/litebase/template/litebase/about-us/getting-started/first-package.php:18
+msgid "Creating Your First Backup"
+msgstr "Crear tu primera copia de seguridad"
+
+#: addons/litebase/template/litebase/about-us/getting-started/first-package.php:48
+msgid "How to Create a Backup"
+msgstr "Cómo crear una copia de seguridad"
+
+#: template/parts/DashboardWidget/package-create-section.php:22
+msgid "This will create a new Backup. If a Backup is currently running then this button will be disabled."
+msgstr "Esto creará una nueva copia de seguridad. Si se está ejecutando una copia de seguridad, este botón estará desactivado."
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:494
+msgid "Sugar Calendar Pro"
+msgstr "Sugar Calendar Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:482
+msgid "Sugar Calendar"
+msgstr "Sugar Calendar"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:468
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:455
+msgid "WP Simple Pay Pro"
+msgstr "WP Simple Pay Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:443
+msgid "WP Simple Pay"
+msgstr "WP Simple Pay"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:430
+msgid "AffiliateWP"
+msgstr "AffiliateWP"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:417
+msgid "SearchWP"
+msgstr "SearchWP"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:403
+msgid "TrustPulse"
+msgstr "TrustPulse"
+
+#: addons/litebase/template/litebase/about-us/about-info/extra-plugin-item.php:47
+msgid "Status:"
+msgstr "Estado:"
+
+#: addons/litebase/template/litebase/about-us/about-info/extra-plugin-item.php:30
+msgid "Install Plugin"
+msgstr "Instalar el plugin"
+
+#: addons/litebase/template/litebase/about-us/about-info/extra-plugin-item.php:24
+msgid "Activate"
+msgstr "Activar"
+
+#: addons/litebase/LiteBase.php:233
+#: addons/litebase/template/litebase/about-us/about-info/extra-plugin-item.php:19
+msgid "Activated"
+msgstr "Activo"
+
+#: src/Views/DashboardWidget.php:189
+msgctxt "%s represents the time diff, eg. 2 days"
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:390
+msgid "Smash Balloon YouTube Feeds Pro"
+msgstr "Smash Balloon YouTube Feeds Pro"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:55
+msgid "Multisite Support - Duplicator Pro supports multisite network backup & migration. You can even install a subsite as a standalone site."
+msgstr "Compatibilidad con multisitio - Duplicator Pro admite copias de seguridad y migraciones en red multisitio. Incluso puedes instalar un subsitio como sitio independiente."
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:365
+msgid "Smash Balloon Twitter Feeds Pro"
+msgstr "Smash Balloon Twitter Feeds Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:353
+msgid "Smash Balloon Twitter Feeds"
+msgstr "Smash Balloon Twitter Feeds"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:340
+msgid "Smash Balloon Facebook Feeds Pro"
+msgstr "Smash Balloon Facebook Feeds Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:328
+msgid "Smash Balloon Facebook Feeds"
+msgstr "Smash Balloon Facebook Feeds"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:289
+msgid "PushEngage"
+msgstr "PushEngage"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:276
+msgid "RafflePress Pro"
+msgstr "RafflePress Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:264
+msgid "RafflePress"
+msgstr "RafflePress"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:251
+msgid "SeedProd Pro"
+msgstr "SeedProd Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:239
+msgid "SeedProd"
+msgstr "SeedProd"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:226
+msgid "AIOSEO Pro"
+msgstr "AIOSEO Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:214
+msgid "AIOSEO"
+msgstr "AIOSEO"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:201
+msgid "WP Mail SMTP Pro"
+msgstr "WP Mail SMTP Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:189
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:176
+msgid "WPForms Pro"
+msgstr "WPForms Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:164
+msgid "WPForms"
+msgstr "WPForms"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:151
+msgid "MonsterInsights Pro"
+msgstr "MonsterInsights Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:92
+msgid "Plugin not found"
+msgstr "Plugin no encontrado"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:86
+msgid "Plugin slug is empty"
+msgstr "El slug del plugin está vacío"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraItem.php:192
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraItem.php:189
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: addons/litebase/LiteBase.php:232
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraItem.php:187
+msgid "Active"
+msgstr "Activo"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:88
+msgid "Multisite Network"
+msgstr "Red multisitio"
+
+#: addons/litebase/src/Controllers/WelcomePageController.php:32
+msgid "Welcome to Duplicator"
+msgstr "Bienvenido a Duplicator"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:92
+#: addons/litebase/src/Controllers/AboutUsPageController.php:260
+msgid "Priority Support"
+msgstr "Soporte prioritario"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:259
+msgid "Limited Support"
+msgstr "Soporte limitado"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:249
+msgid "Advanced Features"
+msgstr "Características avanzadas"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:223
+#: src/Core/Options/Rules/EncryptionRule.php:41
+#: template/admin_pages/packages/scan/items/setup/security.php:44
+msgid "Archive Encryption"
+msgstr "Encriptado de archivos"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:38
+#: addons/litebase/src/Controllers/AboutUsPageController.php:39
+#: addons/litebase/src/Controllers/AboutUsPageController.php:57
+msgid "About Us"
+msgstr "Acerca de nosotros"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:139
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: addons/litebase/template/litebase/scan/education-box.php:31
+msgid "Multisite Network Support"
+msgstr "Asistencia para redes multisitio"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:81
+#: addons/litebase/src/Controllers/WelcomePageController.php:174
+#: addons/litebase/template/litebase/scan/education-box.php:22
+msgid "Server to Server Import"
+msgstr "Importación de servidor a servidor"
+
+#: addons/litebase/template/litebase/scan/education-box.php:21
+msgid "Secure File Encryption"
+msgstr "Cifrado seguro de archivos"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:197
+msgid "Server-to-Server Import"
+msgstr "Importación de servidor a servidor"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:315
+msgid "Smash Balloon Instagram Feeds Pro"
+msgstr "Smash Balloon Instagram Feeds Pro"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:303
+msgid "Smash Balloon Instagram Feeds"
+msgstr "Smash Balloon Instagram Feeds"
+
+#: addons/litebase/template/litebase/scan/education-box.php:30
+msgid "Larger Site Support"
+msgstr "Compatibilidad con sitios grandes"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:378
+msgid "Smash Balloon YouTube Feeds"
+msgstr "Smash Balloon YouTube Feeds"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:166
+#: addons/litebase/template/litebase/mocks/recovery.php:122
+msgid "Recovery Points provide protection against mistakes and bad updates by letting you quickly rollback your system to a known, good state."
+msgstr "Los Puntos de Recuperación te protegen de los errores y las malas actualizaciones, permitiéndote restablecer rápidamente el sistema a un estado conocido y bueno."
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:158
+msgid "Ensure that your important data is regularly and consistently backed up, allowing for quick and efficient recovery in case of data loss."
+msgstr "Asegúrate de que se realizan copias de seguridad periódicas y constantes de tus datos importantes, lo que permitirá una recuperación rápida y eficaz en caso de pérdida de datos."
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:149
+msgid "Classic WordPress-less Installs Only"
+msgstr "Sólo instalaciones clásicas sin WordPress"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:150
+msgid "Drag and Drop migrations and site restores! Simply drag the bundled site archive to the site you wish to overwrite."
+msgstr "¡Migraciones y restauraciones de sitios con arrastrar y soltar! Sólo tienes que arrastrar el archivo de sitio incluido hasta el sitio que deseas sobrescribir."
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:217
+msgid "Create your own custom-configured WordPress site and \"Brand\" the installer file with your look and feel."
+msgstr "Crea tu propio sitio WordPress configurado a medida y personaliza el archivo de instalación con tu marca y apariencia."
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:225
+msgid "Protect and secure the archive file with industry-standard AES-256 encryption!"
+msgstr "Protege y asegura el archivo comprimido con la encriptación AES-256 estándar del sector!"
+
+#: addons/litebase/template/litebase/scan/education-box.php:24
+msgid "Cloud Storage - Google Drive"
+msgstr "Almacenamiento en la nube - Google Drive"
+
+#: addons/litebase/template/litebase/scan/education-box.php:25
+msgid "Cloud Storage - Amazon S3"
+msgstr "Almacenamiento en la nube - Amazon S3"
+
+#: addons/litebase/template/litebase/scan/education-box.php:26
+msgid "Cloud Storage - DropBox"
+msgstr "Almacenamiento en la nube - DropBox"
+
+#: addons/litebase/template/litebase/scan/education-box.php:27
+msgid "Cloud Storage - OneDrive"
+msgstr "Almacenamiento en la nube - OneDrive"
+
+#: addons/litebase/template/litebase/scan/education-box.php:28
+msgid "Cloud Storage - FTP/SFTP"
+msgstr "Almacenamiento en la nube - FTP/SFTP"
+
+#: addons/litebase/template/litebase/notice-bar.php:39
+#: addons/litebase/template/litebase/packages/bottom-bar.php:29
+#: addons/litebase/template/litebase/scan/media-cleanup-upsell.php:29
+msgid "Dismiss this message."
+msgstr "Descartar este mensaje."
+
+#: addons/litebase/src/Menu/PluginActionLink.php:37
+#: addons/litebase/src/Menu/UpgradeMenuEntry.php:40
+#: addons/litebase/template/litebase/storages/table-features.php:30
+msgid "Upgrade to Pro"
+msgstr "Actualizar a la versión Pro"
+
+#: template/parts/migration/migration-message.php:61
+msgid "Security actions:"
+msgstr "Acciones de seguridad:"
+
+#: template/parts/migration/migration-message.php:30
+msgid "This site has been successfully restored!"
+msgstr "¡Este sitio se ha restaurado con éxito!"
+
+#: template/parts/migration/clean-installation-files.php:138
+msgid "The Duplicator team has worked many years to make moving a WordPress site a much easier process. "
+msgstr "El equipo de Duplicator ha trabajado muchos años para que mover un sitio de WordPress sea un proceso mucho más fácil. "
+
+#: template/parts/migration/clean-installation-files.php:21
+msgid "Installation cleanup ran!"
+msgstr "¡Se ejecutó la limpieza de la instalación!"
+
+#: template/parts/migration/almost-complete.php:25
+msgid "Restore Backup Almost Complete!"
+msgstr "¡Restauración de la copia de seguridad casi completa!"
+
+#: template/parts/migration/migration-message.php:73
+msgid "Final step:"
+msgstr "Último paso:"
+
+#: src/Utils/CachesPurge/CacheItem.php:98
+msgid "Error on caches purge of <b>%s</b>."
+msgstr "Error en el purgado de cachés de <b>%s</b>."
+
+#: src/Utils/CachesPurge/CacheItem.php:59
+msgid "All caches on <b>%s</b> have been purged."
+msgstr "Todas las cachés de <b>%s</b> han sido purgadas."
+
+#: src/Core/MigrationMng.php:524
+msgid "Original files folder"
+msgstr "Carpeta de archivos originales"
+
+#: src/Core/MigrationMng.php:523
+msgid "Installer boot log"
+msgstr "Registro de arranque del instalador"
+
+#: src/Core/MigrationMng.php:522
+msgid "Installer log"
+msgstr "Registro del instalador"
+
+#: src/Core/MigrationMng.php:499
+msgid "Original files folder moved in installer backup directory"
+msgstr "La carpeta de archivos originales se ha movido en el directorio del instalador de la copia de seguridad"
+
+#: src/Package/Create/PackInstaller.php:1167
+msgid "ARCHIVE CONSISTENCY TEST: PASS"
+msgstr "PRUEBA DE CONSISTENCIA DEL ARCHIVO: SUPERADA"
+
+#: src/Package/Create/PackInstaller.php:1181
+msgid "ARCHIVE CONSISTENCY TEST: FAIL"
+msgstr "PRUEBA DE CONSISTENCIA DEL ARCHIVO: FALLIDA"
+
+#: template/admin_pages/packages/no_elements_row.php:29
+msgid "Visit the 'Quick Start' guide!"
+msgstr "Visita la guía de «Inicio rápido»."
+
+#: template/admin_pages/packages/details/parts/general_card.php:96
+msgid "Build Log"
+msgstr "Registro de creación"
+
+#: src/Core/MigrationMng.php:449
+msgid "Can't remove installer file <b>%s</b>, please remove it for security reasons"
+msgstr "No se puede eliminar el archivo <b>%s</b> de instalación, por favor, elimínalo por razones de seguridad"
+
+#: src/Core/MigrationMng.php:460
+msgid "Installer file <b>%s</b> renamed with HASH"
+msgstr "El archivo de instalación <b>%s</b> se ha renombrado con HASH"
+
+#: src/Core/MigrationMng.php:466
+msgid "Can't rename installer file <b>%s</b> with HASH, please remove it for security reasons"
+msgstr "No se puede renombrar con HASH el archivo <b>%s</b> de instalación, por favor elimínalo por razones de seguridad"
+
+#: src/Core/MigrationMng.php:444
+msgid "Installer file <b>%s</b> removed for security reasons"
+msgstr "Archivo de instalación <b>%s</b> eliminado por razones de seguridad"
+
+#: template/admin_pages/settings/general/advanced_settings.php:57
+msgid "Foreign JavaScript"
+msgstr "JavaScript externo"
+
+#: template/admin_pages/settings/general/advanced_settings.php:67
+#: template/admin_pages/settings/general/advanced_settings.php:94
+msgid "Disable"
+msgstr "Desactivar"
+
+#: template/admin_pages/settings/general/advanced_settings.php:84
+msgid "Foreign CSS"
+msgstr "CSS externo"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:87
+#: addons/litebase/src/Controllers/AboutUsPageController.php:215
+#: addons/litebase/src/Controllers/WelcomePageController.php:169
+msgid "Installer Branding"
+msgstr "Marca del instalador"
+
+#: addons/litebase/template/litebase/about-us/getting-started/first-package.php:43
+msgid "Quick Start Guide"
+msgstr "Guía de inicio rápido"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:135
+#: addons/litebase/template/litebase/scan/education-box.php:23
+msgid "File & Database Table Filters"
+msgstr "Filtros de archivo y de tablas de la base de datos"
+
+#: template/admin_pages/packages/scan/items/setup/system.php:29
+msgid "System"
+msgstr "Sistema"
+
+#: template/admin_pages/packages/scan/items/database/procedures.php:17
+msgid "Object Access"
+msgstr "Acceso a objetos"
+
+#: template/admin_pages/packages/scan/items/database/triggers.php:17
+msgid "Triggers"
+msgstr "Disparadores"
+
+#: addons/litebase/src/Controllers/LiteToolsController.php:45
+msgid "Recovery"
+msgstr "Recuperación"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:80
+#: addons/litebase/src/Controllers/AboutUsPageController.php:164
+#: addons/litebase/src/Controllers/WelcomePageController.php:160
+#: addons/litebase/template/litebase/scan/education-box.php:20
+msgid "Recovery Points"
+msgstr "Puntos de recuperación"
+
+#: src/Ajax/ServicesStorage.php:80 src/Ajax/ServicesStorage.php:122
+#: src/Ajax/ServicesTools.php:196
+msgid "Invalid Request."
+msgstr "Solicitud no válida."
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:82
+#: addons/litebase/src/Controllers/AboutUsPageController.php:147
+#: addons/litebase/template/litebase/scan/education-box.php:29
+msgid "Drag & Drop Installs"
+msgstr "Instalaciones con arrastrar y soltar"
+
+#: addons/litebase/template/litebase/mocks/import.php:117
+msgid "Drag and Drop Import is not available in Duplicator Lite!"
+msgstr "¡Las importaciones de arrastrar y soltar no están disponibles en Duplicator Lite!"
+
+#: template/admin_pages/settings/backup/installer_settings.php:66
+msgid "Using the full hashed format provides a higher level of security by helping to prevent the discovery of the installer file."
+msgstr "El uso del formato hash completo proporciona un mayor nivel de seguridad al ayudar a evitar la detección del archivo de instalación."
+
+#: template/admin_pages/settings/backup/installer_settings.php:71
+msgid "Hashed example"
+msgstr "Ejemplo de un hash"
+
+#: template/admin_pages/settings/backup/installer_settings.php:29
+msgid "Default 'Save as' name:"
+msgstr "Nombre para «Guardar como» por defecto:"
+
+#: template/admin_pages/storages/storage_list_row.php:151
+#: template/admin_pages/storages/storage_list_row.php:166
+#: template/admin_pages/tools/auto_tune/server_overview.php:68
+#: template/admin_pages/tools/auto_tune/server_overview.php:85
+#: template/admin_pages/tools/auto_tune/start_dialog.php:20
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/Ajax/ServicesPackage.php:367 src/Ajax/ServicesPackage.php:677
+#: src/Ajax/ServicesPackage.php:704 src/Ajax/ServicesPackage.php:748
+#: src/Ajax/ServicesPackage.php:893 src/Ajax/ServicesPackage.php:988
+msgid "Invalid request."
+msgstr "Petición no válida."
+
+#: src/Views/AdminNotices.php:742
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: template/parts/packages/filters/section_installer.php:45
+msgid "Prefills"
+msgstr "Prellenados"
+
+#: template/admin_pages/packages/details/parts/prefills_card.php:38
+#: template/parts/packages/filters/section_installer.php:63
+msgid "Basic"
+msgstr "Básico"
+
+#: src/Views/PackageScreen.php:299
+#: template/admin_pages/packages/details/parts/general_card.php:230
+#: template/parts/packages/filters/section_security.php:37
+msgid "Security"
+msgstr "Seguridad"
+
+#: template/parts/packages/filters/section_installer.php:47
+msgid "Setup/Prefills"
+msgstr "Configurar/prellenados"
+
+#: template/admin_pages/packages/scan/main.php:96
+msgid "Do you want to continue?"
+msgstr "¿Quieres continuar?"
+
+#: template/admin_pages/packages/scan/main.php:109
+msgid "Yes. Continue without applying any file filters."
+msgstr "Sí. Continuar sin aplicar ningún filtro de archivos."
+
+#: template/admin_pages/packages/scan/main.php:101
+msgid "To apply a \"Quick Filter\" click the \"Add Filters & Rescan\" button"
+msgstr "Para aplicar un «Filtro rápido», haz clic en el botón «Añadir filtros y volver a analizar»"
+
+#: template/admin_pages/packages/setup/section-requirements.php:45
+#: template/admin_pages/packages/setup/section-requirements.php:76
+msgid "Fail"
+msgstr "Fallido"
+
+#: template/admin_pages/packages/scan/validation_error.php:25
+msgid "Input fields not valid"
+msgstr "Campos de entrada no válidos"
+
+#: template/admin_pages/packages/scan/main.php:98
+msgid "At least one or more checkboxes were checked in \"Quick Filters\"."
+msgstr "Has marcado una o más casillas de verificación en «Filtros rápidos»."
+
+#: template/admin_pages/packages/scan/items/archive/files_db_only.php:16
+msgid "Database only"
+msgstr "Solo base de datos"
+
+#: template/admin_pages/packages/scan/items/archive/files_skip_scan.php:20
+msgid "All file checks are skipped. This could cause problems during extraction if problematic files are included."
+msgstr "Omitidas todas las verificaciones de archivos. Esto podría causar problemas durante la extracción si se incluyen archivos problemáticos."
+
+#: src/Models/ActivityLog/LogEventBackupCreate.php:856
+msgid "Items"
+msgstr "Elementos"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:143
+msgid "Overwrite Live Site"
+msgstr "Sobrescribir sitio en vivo"
+
+#: src/Core/Options/Rules/ArchiveEngineRule.php:51
+msgid "DupArchive"
+msgstr "DupArchive"
+
+#: src/Core/Options/Rules/ArchiveEngineRule.php:37
+#: src/Views/AutoTunePageData.php:690
+msgid "Archive Engine"
+msgstr "Motor de archivo"
+
+#: src/Controllers/SettingsPageController.php:758
+#: src/Controllers/SettingsPageController.php:812
+#: template/admin_pages/settings/backup/archive_settings.php:118
+#: template/admin_pages/settings/backup/database_settings.php:207
+msgid "Multi-Threaded"
+msgstr "Multihilo"
+
+#: src/Controllers/SettingsPageController.php:759
+#: src/Controllers/SettingsPageController.php:813
+#: template/admin_pages/settings/backup/archive_settings.php:122
+#: template/admin_pages/settings/backup/database_settings.php:212
+msgid "Single-Threaded"
+msgstr "Un hilo"
+
+#: template/admin_pages/settings/general/advanced_settings.php:78
+#: template/admin_pages/settings/general/advanced_settings.php:105
+msgid "Do not modify this setting unless you know the expected result or have talked to support."
+msgstr "No modifiques este ajuste a menos que conozcas el resultado o hayas hablado con el soporte técnico."
+
+#: addons/litebase/template/litebase/welcome/intro.php:40
+#: template/admin_pages/settings/backup/advanced_settings.php:252
+msgid "Skip"
+msgstr "Omitir"
+
+#: template/admin_pages/settings/backup/advanced_settings.php:186
+#: template/admin_pages/settings/general/advanced_settings.php:25
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: template/admin_pages/settings/general/advanced_settings.php:50
+msgid "Reset Settings"
+msgstr "Restablecer ajustes"
+
+#: template/admin_pages/settings/general/general.php:47
+#: template/admin_pages/tools/general.php:30
+msgid "Resetting settings, Please Wait..."
+msgstr "Restableciendo los ajustes, por favor espera..."
+
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:239
+#: template/admin_pages/packages/remote_download/scripts.php:61
+#: template/admin_pages/settings/general/general.php:50
+#: template/admin_pages/settings/general/general.php:61
+#: template/admin_pages/tools/general.php:33
+msgid "Yes"
+msgstr "Sí"
+
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:239
+#: template/admin_pages/packages/remote_download/scripts.php:62
+#: template/admin_pages/settings/general/general.php:51
+#: template/admin_pages/settings/general/general.php:62
+#: template/admin_pages/tools/general.php:34
+msgid "No"
+msgstr "No"
+
+#: assets/js/duplicator/dup.util.php:87
+msgid "RESPONSE ERROR!"
+msgstr "¡ERROR DE RESPUESTA!"
+
+#: template/admin_pages/settings/general/debug_settings.php:27
+#: template/admin_pages/settings/general/debug_settings.php:96
+msgid "Trace Log"
+msgstr "Registro de rastreo"
+
+#: template/admin_pages/settings/general/debug_settings.php:88
+msgid "Download Trace Log"
+msgstr "Descargar registro de rastreo"
+
+#: template/admin_pages/settings/general/debug_settings.php:44
+msgid "WARNING: Only turn on this setting when asked to by support as tracing will impact performance."
+msgstr "ADVERTENCIA: Activa estos ajustes solo cuando el soporte lo solicite, ya que el rastreo afectará al rendimiento."
+
+#: template/admin_pages/tools/general.php:29
+msgid "This will clear and reset all of the current temporary Backups.  Would you like to continue?"
+msgstr "Esto vaciará y restablecerá todas las copias de seguridad temporales actuales.  ¿Quieres continuar?"
+
+#: template/admin_pages/tools/general.php:336
+msgid "Backups successfully reset"
+msgstr "Copias de seguridad restablecidos correctamente"
+
+#: template/parts/migration/clean-installation-files.php:107
+msgid " If this process continues please see the previous FAQ link."
+msgstr " Si este proceso continúa, consulta el enlace anterior a las FAQ."
+
+#: template/parts/migration/clean-installation-files.php:105
+msgid "please retry the installer cleanup process"
+msgstr "vuelve a probar con el proceso de limpieza del instalador"
+
+#: template/parts/migration/clean-installation-files.php:103
+msgid "Some of the installer files did not get removed, "
+msgstr "Algunos archivos del instalador no se han borrado, "
+
+#: src/Package/BuildRequirements.php:306 src/Package/BuildRequirements.php:311
+#: src/Package/BuildRequirements.php:316
+msgid "Can't detect"
+msgstr "No se puede detectar"
+
+#: src/Package/BuildRequirements.php:458
+msgid "Architecture"
+msgstr "Arquitectura"
+
+#: template/parts/migration/clean-installation-files.php:33
+msgid "Removed"
+msgstr "Eliminado"
+
+#: template/parts/migration/clean-installation-files.php:27
+msgid "No Duplicator files were found on this WordPress Site."
+msgstr "No se han encontrado archivos Duplicator en este sitio de WordPress."
+
+#: src/Ajax/ServicesPackage.php:797
+#: src/Models/ActivityLog/LogEventBackupCreate.php:434
+#: src/Models/ActivityLog/LogEventUnknown.php:27
+#: src/Models/Storages/UnknownStorage.php:80
+#: src/Models/Storages/UnknownStorage.php:90
+#: src/Package/BuildRequirements.php:250 src/Package/BuildRequirements.php:276
+#: src/Package/PackageUtils.php:502 src/Package/PackageUtils.php:551
+#: src/Package/PackageUtils.php:615 src/Package/Storage/UploadInfo.php:301
+#: template/admin_pages/activity_log/parts/sub_table_mini.php:60
+#: template/admin_pages/activity_log/parts/table_row.php:36
+#: template/admin_pages/packages/details/parts/files_card.php:27
+#: template/admin_pages/packages/row_parts/details_package.php:107
+#: template/admin_pages/packages/row_parts/environment_details.php:28
+#: template/admin_pages/packages/row_parts/environment_details.php:46
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: src/Utils/Logging/DupLog.php:254
+msgid "No Log"
+msgstr "Sin registro"
+
+#: src/Views/AdminNotices.php:751
+msgid "Activate %s"
+msgstr "Activar %s"
+
+#: src/Package/TraitPackageBuild.php:360
+msgid "ACTUAL FILE/DIRECTORY COUNT: %1$s"
+msgstr "RECUENTO ARCHIVOS/DIRECTORIOS ACTUALES: %1$s"
+
+#: src/Package/TraitPackageBuild.php:359
+msgid "EXPECTED FILE/DIRECTORY COUNT: %1$s"
+msgstr "RECUENTO ARCHIVOS/DIRECTORIOS ESPERADOS: %1$s"
+
+#: src/Package/AbstractPackage.php:910
+msgid "MySQL Server Host: <b>%1$s</b> isn't a valid host"
+msgstr "Host del servidor MySQL: <b>%1$s</b> no es un servidor válido"
+
+#: addons/litebase/src/Controllers/LiteToolsController.php:46
+#: template/admin_pages/settings/migrate_settings/import.php:72
+msgid "Templates"
+msgstr "Plantillas"
+
+#: template/admin_pages/packages/scan/items/archive/unreadable.php:48
+msgid "Recursive Links:"
+msgstr "Enlaces recursivos:"
+
+#: template/admin_pages/packages/scan/items/archive/unreadable.php:34
+msgid "Unreadable Items:"
+msgstr "Elementos ilegibles:"
+
+#: template/admin_pages/packages/scan/items/archive/unreadable.php:16
+msgid "Read Checks"
+msgstr "Comprobaciones de lectura"
+
+#: src/Package/BuildRequirements.php:463
+msgid "Error Log File"
+msgstr "Archivo de registro de errores"
+
+#: template/admin_pages/packages/scan/items/archive/addons.php:55
+#: template/admin_pages/packages/scan/items/archive/files.php:129
+msgid "*Checking a directory will exclude all items in that path recursively."
+msgstr "*Seleccionar un directorio excluirá todos los elementos de esa ruta recursivamente."
+
+#: template/admin_pages/packages/scan/items/archive/addons.php:16
+msgid "Addon Sites"
+msgstr "Sitios complementarios"
+
+#: src/Core/MigrationMng.php:367
+msgid "NOTICE: Safe mode (Advanced) was enabled during install, be sure to re-enable all your plugins."
+msgstr "AVISO: El modo seguro (avanzado) se activó durante la instalación, asegúrate de volver a activar todos tus plugins."
+
+#: src/Core/MigrationMng.php:364
+msgid "NOTICE: Safe mode (Basic) was enabled during install, be sure to re-enable all your plugins."
+msgstr "AVISO: El modo seguro (básico) se activó durante la instalación, asegúrate de volver a activar todos tus plugins."
+
+#: template/admin_pages/packages/scan/items/archive/main.php:53
+#: template/admin_pages/packages/scan/items/database/main.php:47
+msgid "uncompressed"
+msgstr "sin comprimir"
+
+#: template/admin_pages/packages/details/parts/prefills_card.php:45
+#: template/parts/packages/filters/section_installer.php:64
+msgid "cPanel"
+msgstr "cPanel"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:172
+msgid "Cloud Storage"
+msgstr "Almacenamiento en la nube"
+
+#: addons/litebase/template/litebase/settings/connect.php:22
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: addons/litebase/template/litebase/settings/connect.php:17
+msgid "License"
+msgstr "Licencia"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:228
+msgid "Large Site Support"
+msgstr "Soporte para sitios grandes"
+
+#: src/Core/Options/Rules/DbDumpEngineRule.php:54
+msgid "PHP Code"
+msgstr "Código PHP"
+
+#: template/admin_pages/tools/general_validator.php:55
+msgid "Files:"
+msgstr "Archivos:"
+
+#: template/admin_pages/settings/backup/installer_settings.php:115
+#: template/parts/packages/filters/section_security.php:35
+msgid "Mode"
+msgstr "Modo"
+
+#: template/admin_pages/packages/no_elements_row.php:24
+msgid "New to Duplicator?"
+msgstr "¿Nuevo en Duplicator?"
+
+#: template/admin_pages/packages/scan/items/archive/unreadable.php:56
+msgid "No recursive sym-links found."
+msgstr "No se han encontrado enlaces simbólicos recursivos."
+
+#: template/admin_pages/packages/scan/items/archive/unreadable.php:42
+msgid "No unreadable items found."
+msgstr "No se han encontrado elementos ilegibles."
+
+#: addons/litebase/LiteBase.php:142
+#: addons/litebase/src/Controllers/LiteToolsController.php:48
+msgid "Support"
+msgstr "Soporte"
+
+#: template/admin_pages/packages/scan/items/database/mysqldump.php:72
+#: template/admin_pages/packages/scan/items/database/tables.php:92
+msgid "RECOMMENDATIONS:"
+msgstr "RECOMENDACIONES:"
+
+#: template/admin_pages/packages/scan/items/database/tables.php:54
+msgid "TABLE DETAILS:"
+msgstr "DETALLES DE LA TABLA:"
+
+#: template/admin_pages/packages/scan/items/database/tables.php:33
+msgid "TOTAL SIZE"
+msgstr "TAMAÑO TOTAL"
+
+#: template/admin_pages/packages/scan/items/database/mysqldump.php:24
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:20
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:34
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:61
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:66
+#: template/admin_pages/packages/scan/items/setup/parts/hosting_tooltip_memory.php:9
+#: template/admin_pages/packages/scan/items/setup/parts/hosting_tooltip_timeout.php:9
+#: template/admin_pages/packages/scan/items/setup/security.php:48
+#: template/admin_pages/packages/scan/scripts.php:889
+msgid "Good"
+msgstr "Válido"
+
+#: template/admin_pages/packages/scan/scripts.php:154
+msgid "Copied to Clipboard!"
+msgstr "¡Copiado al portapapeles!"
+
+#: template/admin_pages/packages/scan/scripts.php:118
+msgid "No files have been selected!"
+msgstr "¡No se han seleccionado archivos!"
+
+#: template/admin_pages/packages/scan/scripts.php:115
+msgid "No directories have been selected!"
+msgstr "¡No se han seleccionado directorios!"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:154
+#: template/admin_pages/packages/scan/items/archive/files.php:161
+msgid "Click to Copy"
+msgstr "Haz clic para copiar"
+
+#: template/admin_pages/packages/scan/scripts.php:21
+msgid "Copy Quick Filter Paths"
+msgstr "Copiar rutas de filtro rápido"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:141
+msgid "Copy Paths to Clipboard"
+msgstr "Copiar rutas al portapapeles"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:107
+#: template/admin_pages/packages/scan/items/archive/files.php:117
+msgid "Show All"
+msgstr "Mostrar todo"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:102
+msgid "Hide All"
+msgstr "Ocultar todo"
+
+#: template/admin_pages/packages/scan/scripts.php:85
+msgid "Directory applied filter set."
+msgstr "Conjunto de filtros de directorio aplicado."
+
+#: src/Package/Archive/PackageArchive.php:1170
+msgid "Core WordPress directories should not be filtered. Use caution when excluding files."
+msgstr "Los directorios del núcleo de WordPress no deben ser filtrados. Ten cuidado al excluir archivos."
+
+#: template/admin_pages/packages/scan/items/setup/system.php:88
+msgid "PHP Max Execution Time"
+msgstr "Tiempo máximo de ejecución PHP"
+
+#: template/admin_pages/packages/scan/items/setup/system.php:69
+msgid "PHP Open Base Dir"
+msgstr "PHP Open Base Dir"
+
+#: template/admin_pages/packages/scan/items/archive/addons.php:33
+#: template/admin_pages/packages/scan/items/archive/files.php:73
+msgid "Quick Filters"
+msgstr "Filtros rápidos"
+
+#: template/admin_pages/tools/general_validator.php:81
+msgid "Note: Symlinks are not discoverable on Windows OS with PHP"
+msgstr "Nota: Los enlaces simbólicos no son detectables en el sistema operativo Windows con PHP"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:64
+msgid "What can I try for Timeout Issues?"
+msgstr "¿Qué puedo intentar con problemas de tiempo de espera?"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:58
+msgid "Timeout Options"
+msgstr "Opciones de tiempo de espera"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:40
+msgid "more details..."
+msgstr "más detalles..."
+
+#: template/admin_pages/packages/scan/items/archive/files.php:25
+msgid "Size Checks"
+msgstr "Verificaciones de tamaño"
+
+#: template/admin_pages/packages/scan/scripts.php:33
+msgid "Error applying filters.  Please go back to Step 1 to add filter manually!"
+msgstr "Error al aplicar filtros.  ¡Vuelve al paso 1 para añadir el filtro manualmente!"
+
+#: template/admin_pages/packages/scan/scripts.php:95
+msgid "Initializing Please Wait..."
+msgstr "Inicializando por favor espera..."
+
+#: src/Package/Archive/PackageArchive.php:1015
+msgid "No large files found during this scan."
+msgstr "No se encontraron archivos grandes durante este análisis."
+
+#: template/parts/migration/clean-installation-files.php:114
+msgid "Security Notes"
+msgstr "Notas de seguridad"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:165
+msgid "Copy the paths above and apply them as needed on Step 1 &gt; Archive &gt; Files section."
+msgstr "Copia las rutas anteriores y aplícalas según sea necesario en el Paso 1 &gt; Archivo  &gt; Sección archivos."
+
+#: template/admin_pages/packages/scan/items/archive/addons.php:63
+#: template/admin_pages/packages/scan/items/archive/files.php:135
+#: template/admin_pages/packages/scan/scripts.php:100
+msgid "Add Filters &amp; Rescan"
+msgstr "Añadir filtros y volver a analizar"
+
+#: template/admin_pages/packages/scan/scripts.php:28
+msgid "Manual copy of selected text required on this browser."
+msgstr "Se necesita una copia manual del texto seleccionado en este navegador."
+
+#: template/admin_pages/settings/backup/database_settings.php:170
+msgid "/usr/bin/mypath/mysqldump"
+msgstr "/usr/bin/mypath/mysqldump"
+
+#: template/admin_pages/packages/scan/items/database/tables.php:119
+msgid "2. Remove post revisions and stale data from tables.  Tables such as logs, statistical or other non-critical data should be cleared."
+msgstr "2. Elimina las revisiones de las publicaciones y los datos obsoletos de las tablas.  Tablas como registros, datos de estadísticas u otros datos no críticos deben ser borrados."
+
+#: template/parts/migration/almost-complete.php:46
+#: template/parts/packages/notices/orphaned_packages.php:39
+msgid "Take me there now!"
+msgstr "¡Llévame allí ahora!"
+
+#: template/parts/migration/migration-message.php:75
+msgid "Remove Installation Files Now!"
+msgstr "¡Elimina los archivos de instalación ahora!"
+
+#: src/Views/AdminNotices.php:742
+#: template/parts/migration/almost-complete.php:27
+msgid "Migration Almost Complete!"
+msgstr "¡Migración casi terminada!"
+
+#: template/parts/migration/migration-message.php:32
+msgid "This site has been successfully migrated!"
+msgstr "¡Este sitio se ha migrado con éxito!"
+
+#: src/Package/Create/BuildComponents.php:459
+#: template/admin_pages/packages/package_row_complete.php:57
+#: template/admin_pages/packages/package_row_incomplete.php:56
+#: template/admin_pages/packages/scan/items/archive/main.php:37
+#: template/parts/packages/filters/section_filters_subtab_filters_db.php:97
+msgid "Database Only"
+msgstr "Sólo base de datos"
+
+#: src/Package/TraitPackageProgress.php:109
+#: template/admin_pages/packages/details/transfer.php:139
+#: template/admin_pages/settings/backup/processing_settings.php:20
+msgid "Processing"
+msgstr "Preparación"
+
+#: template/admin_pages/packages/scan/main.php:42
+msgid "This can take several minutes."
+msgstr "Esto puede tardar varios minutos."
+
+#: src/Controllers/SettingsPageController.php:1074
+#: src/Core/Options/Rules/EncryptionRule.php:53
+#: src/Models/ActivityLog/LogEventBackupCreate.php:711
+#: src/Package/BuildRequirements.php:455 src/Views/AutoTunePageData.php:719
+#: template/admin_pages/packages/scan/items/database/tables.php:74
+#: template/admin_pages/packages/scan/items/database/tables.php:82
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:64
+#: template/admin_pages/settings/backup/advanced_settings.php:55
+#: template/admin_pages/settings/backup/detection_result_message.php:106
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: src/Package/BuildRequirements.php:452
+msgid "Suhosin Extension"
+msgstr "Extensión Suhosin"
+
+#: template/parts/packages/filters/section_installer.php:254
+msgid "example: DatabaseUserName (value is optional)"
+msgstr "ejemplo: NombreUsuarioBasedeDatos (el valor es opcional)"
+
+#: template/parts/packages/filters/section_installer.php:103
+#: template/parts/packages/filters/section_installer.php:239
+msgid "example: DatabaseName (value is optional)"
+msgstr "ejemplo: NombreBasedeDatos (el valor es opcional)"
+
+#: template/parts/packages/filters/section_installer.php:89
+#: template/parts/packages/filters/section_installer.php:224
+msgid "example: localhost (value is optional)"
+msgstr "ejemplo: localhost (el valor es opcional)"
+
+#: template/admin_pages/packages/scan/main.php:41
+msgid "Keep this window open during the scan process."
+msgstr "Mantén esta ventana abierta durante el proceso de exploración."
+
+#: src/Views/UI/UiDialog.php:67
+#: template/admin_pages/packages/remote_download/remote_download_options.php:60
+#: template/admin_pages/packages/remote_download/remote_restore_options.php:60
+#: template/admin_pages/settings/migrate_settings/export.php:63
+#: template/admin_pages/settings/migrate_settings/import.php:117
+#: template/admin_pages/storages/storage_scripts.php:23
+#: template/admin_pages/tools/auto_tune/start_dialog.php:93
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: template/admin_pages/tools/general_validator.php:22
+msgid "This will run the scan validation check.  This may take several minutes.  Do you want to Continue?"
+msgstr "Esto ejecutará el análisis de comprobación. Puede tardar varios minutos. ¿Quieres continuar?"
+
+#: template/admin_pages/tools/general_validator.php:21
+msgid "Run Validator"
+msgstr "Ejecutar validación"
+
+#: template/admin_pages/storages/storage_list.php:152
+msgid "Please select an action from the \"Bulk Actions\" drop down menu!"
+msgstr "¡Por favor, selecciona una acción en el menú desplegable \"Acciones en bloque\"!"
+
+#: src/Views/UI/UiDialog.php:63
+msgid "Processing please wait..."
+msgstr "Procesando, por favor espera..."
+
+#: template/admin_pages/packages/scan/items/setup/wordpress.php:84
+msgid "Multisite: N/A"
+msgstr "Multisitio: N/A"
+
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:252
+#: template/admin_pages/packages/scan/items/database/main.php:40
+msgid "Database Size:"
+msgstr "Tamaño de la base de datos:"
+
+#: template/admin_pages/packages/scan/items/archive/main.php:45
+msgid "File Size:"
+msgstr "Tamaño del archivo:"
+
+#. Description of the plugin
+#: duplicator.php
+msgid "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly."
+msgstr "Migra y haz una copia de seguridad de tus archivos y base de datos de WordPress. Duplica y mueve un sitio de una ubicación a otra rápidamente."
+
+#: template/admin_pages/packages/packages_scripts.php:54
+#: template/admin_pages/storages/storage_list.php:157
+msgid "Selection Required"
+msgstr "Selección obligatoria"
+
+#: template/admin_pages/packages/packages_scripts.php:47
+#: template/admin_pages/storages/storage_list.php:151
+msgid "Bulk Action Required"
+msgstr "Acción en bloque obligatoria"
+
+#: src/Views/UI/UiDialog.php:66
+msgid "OK"
+msgstr "Aceptar"
+
+#: template/admin_pages/packages/packages_scripts.php:85
+msgid "Removing Backups, Please Wait..."
+msgstr "Quitando copias de seguridad, por favor espera..."
+
+#: template/admin_pages/packages/screen_options.php:96
+msgid "Created Format"
+msgstr "Formato creado"
+
+#: template/admin_pages/settings/backup/installer_settings.php:38
+msgid "recommended"
+msgstr "recomendado"
+
+#: src/Core/Options/Rules/DbDumpEngineRule.php:52
+msgid "Mysqldump"
+msgstr "Mysqldump"
+
+#: template/admin_pages/tools/duplicator_logs.php:279
+msgid "Top 20"
+msgstr "Los 20 primeros"
+
+#: template/admin_pages/settings/general/debug_settings.php:22
+msgid "Debug"
+msgstr "Depurar"
+
+#: template/admin_pages/tools/general_validator.php:124
+msgid "Scanning Environment... This may take a few minutes."
+msgstr "Entorno de escaneado... Esto puede tardar unos minutos."
+
+#: template/admin_pages/tools/general_validator.php:37
+#: template/admin_pages/tools/general_validator.php:145
+msgid "Run Scan Integrity Validation"
+msgstr "Ejecutar análisis de validación de integridad"
+
+#: template/admin_pages/tools/general_validator.php:29
+msgid "Scan Validator"
+msgstr "Explora el validador"
+
+#: template/admin_pages/packages/scan/error_message.php:19
+msgid "2. Continue to add/remove filters to isolate which path is causing issues."
+msgstr "2. Continúa añadiendo/quitando filtros para aislar qué ruta está causando problemas."
+
+#: template/admin_pages/packages/scan/error_message.php:20
+msgid "3. This message will go away once the correct filters are applied."
+msgstr "3. Este mensaje desaparecerá cuando se estén aplicando los filtros adecuados."
+
+#: template/admin_pages/packages/scan/error_message.php:22
+msgid "Common Issues:"
+msgstr "Problemas comunes"
+
+#: addons/litebase/src/Utils/ExtraPlugins/ExtraPluginsMng.php:125
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: template/admin_pages/packages/scan/items/archive/multisite.php:53
+msgid "Tables:"
+msgstr "Tablas:"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:44
+#: template/admin_pages/packages/scan/items/database/tables.php:29
+msgid "Overview"
+msgstr "Resumen"
+
+#: template/admin_pages/packages/row_parts/package_progress_error.php:26
+msgid "Error Processing"
+msgstr "Error procesando"
+
+#: template/parts/packages/filters/mysqldump_compatibility_mode.php:68
+msgid "mysql40"
+msgstr "mysql40"
+
+#: template/parts/packages/filters/mysqldump_compatibility_mode.php:77
+msgid "no_table_options"
+msgstr "no_table_options"
+
+#: template/parts/packages/filters/mysqldump_compatibility_mode.php:86
+msgid "no_key_options"
+msgstr "no_key_options"
+
+#: template/parts/packages/filters/mysqldump_compatibility_mode.php:95
+msgid "no_field_options"
+msgstr "no_field_options"
+
+#: template/parts/packages/filters/mysqldump_compatibility_mode.php:30
+msgid "Compatibility Mode"
+msgstr "Modo de compatibilidad"
+
+#: template/admin_pages/packages/details/parts/files_card.php:121
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: template/admin_pages/packages/details/transfer.php:46
+msgid "Manual Transfer"
+msgstr "Transferencia manual"
+
+#: template/admin_pages/packages/details/parts/files_card.php:131
+#: template/admin_pages/packages/details/parts/filter_group.php:26
+msgid "- no filters -"
+msgstr "- sin filtros -"
+
+#: template/admin_pages/packages/details/parts/prefills_card.php:21
+msgid "- not set -"
+msgstr "- no establecido -"
+
+#: template/parts/packages/filters/package_components.php:118
+msgid "File Filters:"
+msgstr "Filtros de archivos:"
+
+#: addons/litebase/template/litebase/dashboard/recommended-plugin.php:42
+msgid "Learn More"
+msgstr "Saber más"
+
+#: template/admin_pages/packages/details/parts/database_card.php:71
+#: template/admin_pages/packages/details/parts/files_card.php:75
+msgid "Filters"
+msgstr "Filtros"
+
+#: src/Core/Options/Rules/ArchiveEngineRule.php:55
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: src/Package/BuildRequirements.php:179
+#: template/admin_pages/packages/details/parts/general_card.php:182
+msgid "PHP"
+msgstr "PHP"
+
+#: template/admin_pages/packages/details/parts/general_card.php:196
+msgid "Runtime"
+msgstr "Tiempo de ejecución"
+
+#: template/admin_pages/packages/details/parts/general_card.php:56
+msgid "- unknown -"
+msgstr "- desconocido -"
+
+#: template/admin_pages/packages/details/parts/general_card.php:201
+msgid "error running"
+msgstr "error de ejecución"
+
+#: template/admin_pages/packages/details/parts/general_card.php:299
+msgid "- no notes -"
+msgstr "- no existen notas -"
+
+#: template/admin_pages/packages/details/transfer.php:179
+#: template/admin_pages/packages/packages_table_head.php:49
+#: template/admin_pages/tools/auto_tune/sidebar.php:15
+msgid "Status"
+msgstr "Estado"
+
+#: template/admin_pages/packages/details/parts/general_card.php:186
+msgid "Mysql"
+msgstr "MySQL"
+
+#: src/Models/ActivityLog/LogEventBackupCreate.php:236
+#: template/admin_pages/packages/details/details_header.php:43
+#: template/admin_pages/packages/details/details_wpbody_header.php:49
+#: template/admin_pages/packages/details/parts/general_card.php:72
+msgid "Transfer"
+msgstr "Transferir"
+
+#: template/admin_pages/packages/details/parts/general_card.php:128
+msgid "ID"
+msgstr "Identidad"
+
+#: addons/litebase/template/litebase/about-us/lite-vs-pro/main.php:50
+msgid "Feature"
+msgstr "Característica"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:89
+#: addons/litebase/template/litebase/scan/education-box.php:32
+msgid "Email Alerts"
+msgstr "Alertas por correo electrónico"
+
+#: template/admin_pages/tools/duplicator_logs.php:203
+#: template/admin_pages/tools/duplicator_logs.php:210
+#: template/admin_pages/tools/php_logs.php:113
+#: template/admin_pages/tools/php_logs.php:164
+msgid "Options"
+msgstr "Opciones"
+
+#: template/admin_pages/tools/duplicator_logs.php:217
+#: template/admin_pages/tools/php_logs.php:191
+msgid "Refresh"
+msgstr "Refrescar"
+
+#: template/admin_pages/tools/duplicator_logs.php:221
+#: template/admin_pages/tools/php_logs.php:195
+msgid "Auto Refresh"
+msgstr "Auto Refrescar"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: duplicator.php src/Views/DashboardWidget.php:46
+#: template/admin_pages/packages/details/parts/general_card.php:169
+#: template/admin_pages/packages/row_parts/details_package.php:94
+msgid "Duplicator"
+msgstr "Duplicator"
+
+#: src/Package/BuildRequirements.php:216
+msgid "Free Space"
+msgstr "Espacio libre"
+
+#: src/Package/BuildRequirements.php:495
+msgid "Max Allowed Packets"
+msgstr "Máximos paquetes permitidos"
+
+#: src/Package/BuildRequirements.php:233
+msgid "Server Disk"
+msgstr "Disco del servidor"
+
+#: template/admin_pages/tools/duplicator_logs.php:165
+msgid "Reasons for log file not showing"
+msgstr "Motivos por los que no se muestra el archivo de registro"
+
+#: src/Package/BuildRequirements.php:489
+msgid "Wait Timeout"
+msgstr "Tiempo máximo de espera"
+
+#: src/Package/BuildRequirements.php:501
+msgid "mysqldump Path"
+msgstr "Ruta de msyqldump"
+
+#: src/Controllers/SettingsPageController.php:369
+#: src/Controllers/SettingsPageController.php:875
+#: src/Controllers/SettingsPageController.php:999
+#: src/Core/Options/Rules/CompressionRule.php:48
+#: src/Package/BuildRequirements.php:426 src/Views/AutoTunePageData.php:752
+#: template/admin_pages/packages/details/parts/database_card.php:73
+#: template/admin_pages/packages/details/parts/files_card.php:77
+#: template/admin_pages/packages/details/parts/prefills_card.php:46
+#: template/admin_pages/settings/backup/installer_settings.php:125
+#: template/admin_pages/settings/backup/processing_settings.php:36
+#: template/admin_pages/settings/general/debug_settings.php:34
+msgid "Off"
+msgstr "Apagado"
+
+#: src/Package/BuildRequirements.php:269
+msgid "Operating System"
+msgstr "Sistema  Operativo"
+
+#: src/Controllers/SettingsPageController.php:370
+#: src/Core/Options/Rules/CompressionRule.php:48
+#: template/admin_pages/packages/details/parts/database_card.php:73
+#: template/admin_pages/packages/details/parts/files_card.php:77
+#: template/admin_pages/packages/details/parts/prefills_card.php:46
+#: template/admin_pages/settings/general/debug_settings.php:37
+msgid "On"
+msgstr "Encendido"
+
+#: template/admin_pages/packages/scan/items/archive/files_db_only.php:17
+#: template/admin_pages/packages/scan/items/archive/files_skip_scan.php:17
+#: template/admin_pages/packages/scan/items/database/mysqldump.php:26
+#: template/admin_pages/packages/scan/items/setup/security.php:50
+#: template/admin_pages/packages/scan/scripts.php:890
+msgid "Notice"
+msgstr "Aviso"
+
+#: src/Controllers/SettingsPageController.php:91
+#: src/Controllers/ToolsPageController.php:203
+#: src/Models/ActivityLog/LogEventSettingsChange.php:257
+#: src/Package/BuildRequirements.php:167
+#: template/admin_pages/packages/details/parts/general_card.php:82
+#: template/admin_pages/packages/setup/setup_page.php:44
+msgid "General"
+msgstr "General"
+
+#: template/admin_pages/packages/scan/main.php:115
+#: template/admin_pages/packages/scan/validation_error.php:40
+msgid "Back"
+msgstr "Volver"
+
+#: template/admin_pages/settings/general/plugin_settings.php:22
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/Views/AutoTunePageData.php:284
+msgid "Server"
+msgstr "Servidor"
+
+#: template/admin_pages/tools/general.php:64
+msgid "Diagnostic"
+msgstr "Diagnóstico"
+
+#: src/Package/BuildRequirements.php:173
+#: template/admin_pages/packages/details/parts/environment_card.php:32
+#: template/admin_pages/packages/details/parts/general_card.php:180
+#: template/admin_pages/packages/row_parts/details_package.php:90
+#: template/admin_pages/packages/scan/items/setup/wordpress.php:19
+msgid "WordPress"
+msgstr "WordPress"
+
+#: template/admin_pages/packages/setup/setup_page.php:94
+msgid "Next"
+msgstr "Siguiente"
+
+#: src/Package/BuildRequirements.php:350
+msgid "Language"
+msgstr "Idioma"
+
+#: template/admin_pages/settings/storage/storage_ssl.php:19
+msgid "SSL"
+msgstr "SSL"
+
+#: template/admin_pages/settings/backup/detection_result_message.php:12
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: template/admin_pages/settings/general/plugin_settings.php:34
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: template/admin_pages/settings/backup/backup_settings.php:37
+#: template/admin_pages/settings/general/general.php:39
+#: template/admin_pages/settings/storage/storage_settings.php:36
+msgid "Save Settings"
+msgstr "Guardar los ajustes"
+
+#: addons/dupcloudaddon/src/Models/DupCloudStorage.php:736
+#: addons/dupcloudaddon/src/Models/DupCloudStorage.php:746
+#: src/Package/AutoTune/AutoTuneDetector.php:506
+msgid "unknown"
+msgstr "desconocido"
+
+#: template/admin_pages/tools/server_info.php:22
+msgid "Server Settings"
+msgstr "Ajustes del servidor"
+
+#: src/Package/BuildRequirements.php:255 src/Package/BuildRequirements.php:324
+msgid "Duplicator Version"
+msgstr "Versión de Duplicator"
+
+#: src/Package/BuildRequirements.php:274
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#: src/Package/BuildRequirements.php:289
+msgid "Server Time"
+msgstr "Hora del servidor"
+
+#: src/Package/BuildRequirements.php:299
+msgid "Loaded PHP INI"
+msgstr "PHP INI cargado"
+
+#: src/Package/BuildRequirements.php:304
+msgid "Server IP"
+msgstr "IP del servidor"
+
+#: src/Package/BuildRequirements.php:314
+msgid "Client IP"
+msgstr "IP del cliente"
+
+#: template/admin_pages/packages/details/parts/database_card.php:81
+#: template/admin_pages/packages/row_parts/details_package.php:150
+#: template/admin_pages/packages/scan/items/database/tables.php:35
+msgid "Tables"
+msgstr "Tablas"
+
+#: template/admin_pages/packages/scan/items/setup/system.php:49
+#: template/admin_pages/packages/scan/items/setup/system.php:81
+#: template/admin_pages/packages/scan/items/setup/system.php:106
+#: template/admin_pages/packages/scan/items/setup/wordpress.php:89
+msgid "details"
+msgstr "detalles"
+
+#: template/admin_pages/packages/scan/main.php:40
+#: template/admin_pages/packages/setup/setup_page.php:122
+msgid "Please Wait..."
+msgstr "Por favor espera..."
+
+#: template/admin_pages/packages/scan/main.php:52
+msgid "Process Time:"
+msgstr "Tiempo del proceso:"
+
+#: src/Package/BuildRequirements.php:294
+#: template/admin_pages/packages/scan/items/setup/system.php:36
+msgid "Web Server"
+msgstr "Servidor web"
+
+#: src/Models/ActivityLog/LogEventBackupCreate.php:862
+msgid "Excluded Directories"
+msgstr "Directorios excluidos"
+
+#: template/admin_pages/packages/scan/items/database/tables.php:36
+msgid "Records"
+msgstr "Registros"
+
+#: src/Package/BuildRequirements.php:432 src/Package/BuildRequirements.php:438
+#: src/Package/BuildRequirements.php:444 src/Package/BuildRequirements.php:449
+msgid "Is Supported"
+msgstr "Es compatible"
+
+#: src/Package/BuildRequirements.php:360 src/Package/BuildRequirements.php:396
+msgid "Memory Limit"
+msgstr "Límite de memoria"
+
+#: src/Package/BuildRequirements.php:402
+msgid "Memory In Use"
+msgstr "Memoria en uso"
+
+#: src/Package/BuildRequirements.php:345
+#: template/admin_pages/packages/scan/items/setup/wordpress.php:24
+msgid "WordPress Version"
+msgstr "Versión de WordPress"
+
+#: src/Models/Storages/Local/LocalStorage.php:238
+msgid "Name:"
+msgstr "Nombre:"
+
+#: template/admin_pages/packages/scan/main.php:71
+#: template/admin_pages/packages/scan/scripts.php:631
+#: template/admin_pages/packages/scan/validation_error.php:26
+msgid "Please try again!"
+msgstr "¡Por favor inténtalo de nuevo!"
+
+#: template/admin_pages/packages/scan/main.php:75
+#: template/admin_pages/packages/scan/validation_error.php:30
+msgid "Error Message:"
+msgstr "Mensaje de error:"
+
+#: src/Package/BuildRequirements.php:355 src/Package/BuildRequirements.php:484
+msgid "Charset"
+msgstr "Conjunto de caracteres"
+
+#: template/admin_pages/packages/scan/scripts.php:746
+msgid "Unable to report on any tables"
+msgstr "Desactivar los informes de las estadísticas de la base de datos"
+
+#: template/admin_pages/packages/scan/main.php:73
+#: template/admin_pages/packages/scan/validation_error.php:28
+msgid "Server Status:"
+msgstr "Estado del servidor:"
+
+#: src/Package/BuildRequirements.php:447
+msgid "Shell Exec Zip"
+msgstr "Shell Exec Zip"
+
+#: src/Models/ActivityLog/LogEventBackupCreate.php:428
+msgid "Shell Exec"
+msgstr "Shell Exec"
+
+#: src/Package/BuildRequirements.php:432 src/Package/BuildRequirements.php:438
+#: src/Package/BuildRequirements.php:444 src/Package/BuildRequirements.php:449
+msgid "Not Supported"
+msgstr "No compatible"
+
+#: template/admin_pages/packages/scan/scripts.php:774
+msgid "Unable to report on database stats"
+msgstr "No se puede informar sobre las estadísticas de la base de datos"
+
+#: src/Package/BuildRequirements.php:407
+msgid "Max Execution Time"
+msgstr "Tiempo máximo de ejecución"
+
+#: template/admin_pages/packages/scan/main.php:32
+msgid "Scanning Site"
+msgstr "Analizando el sitio"
+
+#: src/Package/BuildRequirements.php:319
+#: template/admin_pages/packages/details/parts/prefills_card.php:39
+#: template/admin_pages/packages/details/parts/prefills_card.php:47
+#: template/parts/packages/filters/section_installer.php:81
+#: template/parts/packages/filters/section_installer.php:156
+#: template/parts/packages/filters/section_installer.php:215
+msgid "Host"
+msgstr "Servidor"
+
+#: template/admin_pages/packages/scan/items/archive/files.php:77
+msgid "Large Files"
+msgstr "Archivo grande"
+
+#: template/admin_pages/packages/scan/main.php:91
+msgid "Please review the details for each section by clicking on the detail title."
+msgstr "Por favor valora los detalles de cada alerta haciendo clic en el enlace de detalle."
+
+#: template/admin_pages/activity_log/parts/toolbar.php:82
+#: template/admin_pages/packages/setup/setup_page.php:88
+msgid "Reset"
+msgstr "Restablecer"
+
+#: src/Controllers/SettingsPageController.php:1075
+#: src/Core/Options/Rules/EncryptionRule.php:53
+#: src/Models/ActivityLog/LogEventBackupCreate.php:711
+#: src/Models/ActivityLog/LogEventBackupCreate.php:936
+#: src/Package/BuildRequirements.php:455 src/Views/AutoTunePageData.php:719
+#: template/admin_pages/packages/scan/items/archive/main.php:39
+#: template/admin_pages/packages/scan/items/database/main.php:35
+#: template/admin_pages/packages/scan/items/database/tables.php:73
+#: template/admin_pages/packages/scan/items/database/tables.php:81
+#: template/admin_pages/packages/scan/items/setup/hosting_status.php:64
+#: template/admin_pages/settings/backup/advanced_settings.php:58
+#: template/admin_pages/settings/backup/detection_result_message.php:106
+msgid "Enabled"
+msgstr "Activado"
+
+#: template/admin_pages/packages/scan/main.php:49
+msgid "Scan Complete"
+msgstr "Exploración completa"
+
+#: template/admin_pages/packages/scan/main.php:89
+msgid "Scan checks are not required to pass, however they could cause issues on some systems."
+msgstr "Las verificaciones de exploración no son necesarias para continuar, sin embargo esto podría causar problemas en algunos sistemas."
+
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:399
+#: template/admin_pages/packages/scan/main.php:69
+#: template/admin_pages/packages/scan/scripts.php:630
+msgid "Scan Error"
+msgstr "Error de exploración"
+
+#: template/admin_pages/packages/scan/main.php:120
+msgid "Rescan"
+msgstr "Volver a analizar"
+
+#: template/admin_pages/settings/storage/storage_general.php:46
+msgid "Disable if issues occur when downloading installer/archive files."
+msgstr "Desactivar si se producen problemas al descargar los archivos «installer»/archivo."
+
+#: template/admin_pages/diagnostics/clean_tmp_cache_message.php:31
+msgid "Build cache removed."
+msgstr "Caché de creación eliminada."
+
+#: template/admin_pages/tools/general.php:232
+msgid "Clear Build Cache"
+msgstr "Vaciar la caché de construcción"
+
+#: template/admin_pages/tools/general.php:236
+msgid "Removes all build data from:"
+msgstr "Elimina todos los datos de creación de:"
+
+#: template/parts/migration/clean-installation-files.php:37
+msgid "Found"
+msgstr "Encontrado"
+
+#: template/admin_pages/packages/scan/items/setup/wordpress.php:25
+msgid "Core Files"
+msgstr "Archivos del núcleo"
+
+#: src/Package/BuildRequirements.php:185
+msgid "MySQL"
+msgstr "MySQL"
+
+#: src/Core/Bootstrap.php:689 template/parts/admin-logo-header.php:20
+msgid "Help"
+msgstr "Ayuda"
+
+#: template/admin_pages/activity_log/parts/table_row.php:52
+#: template/admin_pages/packages/details/details_header.php:34
+#: template/admin_pages/packages/details/details_wpbody_header.php:39
+#: template/admin_pages/packages/details/transfer.php:51
+msgid "Details"
+msgstr "Detalles"
+
+#: src/Package/BuildRequirements.php:391
+#: template/admin_pages/packages/details/parts/prefills_card.php:41
+#: template/admin_pages/packages/details/parts/prefills_card.php:48
+#: template/admin_pages/settings/backup/advanced_settings.php:147
+#: template/parts/packages/filters/section_installer.php:109
+#: template/parts/packages/filters/section_installer.php:169
+#: template/parts/packages/filters/section_installer.php:244
+msgid "User"
+msgstr "Usuario"
+
+#: src/Package/BuildRequirements.php:381
+msgid "PHP Version"
+msgstr "Versión PHP"
+
+#: template/admin_pages/packages/toolbar.php:37
+#: template/admin_pages/storages/parts/edit_toolbar.php:91
+#: template/admin_pages/storages/storage_list.php:74
+#: template/parts/notices/fix_group.php:126
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/Models/Storages/AbstractStorageEntity.php:1142
+#: template/admin_pages/storages/configs/local_default.php:25
+#: template/admin_pages/storages/storage_list.php:106
+#: template/parts/storage/select_list.php:32
+msgid "Location"
+msgstr "Ubicación"
+
+#: src/Models/ActivityLog/LogEventBackupDelete.php:135
+#: template/admin_pages/packages/details/detail.php:29
+#: template/admin_pages/packages/details/parts/general_card.php:108
+#: template/admin_pages/packages/row_parts/details_package.php:80
+#: template/admin_pages/packages/toolbar.php:29
+#: template/admin_pages/storages/storage_list.php:66
+#: template/admin_pages/storages/storage_list_row.php:92
+msgid "Delete"
+msgstr "Borrar"
+
+#: template/admin_pages/activity_log/log_list.php:39
+#: template/admin_pages/activity_log/log_list.php:64
+#: template/admin_pages/activity_log/parts/sub_table_mini.php:29
+#: template/admin_pages/packages/details/parts/general_card.php:223
+#: template/admin_pages/packages/details/transfer.php:180
+#: template/admin_pages/storages/storage_edit.php:101
+#: template/admin_pages/storages/storage_list.php:105
+#: template/admin_pages/storages/storage_list_row.php:136
+#: template/admin_pages/tools/php_logs.php:121
+#: template/parts/storage/select_list.php:31
+msgid "Type"
+msgstr "Tipo"
+
+#: template/admin_pages/packages/packages_table_head.php:57
+#: template/admin_pages/packages/scan/items/archive/files.php:29
+#: template/admin_pages/packages/scan/items/archive/files.php:119
+#: template/admin_pages/packages/scan/items/database/tables.php:34
+#: template/admin_pages/packages/screen_options.php:48
+msgid "Size"
+msgstr "Tamaño"
+
+#: template/admin_pages/packages/details/parts/files_card.php:39
+#: template/admin_pages/packages/details/parts/files_card.php:103
+#: template/admin_pages/packages/details/parts/general_card.php:71
+#: template/admin_pages/packages/row_parts/details_package.php:134
+#: template/admin_pages/packages/scan/items/archive/files.php:30
+#: template/admin_pages/packages/scan/items/archive/files.php:158
+#: template/admin_pages/packages/scan/items/archive/main.php:33
+msgid "Files"
+msgstr "Archivos"
+
+#: src/Controllers/ToolsPageController.php:56
+#: src/Controllers/ToolsPageController.php:57
+msgid "Tools"
+msgstr "Herramientas"
+
+#: src/Models/Storages/Local/DefaultLocalStorage.php:24
+#: src/Models/TemplateEntity.php:288
+#: template/admin_pages/storages/storage_edit.php:72
+#: template/parts/packages/filters/section_installer.php:197
+msgid "Default"
+msgstr "Por defecto"
+
+#: template/admin_pages/packages/details/parts/general_card.php:294
+#: template/admin_pages/packages/setup/section_notes.php:16
+#: template/admin_pages/storages/storage_edit.php:95
+#: template/admin_pages/storages/storage_list_row.php:132
+msgid "Notes"
+msgstr "Notas"
+
+#: src/Views/PluginFooter.php:155
+msgid "View"
+msgstr "Ver"
+
+#: src/Package/BuildRequirements.php:479
+#: template/admin_pages/settings/general/plugin_settings.php:27
+msgid "Version"
+msgstr "Versión"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:139
+msgid "Migration Wizard"
+msgstr "Asistente de migración"
+
+#: addons/litebase/installer/litebase/src/EducationStrings.php:78
+#: addons/litebase/src/Controllers/AboutUsPageController.php:156
+#: addons/litebase/src/Controllers/WelcomePageController.php:146
+#: addons/litebase/template/litebase/scan/education-box.php:19
+msgid "Scheduled Backups"
+msgstr "Copias de seguridad programadas"
+
+#: template/parts/DashboardWidget/package-create-section.php:54
+msgid "Create New"
+msgstr "Crear nuevo"
+
+#: template/admin_pages/packages/setup/section-requirements.php:29
+#: template/admin_pages/packages/setup/section-requirements.php:32
+msgid "Requirements:"
+msgstr "Requisitos:"
+
+#: template/admin_pages/packages/setup/section-requirements.php:38
+msgid "System requirements must pass for the Duplicator to work properly.  Click each link for details."
+msgstr "Los requisitos del sistemas deben cumplirse para que Duplicator funcione correctamente. Haz clic en cada enlace para ver los detalles."
+
+#: src/Controllers/SettingsPageController.php:93
+#: src/Controllers/StoragePageController.php:35
+#: src/Controllers/StoragePageController.php:36
+#: src/Controllers/StoragePageController.php:61
+#: src/Models/ActivityLog/LogEventSettingsChange.php:259
+#: template/admin_pages/packages/details/transfer.php:102
+#: template/admin_pages/packages/setup/section_storages.php:21
+#: template/admin_pages/settings/migrate_settings/import.php:61
+#: template/admin_pages/settings/storage/storage_general.php:25
+#: template/mail/email_summary.php:141
+msgid "Storage"
+msgstr "Almacenamiento"
+
+#: src/Models/Storages/Local/LocalStorage.php:169
+msgid "Local"
+msgstr "Local"
+
+#: src/Package/Create/BuildComponents.php:406
+#: template/admin_pages/packages/details/parts/database_card.php:31
+#: template/admin_pages/packages/details/parts/database_card.php:62
+#: template/admin_pages/packages/details/parts/general_card.php:70
+#: template/admin_pages/packages/details/parts/prefills_card.php:40
+#: template/admin_pages/packages/scan/items/database/main.php:25
+#: template/admin_pages/settings/backup/database_settings.php:36
+#: template/parts/packages/filters/section_installer.php:95
+#: template/parts/packages/filters/section_installer.php:229
+msgid "Database"
+msgstr "Base de datos"
+
+#: template/admin_pages/packages/details/parts/files_card.php:85
+#: template/admin_pages/packages/scan/items/archive/files.php:151
+msgid "Directories"
+msgstr "Directorios"
+
+#: template/admin_pages/packages/details/parts/general_card.php:137
+#: template/admin_pages/packages/packages_table_head.php:60
+#: template/admin_pages/packages/screen_options.php:60
+msgid "Created"
+msgstr "Creado"
+
+#: template/admin_pages/packages/row_parts/download_buttons.php:72
+#: template/parts/packages/filters/section_installer.php:34
+msgid "Installer"
+msgstr "Instalador"
+
+#: template/admin_pages/packages/details/parts/general_card.php:130
+#: template/admin_pages/packages/row_parts/details_package.php:128
+#: template/admin_pages/packages/row_parts/download_buttons.php:83
+#: template/admin_pages/packages/scan/items/archive/main.php:23
+#: template/admin_pages/settings/backup/archive_settings.php:32
+msgid "Archive"
+msgstr "Archivo"
+
+#: src/Core/Bootstrap.php:689
+msgid "Get Help"
+msgstr "Obtener ayuda"
+
+#: template/admin_pages/packages/setup/section-requirements.php:112
+msgid "For additional help please see the "
+msgstr "Para obtener ayuda adicional por favor mira el"
+
+#: template/parts/requirements/installer_files_fix_hint.php:40
+msgid "Remove Files Now"
+msgstr "Borrar archivos ahora"
+
+#: src/Core/Bootstrap.php:669
+msgid "Manage"
+msgstr "Gestionar"
+
+#: addons/litebase/src/Controllers/LiteToolsController.php:121
+msgid "FAQs"
+msgstr "FAQs"
+
+#: addons/litebase/src/Controllers/LiteToolsController.php:117
+msgid "User Guide"
+msgstr "Guía del usuario"
+
+#: addons/litebase/src/Controllers/LiteToolsController.php:113
+msgid "Quick Start"
+msgstr "Inicio rápido"
+
+#: addons/litebase/template/litebase/tools/support.php:32
+msgid "Knowledgebase"
+msgstr "Base de datos de conocimientos"
+
+#: template/parts/migration/clean-installation-files.php:136
+msgid "Help Support Duplicator"
+msgstr "Foro de soporte de Duplicator "
+
+#: template/admin_pages/packages/details/parts/general_card.php:129
+msgid "Hash"
+msgstr "Hash"
+
+#: addons/litebase/src/Controllers/LiteToolsController.php:125
+msgid "Change Log"
+msgstr "Registro de cambios"
+
+#: src/Core/Controllers/AbstractSinglePageController.php:384
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder esta página."
+
+#: addons/dupcloudaddon/template/dupcloudaddon/connect/storage_auth.php:102
+#: template/admin_pages/packages/details/parts/general_card.php:116
+#: template/admin_pages/packages/packages_table_head.php:40
+#: template/admin_pages/settings/backup/installer_settings.php:26
+#: template/admin_pages/storages/storage_edit.php:68
+#: template/admin_pages/storages/storage_list.php:104
+#: template/admin_pages/storages/storage_list_row.php:128
+#: template/parts/storage/select_list.php:30
+msgid "Name"
+msgstr "Nombre"
+
+#: template/parts/packages/filters/package_components.php:166
+msgid "cache"
+msgstr "caché"
+
+#: src/Controllers/SettingsPageController.php:71
+#: src/Controllers/SettingsPageController.php:72
+#: template/admin_pages/settings/general/advanced_settings.php:31
+#: template/admin_pages/settings/migrate_settings/import.php:86
+msgid "Settings"
+msgstr "Ajustes"
+
+#: template/admin_pages/packages/scan/items/setup/main.php:17
+msgid "Setup"
+msgstr "Configuración"
+
+#: template/parts/packages/filters/package_components.php:157
+msgid "root path"
+msgstr "ruta raíz"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:131
+msgid "Backup Files & Database"
+msgstr "Copia de seguridad de archivos y base de datos"
+
+#: template/admin_pages/packages/toolbar.php:25
+#: template/admin_pages/storages/storage_list.php:62
+msgid "Bulk Actions"
+msgstr "Acciones en lote"
+
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:175
+#: src/Models/ActivityLog/LogEventWebsitesScan.php:405
+#: template/admin_pages/packages/details/parts/general_card.php:69
+msgid "Scan"
+msgstr "Explorar"
+
+#: addons/litebase/src/Controllers/AboutUsPageController.php:257
+msgid "Customer Support"
+msgstr "Soporte al cliente"
+
+#: src/Package/Create/BuildComponents.php:418
+msgid "Media"
+msgstr "Medios"
+
+#: template/parts/packages/filters/package_components.php:173
+#: template/parts/packages/filters/package_components.php:175
+msgid "File Extensions"
+msgstr "Extensiones de archivos"
+
+#: template/parts/help/main.php:53 template/parts/help/main.php:78
+msgid "Get Support"
+msgstr "Obtener asistencia"
+
+#: template/admin_pages/packages/packages_scripts.php:79
+msgid "Are you sure you want to delete the selected Backup(s)?"
+msgstr "¿Estás seguro de que quieres borrar las copias de seguridad seleccionadas?"
